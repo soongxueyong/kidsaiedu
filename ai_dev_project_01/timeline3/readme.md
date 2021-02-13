@@ -1,0 +1,15 @@
+人工智能发展历史TimeLine
+1.人物
+2.事件
+3.技术
+4.算法
+5.国家
+采用开源软件：
+https://timeline.knightlab.com/
+timeline3d支撑图片、视频、超链接、富文本、地图等多种信息。
+本案例支撑图片、视频、富文本、超链接、图片超链接。
+视频如果是互联网的地址。
+通过https://www.css88.com/tool/html2js/
+为确保资源以后可以重用，最好的建议采用下载到本地，可以通过360浏览器的视频下载插件下载视频
+https://www.wired.com/video/watch/the-story-behind-the-internet-s-favorite-robots
+如

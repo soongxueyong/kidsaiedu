@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>人工智能历史时间线</title>
+    <meta charset="utf-8">
+    <meta name="description" content="AI History">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- FAVICONS -->
+    
+    <!-- 
+      If we want to support loading different versions of timeline like we used to, 
+      this isn't good enough. We used that to get the non-minimized version, for debugging,
+      but now maybe sourcemaps are a better alternative?
+    -->
+    <script id='timeline-script-tag' type="text/javascript" src="js/timeline.js"></script>
+    <link rel="stylesheet" href="css/timeline.css">
+
+    <base target="_blank">
+
+    <!-- Style-->
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        #timeline-embed {
+            height: 100%;
+        }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML elements-->
+    <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+    <!-- BEGIN Timeline Embed -->
+    <div id="timeline-embed"></div>
+    <!-- Override -->
+    <script type="text/javascript">
+        function ready(fn) {
+            if (document.readyState != 'loading') {
+                fn();
+            } else {
+                document.addEventListener('DOMContentLoaded', fn);
+            }
+        }
+
+        function setPageLanguage() {
+        	document.getElementsByTagName('html')[0].setAttribute('lang', 'zh-cn');
+        }
+
+		//内嵌网络地址
+        function computeEmbedPath() {
+            var trim_point = window.location.href.indexOf('timeline3/ai_history.html');
+            if (trim_point > 0) {
+                return window.location.href.substring(0, trim_point); 
+            }
+            return "https://cdn.knightlab.com/libs/timeline3/latest/";
+        }
+
+        function addOembedTag() {
+            // it's not clear that any tools execute this JS to get the URL, but maybe?
+            var oembed_link = document.createElement('link');
+            oembed_link['rel'] = 'alternate';
+            oembed_link['type'] = 'application/json+oembed';
+            oembed_link['href'] =  encodeURIComponent(window.location.href);
+            document.head.appendChild(oembed_link);
+        }
+
+        function createEmbedDiv(containerId, width, height) {
+
+            if (typeof(width) != 'string' && typeof(width) != 'number') {
+                width = '100%'
+            }
+
+            if (typeof(height) != 'string' && typeof(height) != 'number') {
+                height = '100%'
+            }
+
+            // default containerId would be 'timeline-embed'
+            t = document.createElement('div');
+            t.style.position = 'relative';
+
+            te = document.getElementById(containerId);
+            te.appendChild(t);
+            te.classList.add("tl-timeline-embed");
+
+            if (width.toString().match("%")) {
+                te.style.width = width.split("%")[0] + "%";
+            } else {
+                width = Number(width) - 2;
+                te.style.width = (width) + 'px';
+            }
+
+            if (height.toString().match("%")) {
+                te.style.height = height;
+                te.classList.add("tl-timeline-full-embed");
+            } else if (width.toString().match("%")) {
+                te.classList.add("tl-timeline-full-embed");
+                height = Number(height) - 16;
+                te.style.height = (height) + 'px';
+            } else {
+                height = height - 16;
+                te.style.height = (height) + 'px';
+            }
+        }
+
+        /**
+         * Parse all URL parameters as possible Timeline options.
+         * Timeline itself will use or ignore these based on actual
+         * supported options.
+         */
+        function optionsFromUrlParams() {
+            var param_str = window.location.href.slice(window.location.href.indexOf('?') + 1);
+
+            if (param_str.match('#')) {
+                param_str = param_str.split('#')[0];
+            }
+
+            param_str = param_str.split('&');
+
+            var url_vars = {}
+
+            for (var i = 0; i < param_str.length; i++) {
+                var uv = param_str[i].split('=');
+                url_vars[uv[0]] = uv[1];
+            }
+
+            return url_vars;
+        };
+
+        ready(function() {
+            setPageLanguage();
+            var embed_path = computeEmbedPath();
+            addOembedTag();
+
+            var options = optionsFromUrlParams();
+//          var additionalOptions = {
+//              script_path: '/timeline/js',
+//              language: 'es',
+//              font: 'amatic-andika'
+//          }
+             
+            createEmbedDiv('timeline-embed', options.width, options.height); 
+            options.soundcite = true;
+            options.lang='zh-cn';
+            window.options = options
+            window.timeline = new TL.Timeline('timeline-embed', 'data/ai/timeline.json',options);   
+
+        })
+    </script>
+</body>
+
+</html>

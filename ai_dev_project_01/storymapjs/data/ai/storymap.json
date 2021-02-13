@@ -1,0 +1,131 @@
+
+{
+	"storymap":{
+		"test": "test",
+		"slides": [
+			{
+				"type": 					"达特茅斯AI会议", 
+
+				"date": 					"1965",
+				"location": {
+					"lat": 				43.7054,
+					"lon": 				-72.2951,
+					"name": 				"美国新罕布什尔州汉诺威镇(Hanover, NH, USA)",
+					"zoom": 				12,				
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"达特茅斯AI会议",
+					"text": 				"美国汉诺斯小镇宁静的达特茅斯学院中，约翰·麦卡锡（John McCarthy）、马文·闵斯基（Marvin Minsky，人工智能与认知学专家）、克劳德·香农（Claude Shannon，信息论的创始人）、艾伦·纽厄尔（Allen Newell，计算机科学家）、赫伯特·西蒙（Herbert Simon，诺贝尔经济学奖得主）等科学家正聚在一起，讨论着一个完全不食人间烟火的主题：用机器来模仿人类学习以及其他方面的智能。会议足足开了两个月的时间，虽然大家没有达成普遍的共识，但是却为会议讨论的内容起了一个名字：<a href=\"https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180\">人工智能</a>。因此，1956年也就成为了人工智能元年。"
+				},
+				"media": {
+					"url": 				"data/ai/image/dartmouth_conference_ai_characters.jpg",
+					"credit": "引用声明：<a href=\"https://www.msra.cn/zh-cn/news/features/hon-the-brief-history-of-intelligence-1\">洪小文</a>/https://www.msra.cn/",
+					"caption": "达特茅斯会议（Dartmouth Conference）:本地图片、超链接示意、缩略图"
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"date": 					"1950",
+				"location": {
+					"lat": 				53.4427,
+					"lon": 				-2.3195,
+					"name": 				"英国 曼切斯特 曼彻斯特大学",
+					"zoom": 				12,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"艾伦·图灵（Alan Turing）（英国1912年6月23日－1954年6月7日）",
+					"text": 				"英国计算机科学家、数学家、逻辑学家、密码分析学家和理论生物学家，他被誉为计算机科学与人工智能之父。<p>1945年到1948年，图灵在国家物理实验室负责自动计算引擎（ACE）的研究工作。1949年，他成为曼彻斯特大学计算机实验室的副主任，负责最早的真正的计算机---曼彻斯特一号的软件工作。在这段时间，他继续作一些比较抽象的研究，如“计算机械和智能”。图灵在对人工智能的研究中，提出了一个叫做图灵测试的实验，尝试定出一个决定机器是否有感觉的标准。</p>"
+				},
+				"media": {
+					"url": 				"data/ai/image/220px-Alan_Turing_Aged_16.jpg",
+					"credit":				"百度百科",
+					"caption":			"图灵测试概述图"
+				}
+			},		
+			{
+				"uniqueid": 				"",
+				"date": 					"2018",
+				"location": {
+					"lat": 				42.394434,
+					"lon": 				-71.257304,
+					"name": "马萨诸塞州 波士顿 沃尔瑟姆（Waltham, Boston, Massachusetts USA ）",
+					"zoom": 				12,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"视频：本地视频",
+					"text": 				"How SpotMini and Atlas Became the Internet's Favorite Robots。https://www.wired.com/video/watch/the-story-behind-the-internet-s-favorite-robots"
+				},
+				"media": {
+					"type": 		"image",
+					"url": 				"data/ai/video/boston_dynamics.mp4",
+					"credit":				"wired",
+					"caption":			"本地视频案例."
+				}
+			},	
+			{
+				"uniqueid": 				"",
+				"date": 					"2017",
+				"location": {
+					"lat": 				37.577289,
+					"lon": 				126.97337,
+					"name": "韩国首尔",
+					"zoom": 				12,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"视频：youtube AlphaGo韩国大战九段棋手李世石",
+					"text": 				"谷歌人工智能“阿尔法围棋”(AlphaGo)对战韩国著名围棋九段棋手李世石。"
+				},
+				"media": {
+					"url": 				"https://www.youtube.com/watch?v=dKOuUo3pZSE&t=2638s",
+					"credit":				"youtube",
+					"caption":			"youtube视频案例."
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"date": 					"2017",
+				"location": {
+					"lat": 				30.749055,
+					"lon": 				120.494323,
+					"name": "中国浙江乌镇",
+					"zoom": 				12,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"AlphaGo 携手中国顶尖棋手：共创棋妙未来",
+					"text": 				"AlphaGo 2017中国乌镇·围棋峰会。"
+				},
+				"media": {
+					 "url": 
+					 "<iframe src=\"//player.bilibili.com/player.html?aid=9747305&bvid=BV1rx411S7Vj&cid=16111828&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
+					"credit":				"bilibili",
+					"caption":			"bilibili视频案例."
+				}
+			},
+			
+			{
+				"uniqueid": 				"",
+				"date": 					"2017",
+				"location": {
+					"lat": 				39.309514,
+					"lon": 				-119.649979,
+					"zoom": 				11,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"AlphaGo",
+					"text": 				"AlphaGo is a computer program that plays the board game Go.[1] It was developed by DeepMind Technologies[2] which was later acquired by Google. "
+				},
+				"media": {
+					"url": 				"https://en.wikipedia.org/wiki/AlphaGo",
+					"credit":				"wikipedia",
+					"caption":			"AlphaGo，AlphaGo Zero，MuZero."
+				}
+			}
+		]
+	}
+}

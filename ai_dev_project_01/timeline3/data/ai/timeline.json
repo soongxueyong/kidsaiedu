@@ -1,0 +1,104 @@
+{
+    "scale": "human",
+    "title": {
+        "media": {
+          "caption": "",
+          "credit": "",
+          "url": "",
+          "thumbnail": ""
+        },
+        "background":{"url":	"data/ai/image/dartmouth_conference_ai_characters.jpg"
+        },
+        "text": {
+          "headline": "标题：人工智能发展历史（标题示意）",
+          "text": "标题文本：数量人工智能发展历史的人物、事件、理论、技术、国家、企业等，揭示人工历史发展的原动力！"
+        }
+      },
+    "events": [
+      {
+        "media": {
+          "caption": "达特茅斯会议（Dartmouth Conference）:本地图片、超链接示意、缩略图",
+          "credit": "引用声明：<a href=\"https://www.msra.cn/zh-cn/news/features/hon-the-brief-history-of-intelligence-1\">洪小文</a>/https://www.msra.cn/",
+          "url": "data/ai/image/dartmouth_conference_ai_characters.jpg",
+          "thumbnail": "data/ai/image/dartmouth_conference_ai_characters.jpg"
+        },
+        "text": {
+          "headline": "美国汉诺斯小镇达特茅斯学院",
+          "text": "美国汉诺斯小镇宁静的达特茅斯学院中，约翰·麦卡锡（John McCarthy）、马文·闵斯基（Marvin Minsky，人工智能与认知学专家）、克劳德·香农（Claude Shannon，信息论的创始人）、艾伦·纽厄尔（Allen Newell，计算机科学家）、赫伯特·西蒙（Herbert Simon，诺贝尔经济学奖得主）等科学家正聚在一起，讨论着一个完全不食人间烟火的主题：用机器来模仿人类学习以及其他方面的智能。会议足足开了两个月的时间，虽然大家没有达成普遍的共识，但是却为会议讨论的内容起了一个名字：<a href=\"https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180\">人工智能</a>。因此，1956年也就成为了人工智能元年。"
+        },
+        "start_date": {
+          "month": "8",
+          "day": " ",
+          "year": "1956"
+        }
+      },
+      {
+        "media": {
+          "caption": "AI的诞生:富文本示意",
+          "credit": "《时代》杂志就已经提出了AI的某种威胁/Time",
+          "url": "1950年，《时代》杂志就已经提出了AI的某种威胁：<blockquote>“现代人已经适应了拥有超人肌肉的机器，不过拥有超人大脑的机器还是挺吓人的。设计这些机器的人试图否认他们正创造像他们自己一样拥有智慧的竞争者。”（ Time, January 23rd, 1950）</blockquote>",
+          "thumbnail": ""
+        },
+        "text": {
+          "headline": "AI威胁",
+          "text": "今天埃隆·马斯克说AI要毁灭人类，但是1950年这种议论就有了。1950年的时候，二战结束才五年。当年做计算机是二战时为了造原子弹，每台计算机都要比一个房间大，全世界也不超过十台。这时就已经有人担忧，以后造的计算机比人类聪明怎么办？我们人类一直就对智能充满了期待，而且非常怕受到伤害."
+        },
+        "start_date": {
+          "month": "1",
+          "day": "10",
+          "year": "1956"
+        }
+      },
+      {
+        "media": {
+          "caption": "人工智能简单历史.:本地下载的视频示意",
+          "credit": "下载地址：https://www.youtube.com/watch?v=056v4OxKwlI",
+          "url": "data/ai/video/A Brief History of Artificial Intelligence.mp4",
+          "thumbnail": ""
+        },
+        "text": {
+          "headline": "让我们先回顾一下人工智能简史",
+          "text": "虽然现在每个人似乎都在谈论人工智能，但要记住，这并不是什么新东西!(While everyone seems to be talking about artificial intelligence these days, it’s good to remember that this is not something new!)"
+        },
+        "start_date": {
+          "month": "9",
+          "day": "14",
+          "year": "2017"
+        }
+      } ,
+      {
+        "media": {
+          "caption": "十分钟介绍人工智能 Artificial Intelligence In 10 Minutes.:哔哩哔哩网络的视频示意",
+          "credit": "下载地址：https://www.youtube.com/watch?v=cW9shEB8h5E",
+          "url": "<iframe src=\"//player.bilibili.com/player.html?aid=800254963&bvid=BV1gy4y1z7Zj&cid=254949952&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
+          "thumbnail": ""
+        },
+        "text": {
+          "headline": "让我们先回顾一下人工智能简史：国内网络视频iframe嵌入。",
+          "text": "人工智能是21世纪最受争议的技术。它被广泛用于解决复杂问题和简化人工任务。在这个视频中，你将在10分钟内学习人工智能。（Artificial Intelligence is the most debated technology of the 21st century. It is widely used to solve complex problems and ease human tasks. In this video, you will learn AI in 10 minutes）。使用<a href=\"https://www.css88.com/tool/html2js/\">css88</a>，把哔哩哔哩嵌入的视频iframe代码转化成双引号引入文本，然后替换url的值，既可以嵌入哔哩哔哩的视频!"
+        },
+        "start_date": {
+          "month": "11",
+          "day": "20",
+          "year": "2020"
+        }
+      },
+      {
+        "media": {
+          "caption": "",
+          "credit": "YouTube",
+          "url": "https://www.youtube.com/watch?v=056v4OxKwlI",
+          "thumbnail": ""
+        },
+        "text": {
+          "headline": "YouTube Examples",
+          "text": "While everyone seems to be talking about artificial intelligence these days, it’s good to remember that this is not something new!)"
+        },
+        "start_date": {
+          "month": "1",
+          "day": "23",
+          "year": "2012"
+        }
+      }
+    ]
+}
