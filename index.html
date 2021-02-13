@@ -1,38 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 	<head>
-		<meta charset="UTF-8">
-		<!-- The StoryMap container can go anywhere on the page. Be sure to
-    specify a width and height.  The width can be absolute (in pixels) or
-    relative (in percentage), but the height must be an absolute value.
-    Of course, you can specify width and height with CSS instead -->
-		<div id="mapdiv" style="width: 100%; height: 600px;"></div>
-
-		<!-- Your script tags should be placed before the closing body tag. -->
-		<link rel="stylesheet" href="css/storymap.css">
-		<link rel="stylesheet" href="css/fonts/font.emoji.css">
-		<script type="text/javascript" src="js/storymap.js"></script>
-
-		<script>
-			// storymap_data can be an URL or a Javascript object
-			document.getElementsByTagName('html')[0].setAttribute('lang', 'zh-cn');
-			var storymap_data = 'data/ai/storymap.json';
-
-			// certain settings must be passed within a separate options object
-			var storymap_options={};// = {'lang':'zh-cn'};
-			storymap_options.language='zh-cn';
-			//TODO: Path error why call from http://127.0.0.1:8020/locale/zh-cn.js
-
-			var storymap = new VCO.StoryMap('mapdiv', storymap_data, storymap_options);
-			window.onresize = function(event) {
-				storymap.updateDisplay(); // this isn't automatic
-			}
-		</script>
-		<title>人工智能人物事件</title>
+		<title>AIKids Course Resource</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property="og:type" content="article" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:url" content="index.html" />
+		<link rel="canonical" href="index.html" />
+		<link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon-precomposed" href="assets/icons/apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 
-	<body>
+	<body id="landing">
+		<div id="wrapper" class="container">
+			<header id="header">
+				<h1 class="logo"><a href="index.html"> AIkids<span>Edu</span></a></h1>
+				<p class="about"><span></span>交互式 <strong>人工智能初步 模块 </strong> <br />课程资源 </p>
+				<ul class="features">
+					<li class="icon icon-math"> 交互式<br /> <strong>H5课程资源</strong></li>
+					<li class="icon icon-code"> 基于开源开放<br /> <strong>互联网资源</strong></li>
+					<li class="icon icon-cog"> 通过修改配置文件<br /> <strong>扩充资源</strong></li>
+					<li class="icon icon-gift"><strong><span>100% </span>免费</strong> 开源:<br />
+						<a href="https://github.com/soongxueyong/kidsaiedu">github</a>
+					</li>
+				</ul>		
+			</header>
+			<div id="items">
+				<article class="item massively" data-name="massively">
+					<a href="paradigm-shift.html" class="image"><img src="assets/images/paradigm-shift.jpg" alt="AI History" /></a>
+					<header>
+						<h2>AI发展历程</h2>
+						<div class="actions">
+							<a href="ai_dev_project/timeline3/ai_history.html" class="button demo"><span>AI发展时间线 </span></a>
+							<a href="ai_dev_project/storymapjs/ai_story.html" class="button demo"><span>AI事件人物谱 </span></a>
+							<a href="https://github.com/soongxueyong/kidsaiedu/tree/master/ai_dev_project" class="button alt download" data-name="paradigm-shift" data-title="Paradigm Shift"><span>代码 </span> <em></em></a>
+						</div>
+					</header>
+				</article>
+		</div>
+		<footer id="footer" class="container">
+			</ul><span class="copyright">&copy; AIKidsEdu<br />  Hosted by <strong>Github </strong>Pages. (Thanks to HTML5UP)</span>
+		</footer>
 	</body>
-
 </html>
