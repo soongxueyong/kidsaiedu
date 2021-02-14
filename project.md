@@ -16,3 +16,10 @@
 (1)切换到当前目录，即index.html所在目录
 (2) python -m httpserver 8080
 (3)在浏览器输入http://localhost:8080/
+
+#来源
+A start算法
+https://www.redblobgames.com/pathfinding/a-star/introduction.html
+https://www.raywenderlich.com/3016-introduction-to-a-pathfinding
+数学公式编写
+https://mathjax.github.io/MathJax-demos-web/
