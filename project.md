@@ -23,3 +23,8 @@ https://www.redblobgames.com/pathfinding/a-star/introduction.html
 https://www.raywenderlich.com/3016-introduction-to-a-pathfinding
 数学公式编写
 https://mathjax.github.io/MathJax-demos-web/
+#AI Chess History
+https://content.iospress.com/articles/icga-journal/icg180075
+http://johnmenick.com/writing/move-37-alpha-go-deep-mind.html
+https://petercorke.com/rvc/home/1-introduction/
+https://achievement.org/achiever/marvin-minsky-ph-d/
