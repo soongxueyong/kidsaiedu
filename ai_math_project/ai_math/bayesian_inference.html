@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="SoongXueyong">
+		<meta name="generator" content="Hugo 0.80.0">
+		<title>KidsAIEdu:人工智能初步数学：贝叶斯推理(Bayes Rule)</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>-->
+		<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
+		</style>
+
+		<!-- Custom styles for this template -->
+		<link href="css/grid.css" rel="stylesheet">
+	</head>
+
+	<body class="py-4">
+
+		<div class="container">
+
+			<h1>人工智能初步模板-数学</h1>
+			<p class="lead">本项目完成人工智能数学的探究式学习，通过Geogebra可视化数学计算，动态参数了解数学计算原理。</p>
+			<p>
+				<li> A*搜索算法（放在机器学习一章）</li>
+				<li> <strong>贝叶斯公式</strong></li>
+				<li> 一元线性回归</li>
+				<li> 信息熵</li>
+				<li> 聚类</li>
+				<li> 激活函数</li>
+				<li> 损益函数</li>
+			</p>
+
+			<h2 class="mt-4">贝叶斯公式（交互媒体整合：Iframe嵌入）</h2>
+			<h5>任务1：调整\(P(A)\)。调整坐标轴上绿色菱形块，确定\(P(A)=0.5\)(女士)与\(1-P(A)\)(男士)</h5>
+
+			<li>1.逐渐改变截距(y intercept)值，看\(S\) 值的变化，达到最小值。(用鼠标或键盘箭头左右键)</li>
+			<li>2.然后，在逐渐改变斜率(slop)值，看\(S\) 值的变化，达到最小值。(用鼠标或键盘箭头左右键)</li>
+			<li>3.重复以上步骤，探究最小值的回归方式：\(y = ax + b \) </li>
+			<li>4.记录本小组得到方程参数（以上步骤可以通过矩形区域面积和进行目测）。 </li>
+			<li>5.自己任务2的Geogebra做点，通过系统菜单自动的最佳拟合直线，获得方式式的参数，进行对比。 </li>
+
+			<p></p>
+			<p>
+
+				<iframe src="https://www.geogebra.org/classic/mfbvpmsb?embed" width="1000" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+			</p>
+			<p>
+				<h5>任务2：通过公式计算进行推导(参考jax 公式展示的示意图)</h5>
+				<li>选择菜单最佳拟合直线，选择所要点，自动获得\(y=ax+b\) 的参数，对比前面求解参数是否相近？</li>
+				<li>在前一个数学图形中，进行参数调整，看看S值是否变小？</li>
+
+		</div>
+
+	</body>
+
+</html>

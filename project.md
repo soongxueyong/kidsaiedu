@@ -28,3 +28,5 @@ https://content.iospress.com/articles/icga-journal/icg180075
 http://johnmenick.com/writing/move-37-alpha-go-deep-mind.html
 https://petercorke.com/rvc/home/1-introduction/
 https://achievement.org/achiever/marvin-minsky-ph-d/
+
+#开发，对所有的效果进行浏览器录屏，作为资源
