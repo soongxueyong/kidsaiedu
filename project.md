@@ -2,13 +2,15 @@
 - 参考教材《人社部人工智能初步》
 ## 项目1 人工历史发展历史(History of Artificial Intelligence)
 ## 项目2 数学(Mathmatics)和信息论(Informatics)
-## 项目4 机器学习(Machine Learning,ML)
-## 项目5 神经网络(Artificial Neural Networks,ANNs)
-## 项目6 图像卷积计算(Image convolution calculation)
-## 项目9 网络对抗神经网络(Generative Adversarial Network,GAN)
-## 项目10 人工智能强化学习(Reinforcement Learning,RL)
-## 项目11 智能机器人(Chatbot)
-## 项目12 自动驾驶小车(DonkeyCar)
+## 项目3 机器学习(Machine Learning,ML)
+## 项目4 神经网络(Artificial Neural Networks,ANNs)
+## 项目5 图像卷积计算(Image convolution calculation)
+## 项目6 CNN卷积神经网络(Convolutional Neural Networks,CNN)
+## 项目7 RNN循环神经网络(Recurrent Neural Network,RNN)
+## 项目8 网络对抗神经网络(Generative Adversarial Network,GAN)
+## 项目9 人工智能强化学习(Reinforcement Learning,RL)
+## 项目10 智能机器人(Chatbot)
+## 项目11 自动驾驶小车(DonkeyCar)
 
 1.本地运行以上代码
 (1)切换到当前目录，即index.html所在目录
