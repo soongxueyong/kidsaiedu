@@ -5,8 +5,6 @@
 ## 项目4 机器学习(Machine Learning,ML)
 ## 项目5 神经网络(Artificial Neural Networks,ANNs)
 ## 项目6 图像卷积计算(Image convolution calculation)
-## 项目7 CNN卷积神经网络(Convolutional Neural Networks,CNN)
-## 项目8 RNN循环神经网络(Recurrent Neural Network,RNN)
 ## 项目9 网络对抗神经网络(Generative Adversarial Network,GAN)
 ## 项目10 人工智能强化学习(Reinforcement Learning,RL)
 ## 项目11 智能机器人(Chatbot)
