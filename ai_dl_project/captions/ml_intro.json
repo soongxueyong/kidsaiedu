@@ -1,0 +1,1129 @@
+{
+  "captionData": [
+    {
+      "captions": [
+        {
+          "dur": 2.74,
+          "text": "\u6b22\u8fce\u5b66\u4e60\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b\u3002",
+          "start": 0.62
+        },
+        {
+          "dur": 3.5,
+          "text": "\u6211\u53ebPeter Norvig\uff0c\u4e8e2001\u5e74\u52a0\u5165Google\u65f6\uff0c",
+          "start": 3.36
+        },
+        {
+          "dur": 2.64,
+          "text": "\u6211\u7684\u5934\u8854\u662f\u201c\u673a\u5668\u5b66\u4e60\u603b\u76d1\u201d\u3002",
+          "start": 6.86
+        },
+        {
+          "dur": 3.3,
+          "text": "\u56e0\u4e3a\u90a3\u65f6\u6211\u5c31\u77e5\u9053\uff0c\n\u673a\u5668\u5b66\u4e60\u4f1a\u6210\u4e3a\u4e00\u4e2a\u91cd\u8981\u7684\u5de5\u5177\uff0c",
+          "start": 9.5
+        },
+        {
+          "dur": 2.68,
+          "text": "\u53ef\u4ee5\u5e2e\u52a9Google\u53ca\u5176\u4ed6\u4efb\u4f55\u673a\u6784\u7684\u5de5\u7a0b\u5e08",
+          "start": 12.8
+        },
+        {
+          "dur": 1.46,
+          "text": "\u89e3\u8bfb\u6570\u636e\u7684\u6f5c\u5728\u542b\u4e49\u3002",
+          "start": 15.48
+        },
+        {
+          "dur": 3.86,
+          "text": "\u4f46\u5f53\u65f6\u6211\u5e76\u6ca1\u6709\u9884\u6599\u5230\u8fd9\u4e9b\u5de5\u5177\n\u4f1a\u5728\u591a\u5e7f\u7684\u8303\u56f4\u5185\u5f97\u5230\u5e94\u7528\uff0c",
+          "start": 16.94
+        },
+        {
+          "dur": 4.24,
+          "text": "\u4e5f\u6ca1\u6709\u8bbe\u60f3\u5bf9\u80fd\u591f\u719f\u7ec3\u4f7f\u7528\n\u8fd9\u4e9b\u5de5\u5177\u7684\u5de5\u7a0b\u5e08\u7684\u9700\u6c42\u4f1a\u6709\u591a\u5927\u3002",
+          "start": 20.8
+        },
+        {
+          "dur": 3.4,
+          "text": "\u672c\u8bfe\u7a0b\u53ef\u5e2e\u52a9\u60a8\u5728\u6210\u4e3a\u672c\u9886\u57df",
+          "start": 25.04
+        },
+        {
+          "dur": 2.74,
+          "text": "\u5a34\u719f\u4ece\u4e1a\u8005\u7684\u9053\u8def\u4e0a\u987a\u5229\u524d\u884c\u3002",
+          "start": 28.44
+        },
+        {
+          "dur": 5.32,
+          "text": "\u501f\u52a9\u4ece\u672c\u8bfe\u7a0b\u4e2d\u5b66\u5230\u7684\u77e5\u8bc6\uff0c\u60a8\u4f5c\u4e3a\u4e00\u540d\u8f6f\u4ef6\u5de5\u7a0b\u5e08\uff0c\n\u53ef\u4ee5\u5c06\u4ee5\u4e0b\u4e09\u4ef6\u4e8b\u505a\u5f97\u66f4\u597d\u3002",
+          "start": 31.18
+        },
+        {
+          "dur": 4.2,
+          "text": "\u9996\u5148\uff0c\u5b83\u4f1a\u4e3a\u60a8\u63d0\u4f9b\u4e00\u4e2a\n\u53ef\u7f29\u77ed\u7f16\u7a0b\u65f6\u95f4\u7684\u5de5\u5177\u3002",
+          "start": 36.5
+        },
+        {
+          "dur": 4.0,
+          "text": "\u5047\u8bbe\u6211\u60f3\u7f16\u5199\u4e00\u4e2a\u7a0b\u5e8f\u6765\u7ea0\u6b63\u62fc\u5199\u9519\u8bef\u3002",
+          "start": 40.7
+        },
+        {
+          "dur": 3.46,
+          "text": "\u6211\u53ef\u4ee5\u901a\u8fc7\u5927\u91cf\u793a\u4f8b\u548c\u7ecf\u9a8c\u6cd5\u5219\n\uff08\u4f8b\u5982\uff0cI\u4f4d\u4e8eE\u4e4b\u524d\uff0c\u4f46\u51fa\u73b0\u5728C\u4e4b\u540e\u65f6\u4f8b\u5916\uff09\uff0c",
+          "start": 44.7
+        },
+        {
+          "dur": 2.38,
+          "text": "\u53d6\u5f97\u4e00\u5b9a\u7684\u8fdb\u5c55\uff0c",
+          "start": 48.16
+        },
+        {
+          "dur": 3.32,
+          "text": "\u7136\u540e\u7ecf\u8fc7\u6570\u5468\u7684\u52aa\u529b\uff0c\u7f16\u5199\u51fa\u4e00\u4e2a\u5408\u7406\u7684\u7a0b\u5e8f\u3002",
+          "start": 50.54
+        },
+        {
+          "dur": 5.12,
+          "text": "\u6216\u8005\uff0c\u6211\u4e5f\u53ef\u4ee5\u4f7f\u7528\u73b0\u6210\u7684\u673a\u5668\u5b66\u4e60\u5de5\u5177\uff0c\n\u53ea\u9700\u5411\u5176\u63d0\u4f9b\u4e00\u4e9b\u6837\u672c\uff0c",
+          "start": 53.86
+        },
+        {
+          "dur": 3.7,
+          "text": "\u5373\u53ef\u5728\u5f88\u77ed\u7684\u65f6\u95f4\u5185\u83b7\u5f97\u4e00\u4e2a\u66f4\u53ef\u9760\u7684\u7a0b\u5e8f\u3002",
+          "start": 58.98
+        },
+        {
+          "dur": 3.6,
+          "text": "\u5176\u6b21\uff0c\u501f\u52a9\u673a\u5668\u5b66\u4e60\uff0c\u60a8\u53ef\u4ee5\u81ea\u5b9a\u4e49\u81ea\u5df1\u7684\u4ea7\u54c1\uff0c",
+          "start": 62.68
+        },
+        {
+          "dur": 2.64,
+          "text": "\u4f7f\u5176\u66f4\u9002\u5408\u7279\u5b9a\u7684\u7528\u6237\u7fa4\u4f53\u3002",
+          "start": 66.28
+        },
+        {
+          "dur": 4.92,
+          "text": "\u5047\u8bbe\u6211\u624b\u52a8\u7f16\u5199\u4e86\u4e00\u4e2a\u82f1\u6587\u62fc\u5199\u7ea0\u6b63\u7a0b\u5e8f\uff0c",
+          "start": 68.92
+        },
+        {
+          "dur": 5.04,
+          "text": "\u8fd9\u4e2a\u7a0b\u5e8f\u5f88\u6210\u529f\uff0c\u56e0\u6b64\u6211\u6253\u7b97\n\u9488\u5bf9100\u79cd\u6700\u5e38\u7528\u8bed\u8a00\u63d0\u4f9b\u76f8\u5e94\u7684\u7248\u672c\u3002",
+          "start": 73.84
+        },
+        {
+          "dur": 3.42,
+          "text": "\u8fd9\u6837\u4e00\u6765\uff0c\u6bcf\u79cd\u8bed\u8a00\u7248\u672c\u51e0\u4e4e\u90fd\u9700\u8981\u4ece\u5934\u5f00\u59cb\uff0c",
+          "start": 78.88
+        },
+        {
+          "dur": 1.74,
+          "text": "\u8fd9\u5c06\u9700\u8981\u4ed8\u51fa\u6570\u5e74\u7684\u52aa\u529b\u3002",
+          "start": 82.3
+        },
+        {
+          "dur": 5.6,
+          "text": "\u4f46\u5982\u679c\u6211\u4f7f\u7528\u673a\u5668\u5b66\u4e60\u6280\u672f\u6784\u5efa\u8be5\u7a0b\u5e8f\uff0c\n\u7136\u540e\u8fc1\u79fb\u5230\u5176\u4ed6\u8bed\u8a00\uff0c",
+          "start": 84.04
+        },
+        {
+          "dur": 6.76,
+          "text": "\u57fa\u672c\u4e0a\u5c31\u76f8\u5f53\u4e8e\uff0c\u6211\u53ea\u9700\u6536\u96c6\u8be5\u7279\u5b9a\u8bed\u8a00\u7684\u6570\u636e\uff0c\n\u5e76\u5c06\u8fd9\u4e9b\u6570\u636e\u63d0\u4f9b\u7ed9\u5b8c\u5168\u4e00\u6837\u7684\u673a\u5668\u5b66\u4e60\u6a21\u578b\u5373\u53ef\u3002",
+          "start": 89.64
+        },
+        {
+          "dur": 4.96,
+          "text": "\u7b2c\u4e09\uff0c\u501f\u52a9\u673a\u5668\u5b66\u4e60\uff0c\n\u60a8\u53ef\u4ee5\u89e3\u51b3\u81ea\u5df1\u4f5c\u4e3a\u7f16\u7a0b\u4eba\u5458",
+          "start": 96.4
+        },
+        {
+          "dur": 2.02,
+          "text": "\u4e0d\u77e5\u9053\u5982\u4f55\u7528\u4eba\u5de5\u65b9\u6cd5\u89e3\u51b3\u7684\u95ee\u9898\u3002",
+          "start": 101.38
+        },
+        {
+          "dur": 5.64,
+          "text": "\u4f5c\u4e3a\u4eba\u7c7b\uff0c\u6211\u53ef\u4ee5\u8ba4\u51fa\u670b\u53cb\u7684\u9762\u5b54\uff0c\n\u7406\u89e3\u4ed6\u4eec\u6240\u8bf4\u7684\u8bdd\uff0c",
+          "start": 103.4
+        },
+        {
+          "dur": 4.76,
+          "text": "\u4f46\u6240\u6709\u8fd9\u4e9b\u90fd\u662f\u5728\u6f5c\u610f\u8bc6\u4e0b\u5b8c\u6210\u7684\uff0c\n\u5982\u679c\u8ba9\u6211\u7f16\u5199\u4e00\u4e2a\u7a0b\u5e8f\u6765\u505a\u8fd9\u4e9b\u4e8b\uff0c",
+          "start": 109.04
+        },
+        {
+          "dur": 1.82,
+          "text": "\u6211\u4f1a\u5b8c\u5168\u4e0d\u77e5\u6240\u63aa\u3002",
+          "start": 113.82
+        },
+        {
+          "dur": 3.42,
+          "text": "\u4f46\u662f\uff0c\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u5bf9\u6b64\u5374\u5f88\u64c5\u957f\uff1b",
+          "start": 115.64
+        },
+        {
+          "dur": 2.36,
+          "text": "\u6211\u4e0d\u9700\u8981\u544a\u8bc9\u7b97\u6cd5\u5e94\u8be5\u600e\u4e48\u505a\uff0c",
+          "start": 119.06
+        },
+        {
+          "dur": 5.86,
+          "text": "\u53ea\u9700\u5411\u5176\u5c55\u793a\u5927\u91cf\u6837\u672c\uff0c\n\u95ee\u9898\u5c31\u53ef\u4ee5\u8fce\u5203\u800c\u89e3\u3002",
+          "start": 121.42
+        },
+        {
+          "dur": 5.04,
+          "text": "\u9664\u4e86\u4e0a\u8ff0\u4e09\u4e2a\u5b9e\u7528\u539f\u56e0\u4e4b\u5916\uff0c\n\u6211\u4eec\u5e0c\u671b\u638c\u63e1\u673a\u5668\u5b66\u4e60\u6280\u672f",
+          "start": 127.28
+        },
+        {
+          "dur": 5.24,
+          "text": "\u8fd8\u6709\u4e00\u4e2a\u54f2\u5b66\u65b9\u9762\u7684\u539f\u56e0\uff0c\n\u5373\u673a\u5668\u5b66\u4e60\u53ef\u4ee5\u6539\u53d8\u60a8\u601d\u8003\u95ee\u9898\u7684\u65b9\u5f0f\u3002",
+          "start": 132.32
+        },
+        {
+          "dur": 4.24,
+          "text": "\u8f6f\u4ef6\u5de5\u7a0b\u5e08\u63a5\u53d7\u8fc7\u8bad\u7ec3\uff0c\n\u5b66\u4e60\u5982\u4f55\u4ee5\u903b\u8f91\u548c\u6570\u5b66\u601d\u7ef4\u601d\u8003\u95ee\u9898\uff1b",
+          "start": 137.56
+        },
+        {
+          "dur": 4.42,
+          "text": "\u6211\u4eec\u901a\u8fc7\u65ad\u8a00\u6765\u8bc1\u660e\u7a0b\u5e8f\u5404\u5c5e\u6027\u7684\u6b63\u786e\u6027\u3002",
+          "start": 141.8
+        },
+        {
+          "dur": 5.82,
+          "text": "\u5bf9\u4e8e\u673a\u5668\u5b66\u4e60\uff0c\u6211\u4eec\u7684\u5173\u6ce8\u70b9\n\u4ece\u6570\u5b66\u79d1\u5b66\u8f6c\u79fb\u5230\u81ea\u7136\u79d1\u5b66\u4e0a\uff0c",
+          "start": 146.22
+        },
+        {
+          "dur": 3.26,
+          "text": "\u6211\u4eec\u89c2\u5bdf\u4e0d\u786e\u5b9a\u7684\u672a\u77e5\u4e16\u754c\uff0c",
+          "start": 152.04
+        },
+        {
+          "dur": 6.44,
+          "text": "\u5f00\u5c55\u5b9e\u9a8c\uff0c\u5e76\u4f7f\u7528\u7edf\u8ba1\u4fe1\u606f\n\u800c\u975e\u903b\u8f91\u6765\u5206\u6790\u5b9e\u9a8c\u7ed3\u679c\u3002",
+          "start": 155.3
+        },
+        {
+          "dur": 2.46,
+          "text": "\u50cf\u79d1\u5b66\u5bb6\u4e00\u6837\u601d\u8003\u7684\u80fd\u529b",
+          "start": 161.74
+        },
+        {
+          "dur": 4.9,
+          "text": "\u53ef\u4ee5\u6269\u5c55\u60a8\u7684\u89c6\u91ce\uff0c\u4e3a\u60a8\u6253\u5f00\u6ca1\u6709\u8fd9\u9879\u80fd\u529b\n\u4fbf\u65e0\u6cd5\u63a2\u7d22\u7684\u65b0\u4e16\u754c\u7684\u5927\u95e8\u3002",
+          "start": 164.2
+        },
+        {
+          "dur": 3.5,
+          "text": "\u6240\u4ee5\uff0c\u4e0d\u59a8\u4eab\u53d7\u8fd9\u6bb5\u65c5\u7a0b\uff0c\n\u6109\u5feb\u5730\u63a2\u7d22\u5176\u4e2d\u7684\u5965\u79d8\u3002",
+          "start": 169.12
+        }
+      ],
+      "lang": "zh-Hans"
+    },
+    {
+      "captions": [
+        {
+          "dur": 2.74,
+          "text": "&gt;&gt; PETER: Welcome to the Machine Learning Crash Course.",
+          "start": 0.62
+        },
+        {
+          "dur": 3.5,
+          "text": "My name is Peter Norvig, and when I joined Google in 2001,",
+          "start": 3.36
+        },
+        {
+          "dur": 2.64,
+          "text": "my title was &quot;Director of Machine Learning,&quot;",
+          "start": 6.86
+        },
+        {
+          "dur": 3.3,
+          "text": "because I knew then, that Machine Learning would be a valuable tool",
+          "start": 9.5
+        },
+        {
+          "dur": 2.68,
+          "text": "to help engineers, at Google and everywhere else,",
+          "start": 12.8
+        },
+        {
+          "dur": 1.46,
+          "text": "make sense of their data.",
+          "start": 15.48
+        },
+        {
+          "dur": 3.86,
+          "text": "I didn&#39;t quite anticipate then how widespread the tools would become,",
+          "start": 16.94
+        },
+        {
+          "dur": 4.24,
+          "text": "and how much demand there would be for engineers who are skilled at using them.",
+          "start": 20.8
+        },
+        {
+          "dur": 3.4,
+          "text": "This course is designed to set you along the path",
+          "start": 25.04
+        },
+        {
+          "dur": 2.74,
+          "text": "to becoming a skilled practitioner of the art.",
+          "start": 28.44
+        },
+        {
+          "dur": 5.32,
+          "text": "What you learn here will allow you, as a software engineer, to do three things better.",
+          "start": 31.18
+        },
+        {
+          "dur": 4.2,
+          "text": "First, it gives you a tool to reduce the time you spend programming.",
+          "start": 36.5
+        },
+        {
+          "dur": 4.0,
+          "text": "Suppose I wanted to write a program to correct\nspelling errors.",
+          "start": 40.7
+        },
+        {
+          "dur": 3.46,
+          "text": "I could make my way through lots of examples and rules of thumb",
+          "start": 44.7
+        },
+        {
+          "dur": 2.38,
+          "text": "(like I before E except after C),",
+          "start": 48.16
+        },
+        {
+          "dur": 3.32,
+          "text": "and after weeks of hard work come up with a reasonable program.",
+          "start": 50.54
+        },
+        {
+          "dur": 5.12,
+          "text": "Or, I could use an off-the-shelf machine learning\ntool, feed it some examples,",
+          "start": 53.86
+        },
+        {
+          "dur": 3.7,
+          "text": "and get a more reliable program in a small fraction of the time.",
+          "start": 58.98
+        },
+        {
+          "dur": 3.6,
+          "text": "Second, it will allow you to customize your products,",
+          "start": 62.68
+        },
+        {
+          "dur": 2.64,
+          "text": "making them better for specific groups of people.",
+          "start": 66.28
+        },
+        {
+          "dur": 4.92,
+          "text": "Suppose I produced my English spelling corrector by writing code by hand,",
+          "start": 68.92
+        },
+        {
+          "dur": 5.04,
+          "text": "and it was so successful that I wanted to have versions in the 100 most popular languages.",
+          "start": 73.84
+        },
+        {
+          "dur": 3.42,
+          "text": "I would have to start almost from scratch for each language,",
+          "start": 78.88
+        },
+        {
+          "dur": 1.74,
+          "text": "and it would take years of effort.",
+          "start": 82.3
+        },
+        {
+          "dur": 5.6,
+          "text": "But if I built it using machine learning, then moving to another language, to a first approximation,",
+          "start": 84.04
+        },
+        {
+          "dur": 6.76,
+          "text": "means just collecting data in that language and feeding it into the exact same machine learning model.",
+          "start": 89.64
+        },
+        {
+          "dur": 4.96,
+          "text": "Third, machine learning lets you solve problems that you, as a programmer,",
+          "start": 96.4
+        },
+        {
+          "dur": 2.02,
+          "text": "have no idea how to do by hand.",
+          "start": 101.38
+        },
+        {
+          "dur": 5.64,
+          "text": "As a human being, I have the ability to recognize my friends&#39; faces and understand their speech,",
+          "start": 103.4
+        },
+        {
+          "dur": 4.76,
+          "text": "but I do all of this subconsciously, so if you asked me to write down a program to do it,",
+          "start": 109.04
+        },
+        {
+          "dur": 1.82,
+          "text": "I&#39;d be completely baffled.",
+          "start": 113.82
+        },
+        {
+          "dur": 3.42,
+          "text": "But these are tasks that machine learning\nalgorithms do very well;",
+          "start": 115.64
+        },
+        {
+          "dur": 2.36,
+          "text": "I don&#39;t need to tell the algorithm what to do,",
+          "start": 119.06
+        },
+        {
+          "dur": 5.86,
+          "text": "I only need to show the algorithm lots of examples, and from that the task can be solved.",
+          "start": 121.42
+        },
+        {
+          "dur": 5.04,
+          "text": "Now, besides these three practical reasons for mastering machine learning,",
+          "start": 127.28
+        },
+        {
+          "dur": 5.24,
+          "text": "there&#39;s a philosophical reason: machine learning changes the way you think about a problem.",
+          "start": 132.32
+        },
+        {
+          "dur": 4.24,
+          "text": "Software engineers are trained to think logically and mathematically;",
+          "start": 137.56
+        },
+        {
+          "dur": 4.42,
+          "text": "we use assertions to prove properties of our program are correct.",
+          "start": 141.8
+        },
+        {
+          "dur": 5.82,
+          "text": "With machine learning, the focus shifts from a mathematical science to a natural science:",
+          "start": 146.22
+        },
+        {
+          "dur": 3.26,
+          "text": "we&#39;re making observations about an uncertain world,",
+          "start": 152.04
+        },
+        {
+          "dur": 6.44,
+          "text": "running experiments, and using statistics, not logic, to analyze the results of the experiment.",
+          "start": 155.3
+        },
+        {
+          "dur": 2.46,
+          "text": "The ability to think like a scientist",
+          "start": 161.74
+        },
+        {
+          "dur": 4.9,
+          "text": "will expand your horizons and open up new areas that you couldn&#39;t explore without it.",
+          "start": 164.2
+        },
+        {
+          "dur": 3.5,
+          "text": "So enjoy the journey, and happy exploring.",
+          "start": 169.12
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "captions": [
+        {
+          "dur": 2.74,
+          "text": "&gt;&gt; PETER\u00a0: Bienvenue\nau cours d&#39;initiation au machine learning.",
+          "start": 0.62
+        },
+        {
+          "dur": 3.5,
+          "text": "Je suis Peter\u00a0Norvig.\nLorsque j&#39;ai rejoint Google en 2001,",
+          "start": 3.36
+        },
+        {
+          "dur": 2.64,
+          "text": "j&#39;\u00e9tais directeur du machine learning.",
+          "start": 6.86
+        },
+        {
+          "dur": 3.3,
+          "text": "Je savais alors\nque le machine learning serait tr\u00e8s utile",
+          "start": 9.5
+        },
+        {
+          "dur": 2.68,
+          "text": "aux ing\u00e9nieurs de Google ou d&#39;ailleurs",
+          "start": 12.8
+        },
+        {
+          "dur": 1.46,
+          "text": "souhaitant donner du sens aux donn\u00e9es.",
+          "start": 15.48
+        },
+        {
+          "dur": 3.86,
+          "text": "Je n&#39;avais pas pr\u00e9vu \u00e0 quel point\nce type d&#39;outils se g\u00e9n\u00e9raliserait",
+          "start": 16.94
+        },
+        {
+          "dur": 4.24,
+          "text": "ni dans quelle mesure les ing\u00e9nieurs\ncapables de les utiliser s&#39;y int\u00e9resseraient.",
+          "start": 20.8
+        },
+        {
+          "dur": 3.4,
+          "text": "Ce cours vise \u00e0 vous donner les cl\u00e9s n\u00e9cessaires",
+          "start": 25.04
+        },
+        {
+          "dur": 2.74,
+          "text": "pour ma\u00eetriser parfaitement ce pr\u00e9cieux outil.",
+          "start": 28.44
+        },
+        {
+          "dur": 5.32,
+          "text": "En tant qu&#39;ing\u00e9nieur logiciel,\nvous allez d\u00e9couvrir les trois atouts majeurs de cet outil.",
+          "start": 31.18
+        },
+        {
+          "dur": 4.2,
+          "text": "Dans un premier temps,\nil vous permet de programmer plus rapidement.",
+          "start": 36.5
+        },
+        {
+          "dur": 4.0,
+          "text": "Imaginons que je cr\u00e9e\nun programme de correction orthographique.",
+          "start": 40.7
+        },
+        {
+          "dur": 3.46,
+          "text": "Apr\u00e8s avoir test\u00e9 un tas d&#39;exemples\net d&#39;autres r\u00e8gles g\u00e9n\u00e9rales",
+          "start": 44.7
+        },
+        {
+          "dur": 2.38,
+          "text": "(comme I avant E, sauf apr\u00e8s C),",
+          "start": 48.16
+        },
+        {
+          "dur": 3.32,
+          "text": "mon programme serait acceptable\nau bout de plusieurs semaines,",
+          "start": 50.54
+        },
+        {
+          "dur": 5.12,
+          "text": "alors qu&#39;en ajoutant des exemples\n\u00e0 un outil de machine learning standard,",
+          "start": 53.86
+        },
+        {
+          "dur": 3.7,
+          "text": "mon programme serait\nnettement plus fiable en un rien de temps.",
+          "start": 58.98
+        },
+        {
+          "dur": 3.6,
+          "text": "Cet outil permet aussi de personnaliser vos produits,",
+          "start": 62.68
+        },
+        {
+          "dur": 2.64,
+          "text": "en les adaptant \u00e0 des utilisateurs sp\u00e9cifiques.",
+          "start": 66.28
+        },
+        {
+          "dur": 4.92,
+          "text": "Supposons que j&#39;aie \u00e9crit\nmanuellement le code de mon correcteur fran\u00e7ais,",
+          "start": 68.92
+        },
+        {
+          "dur": 5.04,
+          "text": "et que le r\u00e9sultat probant m&#39;incite \u00e0 cr\u00e9er\ndes versions pour 100\u00a0autres langues courantes.",
+          "start": 73.84
+        },
+        {
+          "dur": 3.42,
+          "text": "Je devrais alors partir\npresque de z\u00e9ro pour chaque langue,",
+          "start": 78.88
+        },
+        {
+          "dur": 1.74,
+          "text": "et cela me prendrait des ann\u00e9es.",
+          "start": 82.3
+        },
+        {
+          "dur": 5.6,
+          "text": "Avec le machine learning, lorsque je passe\n\u00e0 une autre langue, soit \u00e0 une premi\u00e8re approximation,",
+          "start": 84.04
+        },
+        {
+          "dur": 6.76,
+          "text": "mon programme est aliment\u00e9 en donn\u00e9es\nde cette langue selon le m\u00eame mod\u00e8le de machine learning.",
+          "start": 89.64
+        },
+        {
+          "dur": 4.96,
+          "text": "Enfin, cet outil permet de r\u00e9soudre\ndes probl\u00e8mes que vous, programmeur,",
+          "start": 96.4
+        },
+        {
+          "dur": 2.02,
+          "text": "ne savez pas r\u00e9gler manuellement.",
+          "start": 101.38
+        },
+        {
+          "dur": 5.64,
+          "text": "En tant qu&#39;\u00eatre humain, je peux reconna\u00eetre\nle visage de mes amis et comprendre ce qu&#39;ils disent,",
+          "start": 103.4
+        },
+        {
+          "dur": 4.76,
+          "text": "m\u00eame si c&#39;est inconsciemment. Voil\u00e0 pourquoi\nsi on me demande de programmer ces facult\u00e9s,",
+          "start": 109.04
+        },
+        {
+          "dur": 1.82,
+          "text": "je serais tr\u00e8s embarrass\u00e9.",
+          "start": 113.82
+        },
+        {
+          "dur": 3.42,
+          "text": "Ce n&#39;est pas le cas\ndes algorithmes de machine learning.",
+          "start": 115.64
+        },
+        {
+          "dur": 2.36,
+          "text": "Je n&#39;ai m\u00eame pas besoin de leur dire quoi faire.",
+          "start": 119.06
+        },
+        {
+          "dur": 5.86,
+          "text": "Il me suffit de leur donner plein d&#39;exemples\ndont ils se servent pour r\u00e9gler le probl\u00e8me.",
+          "start": 121.42
+        },
+        {
+          "dur": 5.04,
+          "text": "Outre ces trois raisons pratiques\nde ma\u00eetriser le machine learning,",
+          "start": 127.28
+        },
+        {
+          "dur": 5.24,
+          "text": "il y a l&#39;aspect philosophique, car cet outil\nchange votre fa\u00e7on d&#39;appr\u00e9hender un probl\u00e8me.",
+          "start": 132.32
+        },
+        {
+          "dur": 4.24,
+          "text": "Les ing\u00e9nieurs logiciels pensent,\nde mani\u00e8re logique et math\u00e9matique,",
+          "start": 137.56
+        },
+        {
+          "dur": 4.42,
+          "text": "et utilisent des assertions\npour prouver l&#39;exactitude de leurs programmes.",
+          "start": 141.8
+        },
+        {
+          "dur": 5.82,
+          "text": "Le machine learning est plus ax\u00e9\nsur une science naturelle que math\u00e9matique,",
+          "start": 146.22
+        },
+        {
+          "dur": 3.26,
+          "text": "au travers d&#39;observations sur un monde incertain,",
+          "start": 152.04
+        },
+        {
+          "dur": 6.44,
+          "text": "mais aussi de tests, de statistiques,\net non de la logique, pour analyser les r\u00e9sultats de test.",
+          "start": 155.3
+        },
+        {
+          "dur": 2.46,
+          "text": "En r\u00e9fl\u00e9chissant comme un scientifique,",
+          "start": 161.74
+        },
+        {
+          "dur": 4.9,
+          "text": "vous \u00e9largirez des champs d&#39;application\nque vous ne pourriez explorer sans cet outil.",
+          "start": 164.2
+        },
+        {
+          "dur": 3.5,
+          "text": "Alors, profitez-en et bonne exploration.",
+          "start": 169.12
+        }
+      ],
+      "lang": "fr"
+    },
+    {
+      "captions": [
+        {
+          "dur": 2.74,
+          "text": "&gt;&gt; PETER: \uba38\uc2e0\ub7ec\ub2dd \ub2e8\uae30\uc9d1\uc911\uacfc\uc815\uc5d0 \ucc38\uc5ec\ud558\uc2dc\uac8c \ub41c \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4.",
+          "start": 0.62
+        },
+        {
+          "dur": 3.5,
+          "text": "\uc800\ub294 Peter Norvig\uc785\ub2c8\ub2e4.\n2001\ub144\uc5d0 \ucc98\uc74c Google\uc5d0 \uc785\uc0ac\ud588\uc744 \ub54c",
+          "start": 3.36
+        },
+        {
+          "dur": 2.64,
+          "text": "\uc800\ub294 &#39;\uba38\uc2e0\ub7ec\ub2dd \ucc45\uc784\uc790&#39;\ub77c\ub294 \uc9c1\ucc45\uc744 \ub9e1\uc558\uc2b5\ub2c8\ub2e4.",
+          "start": 6.86
+        },
+        {
+          "dur": 3.3,
+          "text": "\uadf8\ub54c \uc800\ub294 \uba38\uc2e0\ub7ec\ub2dd\uc774 Google\uc744 \ube44\ub86f\ud55c \uc5ec\ub7ec \uacf3\uc5d0\uc11c \uc5d4\uc9c0\ub2c8\uc5b4\ub97c \ub3d5\uace0",
+          "start": 9.5
+        },
+        {
+          "dur": 2.68,
+          "text": "\ub370\uc774\ud130\ub97c \uc774\ud574\ud558\ub294 \ub370 \uac00\uce58 \uc788\ub294 \ub3c4\uad6c\uac00 \ub420 \uac70\ub77c\ub294 \uc0ac\uc2e4\uc744",
+          "start": 12.8
+        },
+        {
+          "dur": 1.46,
+          "text": "\uc54c\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4.",
+          "start": 15.48
+        },
+        {
+          "dur": 3.86,
+          "text": "\uadf8\ub54c\ub294 \uc774 \ub3c4\uad6c\uac00 \ub110\ub9ac \uc0ac\uc6a9\ub418\uace0 \uc774 \ub3c4\uad6c\ub97c \uc775\uc219\ud558\uac8c \uc0ac\uc6a9\ud558\ub294",
+          "start": 16.94
+        },
+        {
+          "dur": 4.24,
+          "text": "\uc5d4\uc9c0\ub2c8\uc5b4\uac00 \uc774\ub807\uac8c \ub9ce\uc544\uc9c8\uc9c0\ub294 \ubab0\ub790\uc2b5\ub2c8\ub2e4.",
+          "start": 20.8
+        },
+        {
+          "dur": 3.4,
+          "text": "\uc774 \uacfc\uc815\uc740 \uc5ec\ub7ec\ubd84\uc744 \uc219\ub828\ub41c \uba38\uc2e0\ub7ec\ub2dd \uc804\ubb38\uac00\uac00 \ub418\uae30 \uc704\ud55c",
+          "start": 25.04
+        },
+        {
+          "dur": 2.74,
+          "text": "\uae38\ub85c \uc548\ub0b4\ud558\uae30 \uc704\ud574 \uc81c\uc791\ub418\uc5c8\uc2b5\ub2c8\ub2e4.",
+          "start": 28.44
+        },
+        {
+          "dur": 5.32,
+          "text": "\uc5ec\uae30\uc5d0\uc11c \ubc30\uc6b4 \ub0b4\uc6a9\uc744 \ud65c\uc6a9\ud558\uba74 \uc18c\ud504\ud2b8\uc6e8\uc5b4 \uc5d4\uc9c0\ub2c8\uc5b4\ub85c\uc11c \uc138 \uac00\uc9c0\ub97c \ub354 \uc798\ud560 \uc218 \uc788\uc744 \uac83\uc785\ub2c8\ub2e4.",
+          "start": 31.18
+        },
+        {
+          "dur": 4.2,
+          "text": "\uba3c\uc800 \ud504\ub85c\uadf8\ub798\ubc0d \uc2dc\uac04\uc744 \uc904\uc77c \uc218 \uc788\ub294 \ub3c4\uad6c\ub97c \uc5bb\uac8c \ub429\ub2c8\ub2e4.",
+          "start": 36.5
+        },
+        {
+          "dur": 4.0,
+          "text": "\ub9de\ucda4\ubc95 \uc624\ub958\ub97c \uc218\uc815\ud558\ub294\n\ud504\ub85c\uadf8\ub7a8\uc744 \uc124\uacc4\ud55c\ub2e4\uace0 \uac00\uc815\ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4.",
+          "start": 40.7
+        },
+        {
+          "dur": 3.46,
+          "text": "\ub2e4\uc591\ud55c \uc608\uc2dc\uc640 \uacbd\ud5d8\uc744 \ud65c\uc6a9\ud574\uc11c \ubc29\ubc95\uc744 \ucc3e\uc744 \uc218 \uc788\uc744 \uac81\ub2c8\ub2e4.",
+          "start": 44.7
+        },
+        {
+          "dur": 2.38,
+          "text": "\uc608\ub97c \ub4e4\uba74 C \ub4a4\uc5d0 \uc788\uc744 \ub54c\ub97c \uc81c\uc678\ud558\uace0 E \uc55e\uc5d0 I\uac00 \uc624\ub294 \uacbd\uc6b0\ub97c \uc7a1\uc2b5\ub2c8\ub2e4.",
+          "start": 48.16
+        },
+        {
+          "dur": 3.32,
+          "text": "\uadf8\ub807\uac8c \uba87 \uc8fc \ub3d9\uc548 \uc5f4\uc2ec\ud788 \uc77c\ud558\uba74 \uc4f8\ub9cc\ud55c \ud504\ub85c\uadf8\ub7a8\uc774 \ub098\uc62c \uac81\ub2c8\ub2e4.",
+          "start": 50.54
+        },
+        {
+          "dur": 5.12,
+          "text": "\uc544\ub2c8\uba74 \ubc14\ub85c \uc4f8 \uc218 \uc788\ub294 \uba38\uc2e0\ub7ec\ub2dd \ub3c4\uad6c\ub97c\n\uc0ac\uc6a9\ud574\uc11c \uba87 \uac00\uc9c0 \uc608\ub97c \uc785\ub825\ud558\uba74",
+          "start": 53.86
+        },
+        {
+          "dur": 3.7,
+          "text": "\uc9e7\uc740 \uc2dc\uac04\uc5d0 \ub354 \uc548\uc815\uc801\uc778 \ud504\ub85c\uadf8\ub7a8\uc744 \ub9cc\ub4e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+          "start": 58.98
+        },
+        {
+          "dur": 3.6,
+          "text": "\ub450 \ubc88\uc9f8\ub85c \uc81c\ud488\uc744 \ub9de\ucda4\uc124\uc815\ud558\uc5ec \ud2b9\uc815 \uc9d1\ub2e8\uc758 \uc0ac\uc6a9\uc790\uc5d0\uac8c",
+          "start": 62.68
+        },
+        {
+          "dur": 2.64,
+          "text": "\ub354 \uc798 \ub9de\ub294 \uc81c\ud488\uc744 \uc81c\uacf5\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+          "start": 66.28
+        },
+        {
+          "dur": 4.92,
+          "text": "\uc81c\uac00 \uc9c1\uc811 \ucf54\ub4dc\ub97c \uc791\uc131\ud558\uc5ec \uc601\uc5b4 \ucca0\uc790 \uad50\uc815 \ub3c4\uad6c\ub97c \ub9cc\ub4e4\uc5c8\ub2e4\uace0 \uac00\uc815\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+          "start": 68.92
+        },
+        {
+          "dur": 5.04,
+          "text": "\uadf8\ub9ac\uace0 \uc774 \ub3c4\uad6c\uac00 \uad49\uc7a5\ud788 \uc131\uacf5\ud574\uc11c \ub110\ub9ac \uc4f0\uc774\ub294 100\uac00\uc9c0 \uc5b8\uc5b4\ub85c \ubc84\uc804\uc744 \ub9cc\ub4e4\uac8c \ub418\uc5c8\ub2e4\uace0 \ud574\ubcf4\uaca0\uc2b5\ub2c8\ub2e4.",
+          "start": 73.84
+        },
+        {
+          "dur": 3.42,
+          "text": "\uadf8\ub7fc \uac01 \uc5b8\uc5b4\ub9c8\ub2e4 \uac70\uc758 \ucc98\uc74c\ubd80\ud130 \uc2dc\uc791\ud574\uc57c \ud560 \uac81\ub2c8\ub2e4.",
+          "start": 78.88
+        },
+        {
+          "dur": 1.74,
+          "text": "\uadf8\ub7fc \uc774 \uc791\uc5c5\uc5d0 \uba87 \ub144\uc774\ub098 \uac78\ub9ac\uaca0\uc8e0.",
+          "start": 82.3
+        },
+        {
+          "dur": 5.6,
+          "text": "\ud558\uc9c0\ub9cc \uba38\uc2e0\ub7ec\ub2dd\uc744 \uc0ac\uc6a9\ud558\uc5ec \ub9cc\ub4e0 \ub2e4\uc74c \uba3c\uc800 \uc720\uc0ac\ud55c \uc5b8\uc5b4\ub85c \ub118\uc5b4\uac00\uba74",
+          "start": 84.04
+        },
+        {
+          "dur": 6.76,
+          "text": "\uadf8 \uc5b8\uc5b4\ub85c \ub41c \ub370\uc774\ud130\ub97c \uc218\uc9d1\ud574\uc11c \ub611\uac19\uc740 \uba38\uc2e0\ub7ec\ub2dd \ubaa8\ub378\uc5d0 \ub123\uae30\ub9cc \ud558\uba74 \ub429\ub2c8\ub2e4.",
+          "start": 89.64
+        },
+        {
+          "dur": 4.96,
+          "text": "\uc138 \ubc88\uc9f8\ub85c \uba38\uc2e0\ub7ec\ub2dd\uc744 \uc0ac\uc6a9\ud558\uba74 \ud504\ub85c\uadf8\ub798\uba38\ub85c\uc11c \uc218\ub3d9\uc73c\ub85c \ud560 \ubc29\ubc95\uc774 \uc5c6\uc5b4 \ubcf4\uc774\ub294 \ubb38\uc81c\ub97c",
+          "start": 96.4
+        },
+        {
+          "dur": 2.02,
+          "text": "\ud574\uacb0\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+          "start": 101.38
+        },
+        {
+          "dur": 5.64,
+          "text": "\uc778\uac04\uc778 \uc800\ub294 \uce5c\uad6c\ub4e4\uc758 \uc5bc\uad74\uc744 \uc778\uc2dd\ud558\uace0 \uce5c\uad6c\ub4e4\uc774 \ud558\ub294 \ub9d0\uc744 \uc774\ud574\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+          "start": 103.4
+        },
+        {
+          "dur": 4.76,
+          "text": "\ud558\uc9c0\ub9cc \uc774\ub7f0 \uc77c\uc740 \ubb34\uc758\uc2dd\uc801\uc73c\ub85c \ud558\ub294 \uac83\uc774\uae30 \ub54c\ubb38\uc5d0 \uc774\ub97c \ud504\ub85c\uadf8\ub7a8\uc73c\ub85c \ub9cc\ub4e4\ub77c\uace0 \ud558\uba74",
+          "start": 109.04
+        },
+        {
+          "dur": 1.82,
+          "text": "\uc815\ub9d0 \ub2f9\ud669\uc2a4\ub7ec\uc6b8 \uac83\uc785\ub2c8\ub2e4.",
+          "start": 113.82
+        },
+        {
+          "dur": 3.42,
+          "text": "\ud558\uc9c0\ub9cc \uc774\ub7f0 \uac83\uc740 \uba38\uc2e0\ub7ec\ub2dd \uc54c\uace0\ub9ac\uc998\uc774\n\uc544\uc8fc \uc798 \ud560 \uc218 \uc788\ub294 \uc791\uc5c5\uc785\ub2c8\ub2e4.",
+          "start": 115.64
+        },
+        {
+          "dur": 2.36,
+          "text": "\uc54c\uace0\ub9ac\uc998\uc5d0\uac8c \ubb34\uc5c7\uc744 \ud558\ub77c\uace0 \uba85\ub839\ud560 \ud544\uc694 \uc5c6\uc774",
+          "start": 119.06
+        },
+        {
+          "dur": 5.86,
+          "text": "\uc54c\uace0\ub9ac\uc998\uc5d0\uac8c \uc218\ub9ce\uc740 \uc608\ub97c \ubcf4\uc5ec\uc8fc\uae30\ub9cc \ud558\uba74 \ubb38\uc81c\uac00 \ud574\uacb0\ub429\ub2c8\ub2e4.",
+          "start": 121.42
+        },
+        {
+          "dur": 5.04,
+          "text": "\uc774\uc81c \uba38\uc2e0\ub7ec\ub2dd\uc744 \uc219\uc9c0\ud574\uc57c \ud558\ub294 \uc138 \uac00\uc9c0 \uc2e4\uc9c8\uc801\uc778 \uc774\uc720 \uc678\uc5d0",
+          "start": 127.28
+        },
+        {
+          "dur": 5.24,
+          "text": "\ucca0\ud559\uc801\uc778 \uc774\uc720\ub3c4 \uc788\uc2b5\ub2c8\ub2e4. \uba38\uc2e0\ub7ec\ub2dd\uc740 \ubb38\uc81c\uc5d0 \uad00\ud574 \uc0dd\uac01\ud558\ub294 \ubc29\ubc95\uc744 \ubc14\uafc9\ub2c8\ub2e4.",
+          "start": 132.32
+        },
+        {
+          "dur": 4.24,
+          "text": "\uc18c\ud504\ud2b8\uc6e8\uc5b4 \uc5d4\uc9c0\ub2c8\uc5b4\ub294 \ub17c\ub9ac\uc801\uc774\uace0 \uc218\ud559\uc801\uc73c\ub85c \uc0ac\uace0\ud558\ub3c4\ub85d \ud6c8\ub828\uc744 \ubc1b\uc558\uc2b5\ub2c8\ub2e4.",
+          "start": 137.56
+        },
+        {
+          "dur": 4.42,
+          "text": "\ub0b4 \ud504\ub85c\uadf8\ub7a8\uc758 \uc18d\uc131\uc774 \uc633\ub2e4\ub294 \uac83\uc744 \uc785\uc99d\ud558\uae30 \uc704\ud574 \uc8fc\uc7a5\uc744 \uc0ac\uc6a9\ud558\uc8e0.",
+          "start": 141.8
+        },
+        {
+          "dur": 5.82,
+          "text": "\uba38\uc2e0\ub7ec\ub2dd\uc774 \uc788\uc73c\uba74 \uc218\ub9ac\uacfc\ud559\uc5d0\uc11c \uc790\uc5f0\uacfc\ud559\uc73c\ub85c \ucd08\uc810\uc774 \ubc14\ub01d\ub2c8\ub2e4.",
+          "start": 146.22
+        },
+        {
+          "dur": 3.26,
+          "text": "\ubd88\ud655\uc2e4\ud55c \uc138\uacc4\ub97c \uad00\ucc30\ud558\uace0 \uc2e4\ud5d8\uc744 \ud558\uace0",
+          "start": 152.04
+        },
+        {
+          "dur": 6.44,
+          "text": "\ub17c\ub9ac\uac00 \uc544\ub2cc \ud1b5\uacc4\ub97c \uc0ac\uc6a9\ud558\uc5ec \uc2e4\ud5d8 \uacb0\uacfc\ub97c \ubd84\uc11d\ud569\ub2c8\ub2e4.",
+          "start": 155.3
+        },
+        {
+          "dur": 2.46,
+          "text": "\uacfc\ud559\uc790\ucc98\ub7fc \uc0ac\uace0\ud560 \uc218 \uc788\ub294 \ub2a5\ub825\uc744 \uac16\ucd94\uba74",
+          "start": 161.74
+        },
+        {
+          "dur": 4.9,
+          "text": "\uc2dc\uc57c\uac00 \ub113\uc5b4\uc9c0\uace0 \uc804\uc5d0\ub294 \ud0d0\ud5d8\ud560 \uc218 \uc5c6\uc5c8\ub358 \uc0c8 \uc601\uc5ed\uc774 \ud3bc\uccd0\uc9d1\ub2c8\ub2e4.",
+          "start": 164.2
+        },
+        {
+          "dur": 3.5,
+          "text": "\uadf8\ub7fc \uadf8 \uc5ec\uc815\uc744 \uc990\uae30\uba70 \ud0d0\ud5d8\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4.",
+          "start": 169.12
+        }
+      ],
+      "lang": "ko"
+    },
+    {
+      "captions": [
+        {
+          "dur": 2.74,
+          "text": "Bienvenido al Curso intensivo de aprendizaje autom\u00e1tico.",
+          "start": 0.62
+        },
+        {
+          "dur": 3.5,
+          "text": "Soy Peter Norvig. Cuando me sum\u00e9 a Google en 2001,",
+          "start": 3.36
+        },
+        {
+          "dur": 2.64,
+          "text": "mi cargo era &quot;director de aprendizaje autom\u00e1tico&quot;",
+          "start": 6.86
+        },
+        {
+          "dur": 3.3,
+          "text": "porque sab\u00eda que el aprendizaje autom\u00e1tico\nser\u00eda una herramienta valiosa",
+          "start": 9.5
+        },
+        {
+          "dur": 2.68,
+          "text": "que ayudar\u00eda a los ingenieros, dentro y fuera de Google,",
+          "start": 12.8
+        },
+        {
+          "dur": 1.46,
+          "text": "a sacar provecho de sus datos.",
+          "start": 15.48
+        },
+        {
+          "dur": 3.86,
+          "text": "No prev\u00ed lo mucho que se extender\u00eda el uso de estas herramientas,",
+          "start": 16.94
+        },
+        {
+          "dur": 4.24,
+          "text": "ni la enorme demanda de los ingenieros capaces de usarlas.",
+          "start": 20.8
+        },
+        {
+          "dur": 3.4,
+          "text": "Este curso te allana el camino",
+          "start": 25.04
+        },
+        {
+          "dur": 2.74,
+          "text": "para que puedas adoptar estas habilidades.",
+          "start": 28.44
+        },
+        {
+          "dur": 5.32,
+          "text": "Como ingeniero de software, aprender\u00e1s a hacer tres cosas de mejor manera.",
+          "start": 31.18
+        },
+        {
+          "dur": 4.2,
+          "text": "Primero, tendr\u00e1s una herramienta para reducir el tiempo de programaci\u00f3n.",
+          "start": 36.5
+        },
+        {
+          "dur": 4.0,
+          "text": "Imagina que quiera escribir un programa\npara corregir errores ortogr\u00e1ficos.",
+          "start": 40.7
+        },
+        {
+          "dur": 3.46,
+          "text": "Podr\u00eda incluir muchos ejemplos y reglas generales",
+          "start": 44.7
+        },
+        {
+          "dur": 2.38,
+          "text": "(como M antes de B y N antes de V)",
+          "start": 48.16
+        },
+        {
+          "dur": 3.32,
+          "text": "y, tras semanas de arduo trabajo,\nlograr un programa razonable.",
+          "start": 50.54
+        },
+        {
+          "dur": 5.12,
+          "text": "O podr\u00eda usar una herramienta de aprendizaje autom\u00e1tico existente,\nintroducirle algunos ejemplos",
+          "start": 53.86
+        },
+        {
+          "dur": 3.7,
+          "text": "y obtener un programa m\u00e1s confiable\nen una fracci\u00f3n menor de tiempo.",
+          "start": 58.98
+        },
+        {
+          "dur": 3.6,
+          "text": "Segundo, permite personalizar los productos",
+          "start": 62.68
+        },
+        {
+          "dur": 2.64,
+          "text": "para grupos espec\u00edficos de personas.",
+          "start": 66.28
+        },
+        {
+          "dur": 4.92,
+          "text": "Imagina que haya creado mi corrector ortogr\u00e1fico\nescribiendo el c\u00f3digo a mano,",
+          "start": 68.92
+        },
+        {
+          "dur": 5.04,
+          "text": "y que, debido a su \u00e9xito, quiera tener\nversiones en los 100 idiomas m\u00e1s populares.",
+          "start": 73.84
+        },
+        {
+          "dur": 3.42,
+          "text": "Tendr\u00eda que empezar desde cero para cada idioma,",
+          "start": 78.88
+        },
+        {
+          "dur": 1.74,
+          "text": "lo que llevar\u00eda a\u00f1os de esfuerzo.",
+          "start": 82.3
+        },
+        {
+          "dur": 5.6,
+          "text": "Pero si lo creara con aprendizaje autom\u00e1tico,\nrecrearlo para otro idioma",
+          "start": 84.04
+        },
+        {
+          "dur": 6.76,
+          "text": "significar\u00eda recopilar datos en ese idioma y alimentar\nel mismo modelo de aprendizaje autom\u00e1tico.",
+          "start": 89.64
+        },
+        {
+          "dur": 4.96,
+          "text": "Tercero, el aprendizaje autom\u00e1tico\nte permite resolver problemas",
+          "start": 96.4
+        },
+        {
+          "dur": 2.02,
+          "text": "que no sabr\u00edas como hacerlo a mano.",
+          "start": 101.38
+        },
+        {
+          "dur": 5.64,
+          "text": "Como ser humano, tengo la capacidad de reconocer\nlos rostros de mis amigos y entender su habla,",
+          "start": 103.4
+        },
+        {
+          "dur": 4.76,
+          "text": "pero lo hago en mi subconsciente.\nSi tengo que escribir un programa para hacerlo,",
+          "start": 109.04
+        },
+        {
+          "dur": 1.82,
+          "text": "estar\u00eda desconcertado.",
+          "start": 113.82
+        },
+        {
+          "dur": 3.42,
+          "text": "Estas son tareas que los algoritmos\ndel aprendizaje autom\u00e1tico hacen muy bien.",
+          "start": 115.64
+        },
+        {
+          "dur": 2.36,
+          "text": "No tengo que decirle al algoritmo qu\u00e9 hacer.",
+          "start": 119.06
+        },
+        {
+          "dur": 5.86,
+          "text": "Solo tengo que mostrarle muchos ejemplos\ny, a partir de estos, se completa la tarea.",
+          "start": 121.42
+        },
+        {
+          "dur": 5.04,
+          "text": "Adem\u00e1s de estas tres razones pr\u00e1cticas\nque justifican dominar el aprendizaje autom\u00e1tico,",
+          "start": 127.28
+        },
+        {
+          "dur": 5.24,
+          "text": "existe una raz\u00f3n filos\u00f3fica: el aprendizaje autom\u00e1tico\ncambia la manera en la que piensas sobre un problema.",
+          "start": 132.32
+        },
+        {
+          "dur": 4.24,
+          "text": "Los ingenieros de software est\u00e1n entrenados\npara pensar de forma l\u00f3gica y matem\u00e1tica.",
+          "start": 137.56
+        },
+        {
+          "dur": 4.42,
+          "text": "Usamos afirmaciones para probar\nsi las propiedades de nuestro programa son correctas.",
+          "start": 141.8
+        },
+        {
+          "dur": 5.82,
+          "text": "Con el aprendizaje autom\u00e1tico, el enfoque cambia\nde la ciencia matem\u00e1tica a la natural:",
+          "start": 146.22
+        },
+        {
+          "dur": 3.26,
+          "text": "Hacemos observaciones de un mundo incierto,",
+          "start": 152.04
+        },
+        {
+          "dur": 6.44,
+          "text": "realizamos experimentos y usamos estad\u00edsticas,\nno la l\u00f3gica, para analizar los resultados del experimento.",
+          "start": 155.3
+        },
+        {
+          "dur": 2.46,
+          "text": "La habilidad de pensar como un cient\u00edfico",
+          "start": 161.74
+        },
+        {
+          "dur": 4.9,
+          "text": "expandir\u00e1 tus horizontes y se te abrir\u00e1n\nnuevas \u00e1reas que no hab\u00edas explorado.",
+          "start": 164.2
+        },
+        {
+          "dur": 3.5,
+          "text": "Disfruta del viaje y de la exploraci\u00f3n.",
+          "start": 169.12
+        }
+      ],
+      "lang": "es-419"
+    }
+  ]
+}

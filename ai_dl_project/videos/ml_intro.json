@@ -1,0 +1,29 @@
+{
+  "videoData": [
+    {
+      "lang": "zh-cn",
+      "url": "https://download.mlcc.google.cn/mledu-videos/zh-cn/ml_intro_norvig.mp4",
+      "videoId": "3vzTk7CoI3k"
+    },
+    {
+      "lang": "en",
+      "url": "https://download.mlcc.google.com/mledu-videos/en/ml_intro_norvig.mp4",
+      "videoId": "0mK52UsOj-U"
+    },
+    {
+      "lang": "es-419",
+      "url": "https://download.mlcc.google.com/mledu-videos/es-419/ml_intro_norvig.mp4",
+      "videoId": "27Tfo1ucQBE"
+    },
+    {
+      "lang": "fr",
+      "url": "https://download.mlcc.google.com/mledu-videos/fr/ml_intro_norvig.mp4",
+      "videoId": "-2M50daqCWE"
+    },
+    {
+      "lang": "ko",
+      "url": "https://download.mlcc.google.com/mledu-videos/ko/ml_intro_norvig.mp4",
+      "videoId": "dI3hoQi9fCo"
+    }
+  ]
+}

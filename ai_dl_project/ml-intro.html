@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+	<head>
+		<meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+		<meta name="google-signin-scope" content="profile email">
+		<meta property="og:site_name" content="Google Developers">
+		<meta property="og:type" content="website">
+		<meta name="theme-color" content="#ffffff">
+		<meta charset="utf-8">
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="manifest" href="/_pwa/developers/manifest.json" crossorigin="use-credentials">
+		<link rel="preconnect" href="//www.gstatic.cn" crossorigin>
+		<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+		<link rel="preconnect" href="//apis.google.com" crossorigin>
+		<link rel="preconnect" href="//www.google-analytics.com" crossorigin>
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
+		<link rel="stylesheet" href="developers/css/app.css">
+		<noscript>
+      
+    </noscript>
+		<link rel="shortcut icon" href="https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/favicon.png">
+		<link rel="apple-touch-icon" href="https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/touchicon-180.png">
+		
+		<title>神经网络课程资源</title>
+		<meta property="og:title" content="机器学习简介 (Introduction to Machine Learning) &nbsp;|&nbsp; 机器学习速成课程">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="675">
+		<meta property="og:locale" content="zh_cn">
+		<meta name="twitter:card" content="summary_large_image">
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BreadcrumbList",
+				"itemListElement": [{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "机器学习",
+					"item": "https://developers.google.cn/machine-learning"
+				}, {
+					"@type": "ListItem",
+					"position": 2,
+					"name": "速成课程",
+					"item": "https://developers.google.cn/machine-learning/crash-course"
+				}, {
+					"@type": "ListItem",
+					"position": 3,
+					"name": "机器学习简介 (Introduction to Machine Learning)",
+					"item": "https://developers.google.cn/machine-learning/crash-course/ml-intro"
+				}]
+			}
+		</script>
+	</head>
+	<body type="article" theme="white" class="" layout="docs" block-apix pending>
+		<devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+		<section class="devsite-wrapper">
+			<devsite-header>
+				<div class="devsite-header--inner nocontent">
+					<div class="devsite-top-logo-row-wrapper-wrapper">
+						<div class="devsite-top-logo-row-wrapper">
+							<div class="devsite-top-logo-row">
+								<button type="button" id="devsite-hamburger-menu" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Navigation menu button" visually-hidden aria-label="Open menu">
+        </button>
+								<div class="devsite-product-name-wrapper">
+									<span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+  <a href="ml-intro.html"      
+        class="devsite-breadcrumb-link gc-analytics-event"      
+        data-category="Site-Wide Custom Events"      
+        data-label="Upper Header"      
+        data-value="1"      
+        track-type="globalNav"      
+        track-name="breadcrumb"
+              track-metadata-position="1"      
+        track-metadata-eventdetail="神经网络课程资源<" >    
+          神经网络课程资源       
+  </a>
+  </li>
+  </ul>
+  </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</devsite-header>
+			<devsite-book-nav scrollbars>
+				<nav class="devsite-book-nav devsite-nav nocontent" aria-label="Side menu">
+					<div class="devsite-mobile-header">
+						<button type="button" id="devsite-close-nav" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Close navigation" aria-label="Close navigation">
+    </button>
+						<div class="devsite-product-name-wrapper">
+							<span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"  >
+  
+  <li class="devsite-breadcrumb-item             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.cn/machine-learning?hl=zh-cn"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="机器学习"
+      
+    >
+    
+          神经网络课程资源
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+      </span>
+						</div>
+					</div>
+					<div class="devsite-book-nav-wrapper">
+						<div class="devsite-mobile-nav-top">
+							<ul class="devsite-nav-list">								
+							</ul>
+						</div>
+						<div class="devsite-mobile-nav-bottom" role="navigation">
+							<ul class="devsite-nav-list" menu="_book">
+								<li class="devsite-nav-item">
+									<a href="ml-intro.html" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.认识生物神经网络（15 分钟）</span></a>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>框架处理（15 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/framing/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/framing/ml-terminology" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>主要机器学习术语</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/framing/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>深入了解机器学习（20 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/descending-into-ml/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/descending-into-ml/linear-regression" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>线性回归</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/descending-into-ml/training-and-loss" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>训练与损失</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/descending-into-ml/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>降低损失（60 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/an-iterative-approach" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>迭代方法</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/gradient-descent" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>梯度下降法</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/learning-rate" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>学习速率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fitter/graph" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>优化学习速率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>随机梯度下降法</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/playground-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/reducing-loss/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>使用 TF 的基本步骤（60 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/first-steps-with-tensorflow/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/first-steps-with-tensorflow/toolkit" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>工具包</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/first-steps-with-tensorflow/programming-exercises" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>泛化（15 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/generalization/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/generalization/peril-of-overfitting" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>过拟合的风险</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>训练集和测试集（25 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-and-test-sets/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-and-test-sets/splitting-data" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>拆分数据</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-and-test-sets/playground-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>验证集（40 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/validation/check-your-intuition" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的直觉</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/validation/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/validation/another-partition" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>另一个划分</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/validation/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>表示法（65 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/representation/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/representation/feature-engineering" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>特征工程</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/representation/qualities-of-good-features" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>良好特征的特点</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/representation/cleaning-data" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>数据清理</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/representation/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>特征组合（70 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/encoding-nonlinearity" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>对非线性规律进行编码</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/crossing-one-hot-vectors" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>组合独热矢量</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/playground-exercises" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/feature-crosses/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>正则化：简单性（40 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/playground-exercise-overcrossing" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习：组合过度？</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/l2-regularization" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>L2 正则化</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/lambda" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Lambda</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/playground-exercise-examining-l2-regularization" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习：L2 正则化</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-simplicity/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>逻辑回归（20 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/logistic-regression/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/logistic-regression/calculating-a-probability" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>计算概率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/logistic-regression/model-training" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>损失和正规化</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>分类（90 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/thresholding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>阈值</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/true-false-positive-negative" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>阳性与阴性；正分类与负分类</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/accuracy" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>准确率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/precision-and-recall" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>精确率和召回率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/check-your-understanding-accuracy-precision-recall" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况：准确率、精确率、召回率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/roc-and-auc" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>ROC 曲线和曲线下面积</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/check-your-understanding-roc-and-auc" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况：ROC 和曲线下面积</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/prediction-bias" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>预测偏差</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/classification/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>正则化：稀疏性（45 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-sparsity/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-sparsity/l1-regularization" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>L1 正则化</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-sparsity/playground-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-sparsity/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/regularization-for-sparsity/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>神经网络（55 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/introduction-to-neural-networks/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/introduction-to-neural-networks/anatomy" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>结构</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Playground 练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/introduction-to-neural-networks/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>训练神经网络（40 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-neural-networks/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-neural-networks/best-practices" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>最佳做法</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/training-neural-networks/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>多类别神经网络（50 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/multi-class-neural-networks/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/multi-class-neural-networks/one-vs-all" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>一对多</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/multi-class-neural-networks/softmax" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>Softmax</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/multi-class-neural-networks/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>嵌入（80 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/motivation-from-collaborative-filtering" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>协同过滤的目的</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/categorical-input-data" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>分类输入数据</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/translating-to-a-lower-dimensional-space" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>转换到低维度空间</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/obtaining-embeddings" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>获取嵌入</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/embeddings/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-heading">
+									<div class="devsite-nav-title devsite-nav-title-no-path"><span class="devsite-nav-text" tooltip>机器学习工程</span></div>
+								</li>
+								<li class="devsite-nav-item">
+									<a href="/machine-learning/crash-course/production-ml-systems" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>生产环境机器学习系统（3 分钟）</span></a>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>静态训练与动态训练（7 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/static-vs-dynamic-training/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/static-vs-dynamic-training/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>静态推理与动态推理（7 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/static-vs-dynamic-inference/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/static-vs-dynamic-inference/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>数据依赖性（14 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/data-dependencies/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/data-dependencies/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-expandable">
+									<devsite-expandable-nav collapsed>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>公平性（70 分钟）</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/video-lecture" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>视频讲座</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/types-of-bias" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>偏差类型</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/identifying-bias" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>确定偏差</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/evaluating-for-bias" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>评估偏差</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/programming-exercise" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>编程练习</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="/machine-learning/crash-course/fairness/check-your-understanding" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>检查您的理解情况</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-heading">
+									<div class="devsite-nav-title devsite-nav-title-no-path"><span class="devsite-nav-text" tooltip>机器学习系统在现实世界里的应用</span></div>
+								</li>
+								<li class="devsite-nav-item">
+									<a href="/machine-learning/crash-course/cancer-prediction" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>癌症预测（5 分钟）</span></a>
+								</li>
+								<li class="devsite-nav-item">
+									<a href="/machine-learning/crash-course/18th-century-literature" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>文学（5分钟）</span></a>
+								</li>
+								<li class="devsite-nav-item">
+									<a href="/machine-learning/crash-course/real-world-guidelines" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>指南（2 分钟）</span></a>
+								</li>
+								<li class="devsite-nav-item
+           devsite-nav-heading">
+									<div class="devsite-nav-title devsite-nav-title-no-path"><span class="devsite-nav-text" tooltip>总结</span></div>
+								</li>
+								<li class="devsite-nav-item">
+									<a href="/machine-learning/crash-course/next-steps" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>后续学习计划</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</devsite-book-nav>
+			<section id="gc-wrapper">
+				<main role="main" class="devsite-main-content" has-book-nav has-toc>
+					<devsite-toc class="devsite-nav"></devsite-toc>
+					<devsite-content>
+						<article class="devsite-article">
+							<style>
+								/* Styles inlined from /machine-learning/crash-course/cc.css */
+								
+								@import url("ml.css");
+								/* Override DevSite platform default background color of white. */
+								
+								.devsite-landing-row.mlcc-landing-hero {
+									background-color: transparent;
+								}
+								
+								#mlcc-title,
+								#mlcc-subtitle {
+									color: white;
+								}
+								
+								#mlcc-title {
+									margin-bottom: 0;
+								}
+								
+								#mlcc-subtitle {
+									margin-top: 0;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item,
+								.mlcc-landing-mce .devsite-tracking-question-text h3 {
+									text-align: center;
+								}
+								
+								.devsite-landing-row:not(.devsite-background):not([background]):not(.devsite-landing-row-cta):not(.devsite-landing-row-marquee).mlcc-landing-hero {
+									padding: 0;
+								}
+								
+								.mlcc-landing-hero {
+									height: 550px;
+									margin: 0 calc(50% - 50vw);
+									overflow: hidden;
+									position: relative;
+								}
+								
+								.mlcc-landing-hero h3 {
+									color: #fff;
+									font: 400 44px/52px Google Sans, sans-serif;
+									min-width: 400px;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-inner,
+								.mlcc-landing-hero>.devsite-landing-row-group {
+									max-width: initial;
+									padding: 0;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item-description {
+									-webkit-box-align: center;
+									-ms-flex-align: center;
+									align-items: center;
+									background: rgba(0, 0, 0, .5);
+									color: rgba(255, 255, 255, .8);
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									height: 100%;
+									-webkit-box-pack: center;
+									-ms-flex-pack: center;
+									justify-content: center;
+									padding: 0 30px;
+									position: absolute;
+									width: 100%;
+								}
+								
+								.devsite-landing-row-item-body {
+									justify-content: center;
+									align-items: center;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item-description-content .course-description {
+									color: #fff;
+									font-size: 18px;
+									line-height: 28px;
+									margin: 5px 0 15px 0;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-buttons,
+								.mlcc-landing-hero .devsite-landing-row-item-buttons {
+									margin-left: -20px;
+									margin-top: 8px;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-buttons .button,
+								.mlcc-landing-hero .devsite-landing-row-item-buttons .button {
+									margin-left: 20px;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-description-content {
+									margin: 20px auto;
+								}
+								
+								.mlcc-landing-hero-video {
+									height: auto;
+									left: 0;
+									min-height: 100%;
+									min-width: 100%;
+									object-fit: cover;
+									position: absolute;
+									top: 0;
+									width: auto;
+									z-index: -1;
+								}
+								
+								.mlcc-module-description-item {
+									flex-grow: 1;
+									font-size: 36px;
+								}
+								
+								.mlcc-module-description-item p {
+									font-size: 22px;
+								}
+								
+								.mlcc-landing-course-description {
+									margin-top: -75px;
+								}
+								
+								.mlcc-landing-course-description .devsite-landing-row-item-image {
+									margin: 0 auto;
+								}
+								
+								.mlcc-landing-card-noimage {
+									padding: 8px 12px;
+								}
+								
+								.mlcc-landing-large-header h3 {
+									font: 400 22px/30px Google Sans, sans-serif;
+								}
+								
+								.mlcc-landing-mce .devsite-tracking-question {
+									background-color: #fff;
+									margin: 0 auto;
+									width: 80%;
+								}
+								
+								.mlcc-landing-mce .devsite-tracking-question-choice-button {
+									background: #42a5f5;
+									text-align: left;
+								}
+								
+								.devsite-landing-row-cta {
+									padding-top: 80px;
+									padding-bottom: 80px;
+								}
+								
+								.mlcc-landing-mc-cta-button-container {
+									padding: 24px 0;
+									text-align: center;
+								}
+								
+								.mlcc-landing-features {
+									text-align: center;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-description-content,
+								.mlcc-landing-features .devsite-landing-row-item-description-content {
+									margin: 0 auto 32px;
+									min-width: 400px;
+									width: 50%;
+									text-align: center;
+								}
+								
+								.devsite-landing-row-100.mlcc-landing-questions .devsite-landing-row-item-description h3,
+								.devsite-landing-row-100.mlcc-landing-features .devsite-landing-row-item-description h3 {
+									color: #414141;
+									font: 400 44px/52px Google Sans, sans-serif;
+									margin: 40px auto 20px;
+									min-width: 400px;
+									text-align: center;
+									width: 50%;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-description-content,
+								.mlcc-landing-questions .devsite-landing-row-item-description-content,
+								.mlcc-landing-features .devsite-landing-row-item-description-content {
+									color: #263238;
+									font: 300 18px/26px Roboto, sans-serif;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list,
+								.mlcc-landing-features .devsite-landing-row-item-list {
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									-webkit-flex-wrap: wrap;
+									-ms-flex-wrap: wrap;
+									flex-wrap: wrap;
+									-webkit-box-pack: space-between;
+									-ms-flex-pack: space-between;
+									justify-content: space-between;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item,
+								.mlcc-landing-features .devsite-landing-row-item-list-item {
+									margin: 20px 0;
+									width: 30%;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item p {
+									color: #414141;
+									font-size: 22px;
+									line-height: 30px;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item p {
+									color: #414141;
+									font-size: 18px;
+									line-height: 28px;
+									transition: color .3s;
+								}
+								
+								.mlcc-landing-questions[background] :link .devsite-landing-row-item-list-item-description>*:first-child,
+								.mlcc-landing-questions.devsite-background :link .devsite-landing-row-item-list-item-description>*:first-child {
+									text-decoration: none;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item {
+									border-top: 1px solid #b0bec5;
+									padding: 15px 0 0 30px;
+									position: relative;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover p {
+									color: #757575;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::before,
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::after {
+									background: url(/machine-learning/crash-course/images/landing-circle-arrow.svg) center/contain no-repeat;
+									content: '';
+									height: 15px;
+									left: 0;
+									position: absolute;
+									top: 20px;
+									width: 15px;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::after {
+									background: url(/machine-learning/crash-course/images/landing-circle-arrow-hover.svg) center/contain no-repeat;
+									visibility: hidden;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover::before {
+									visibility: hidden;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover::after {
+									visibility: visible;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-content {
+									align-items: center;
+									flex-direction: column;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-icon-container {
+									height: auto;
+									margin: 0 0 5px;
+									width: auto;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-icon {
+									height: 150px;
+									width: auto;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list {
+									-webkit-box-align: flex-start;
+									-ms-flex-align: flex-start;
+									align-items: flex-start;
+									text-align: left;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item {
+									color: #414141;
+									-webkit-flex: 0 0 50%;
+									-ms-flex: 0 0 50%;
+									flex: 0 0 50%;
+									margin: 0 auto;
+									min-width: 400px;
+								}
+								
+								.mlcc-landing-cta-description h3 {
+									font: 400 44px/52px Google Sans, sans-serif;
+								}
+								
+								.devsite-landing-row-item[foreground="theme"] .mlcc-landing-button-secondary.button-transparent.button:not(.button-disabled) {
+									color: #fff;
+									border: 1px solid #fff;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: color .3s, background-color .3s;
+								}
+								
+								.devsite-landing-row-item[foreground="theme"] .mlcc-landing-button-secondary.button:not(.button-disabled):hover {
+									background-color: #fff;
+									color: #414141;
+								}
+								
+								.mlcc-landing-cta-description .mlcc-landing-button-secondary {
+									color: #3367d6;
+									border: 1px solid #3367d6;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: color .3s, border .3s;
+								}
+								
+								.mlcc-landing-cta-description .mlcc-landing-button-secondary:hover {
+									border: 1px solid #4285f4;
+									color: #4285f4;
+								}
+								
+								.mlcc-landing .button-primary,
+								.mlcc-landing .devsite-landing-row-item[foreground="theme"] .button.button-primary:not(.button-disabled) {
+									color: #fff;
+									background-color: #3367d6;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: background-color .3s;
+								}
+								
+								.mlcc-landing .button-primary:hover,
+								.mlcc-landing .devsite-landing-row-item[foreground="theme"] .button.button-primary:not(.button-disabled):hover {
+									background-color: #4285f4;
+								}
+								
+								pre.mlcc-good {
+									background-color: #cdebdd;
+									color: #000;
+								}
+								
+								pre.mlcc-bad {
+									background-color: #f7d2ce;
+									color: #000;
+								}
+								
+								td.mlcc-bad {
+									background-color: #ff9999;
+								}
+								
+								td.mlcc-good {
+									background-color: #99ff99;
+								}
+								/* Toggle on centering of table-cell text */
+								
+								table.center td {
+									text-align: center;
+								}
+								
+								pre.mlcc-good .devsite-code-button-wrapper,
+								pre.mlcc-bad .devsite-code-button-wrapper {
+									/** Hide the code theme toggle
+   *  1. The background color is set to be green or red
+   *  2. There is a check mark tick and an 'x' to reinforce the good/bad and
+   *     support users who are colorblind.
+   **/
+									display: none;
+								}
+								
+								.mlcc-good-check {
+									font-family: "Courier", monospace;
+									float: right;
+								}
+								
+								.mlcc-bad-x {
+									font-family: "Courier", monospace;
+									float: right;
+								}
+								/*
+  * Left navigation icons indicating the type of lesson.
+  * Rules for specific pages not captured in /machine-learning/ml.css.
+  */
+								/**
+  * Remove generic doc icons and add
+  * hardcoded video icons for single item sections.
+  * Uses background image because the video icon is proprietary and can't be
+  *   included as font icon / content attribute.
+  */
+								
+								nav a.devsite-nav-title[href*='ml-intro']::before,
+								nav a.devsite-nav-title[href*='production-ml-systems']::before,
+								nav a.devsite-nav-title[href*='cancer-prediction']::before,
+								nav a.devsite-nav-title[href*='18th-century-literature']::before,
+								nav a.devsite-nav-title[href*='real-world-guidelines']::before {
+									background-image: url(/machine-learning/images/video_icon.svg);
+									background-repeat: no-repeat;
+									background-size: 16px;
+									height: 16px;
+									content: '';
+								}
+								/**
+ * Hard coded text icons for single item sections.
+ */
+								
+								.devsite-nav-item:not(.devsite-nav-item-section-expandable) a.devsite-nav-title[href*='faq']::before {
+									content: 'subject';
+									display: inline-block;
+									font-family: 'Material Icons';
+									font-size: 16px;
+									position: relative;
+									text-transform: none;
+									top: 3px;
+									width: 21px;
+								}
+								/* Used for Dos and Don'ts bullets in MLCC Instructor Guide */
+								
+								span.do,
+								span.dont {
+									text-transform: uppercase;
+									font-weight: bold;
+								}
+								
+								span.do {
+									color: green
+								}
+								
+								span.dont {
+									color: red
+								}
+								/**
+ * Content only for users with screen readers (will not be visible).
+ */
+								
+								pre.mlcc-bad .hidden,
+								pre.mlcc-good .hidden {
+									height: 1px;
+									left: -10000px;
+									top: auto;
+									overflow: hidden;
+									position: absolute;
+									width: 1px;
+								}
+								
+								@media (max-width: 800px) {
+									.mlcc-landing-hero h3 {
+										font-size: 32px;
+										line-height: 40px;
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-cta-description .button,
+									.mlcc-landing-hero .button {
+										margin-bottom: 20px;
+									}
+									.mlcc-landing-cta-description .devsite-landing-row-item,
+									.mlcc-landing-questions .devsite-landing-row-item-description-content,
+									.mlcc-landing-features .devsite-landing-row-item-description-content {
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-questions .devsite-landing-row-item-description h3,
+									.mlcc-landing-features .devsite-landing-row-item-description h3,
+									.mlcc-landing-cta-description h3 {
+										font-size: 32px;
+										line-height: 40px;
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-features .devsite-landing-row-item-list-item p {
+										font-size: 16px;
+										line-height: 24px;
+									}
+									.mlcc-landing-features .devsite-landing-row-item-list-item {
+										padding: 0 10px;
+										width: 50%;
+									}
+									.mlcc-landing-questions .devsite-landing-row-item-list-item {
+										margin: 15px 0 5px;
+										width: 100%;
+									}
+								}
+								
+								@media (max-width: 1000px) {
+									.mlcc-landing-card-noimage {
+										padding: 0;
+									}
+								}
+								
+								.devsite-vplus-control-button {
+									display: inline-block;
+								}
+								
+								aside.warning h3 {
+									margin-top: 0;
+								}
+								
+								.mlcc-regularization-frame {
+									height: 600px;
+									width: 100%;
+									padding: 30px 0;
+								}
+							</style>
+							<style>
+								/* Styles inlined from /machine-learning/crash-course/vplus-slides.css */
+								
+								.devsite-vplus {
+									position: relative;
+								}
+								
+								.devsite-vplus-content-container {
+									border: 1px solid black;
+									height: 0;
+									padding-bottom: 56.25%;
+									position: relative;
+									visibility: hidden;
+								}
+								
+								body .devsite-vplus-slide-frame {
+									font-size: 20px;
+									line-height: normal;
+								}
+								
+								.devsite-vplus-slide-frame .title-background {
+									background-color: #4285f4;
+								}
+								
+								.devsite-vplus-slide-frame div[data-start-time] {
+									left: 0;
+									top: 0;
+									right: 0;
+									bottom: 0;
+									position: absolute;
+									align-items: center;
+								}
+								
+								.devsite-vplus-slide-frame .title-background h1 {
+									position: relative;
+									top: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .title {
+									font-size: 50px;
+									line-height: inherit;
+									font-weight: 300;
+									text-align: center;
+									position: relative;
+									left: 50%;
+									-webkit-transform: translate(-50%, -50%);
+									-o-transform: translate(-50%, -50%);
+									transform: translate(-50%, -50%);
+									color: #ffffff;
+									width: 80%;
+								}
+								
+								.devsite-vplus-slide-frame h2 {
+									line-height: inherit;
+									text-align: left;
+									margin-top: 20px;
+									padding-left: 20px;
+									padding-bottom: 10px;
+									border-bottom: 1px solid #ebebeb;
+									width: 99.9%;
+									/** Avoid overlap with right border of the slide frame. **/
+								}
+								
+								.devsite-vplus-slide-frame ul {
+									font-size: 18px;
+									padding-left: 60px;
+									width: 95%;
+								}
+								
+								.devsite-vplus-slide-frame .small-list-text li {
+									font-size: 75%;
+								}
+								
+								.devsite-vplus-slide-frame p,
+								.devsite-vplus-slide-frame pre {
+									padding-left: 30px;
+								}
+								
+								.devsite-vplus-slide-frame table {
+									width: 60%;
+									margin-left: 20%;
+								}
+								
+								.devsite-vplus-slide-frame td {
+									width: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .large-text {
+									font-size: 40px;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-slide-frame .small-text ul>li {
+									font-size: 18px;
+								}
+								
+								.devsite-vplus-slide-frame .restrict-width-for-video {
+									width: 75%;
+								}
+								
+								.devsite-vplus-slide-frame .split img {
+									position: inherit;
+								}
+								
+								.devsite-vplus-slide-frame img {
+									margin: auto;
+									position: absolute;
+									top: 0;
+									bottom: 0;
+									left: 0;
+									right: 0;
+									width: 80%;
+								}
+								
+								.devsite-vplus-slide-frame svg {
+									height: 100%;
+									display: block;
+									margin: auto;
+								}
+								
+								.devsite-vplus-slide-frame .inline-img {
+									width: 38%;
+									position: relative;
+									display: block;
+								}
+								
+								.devsite-vplus-slide-frame devsite-multiple-choice {
+									padding: 0 5%;
+									font-size: initial;
+								}
+								
+								.devsite-vplus-slide-frame .indented p {
+									margin: 3px 0;
+								}
+								
+								.devsite-vplus-slide-frame .indented p:not(:first-of-type) {
+									padding-left: 60px;
+								}
+								
+								.devsite-vplus-slide-frame .indented-list li {
+									margin-left: 15px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger {
+									text-align: left;
+									margin-left: 40px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(2) {
+									padding-left: 80px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(3) {
+									padding-left: 120px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(4) {
+									padding-left: 160px;
+								}
+								
+								.devsite-vplus-slide-frame .split {
+									display: inline-block;
+									width: 100%
+								}
+								
+								.devsite-vplus-slide-frame .split-left {
+									position: relative;
+									float: left;
+								}
+								
+								.devsite-vplus-slide-frame .split-right {
+									position: relative;
+									float: right;
+								}
+								
+								.devsite-vplus-slide-frame .split-equal {
+									width: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .split-large {
+									width: 70%;
+								}
+								
+								.devsite-vplus-slide-frame .split-small {
+									width: 30%;
+								}
+								
+								.devsite-vplus-slide-frame .height-padded-list li {
+									margin: 15px 0;
+								}
+								
+								.devsite-vplus-slide-frame .progressive-list li:not(:last-child) {
+									color: gray;
+								}
+								
+								.devsite-vplus-slide-frame .center-text-horizontal {
+									text-align: center;
+								}
+								
+								.devsite-vplus-slide-frame .text-for-screen-reader {
+									position: absolute;
+									left: -10000px;
+									top: auto;
+									width: 1px;
+									height: 1px;
+									overflow: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .gray-text {
+									color: gray;
+								}
+								
+								.devsite-vplus-slide-frame .green-text {
+									color: green;
+								}
+								
+								.devsite-vplus-slide-frame .red-text {
+									color: red;
+								}
+								
+								.devsite-vplus-slide-frame .link-exercise {
+									font-size: 2.5vw;
+									line-height: inherit;
+									padding: 22% 5% 5% 12%;
+								}
+								
+								.devsite-vplus-slide-frame .link-exercise a {
+									text-decoration: underline;
+								}
+								
+								.devsite-vplus-slide-frame .monospace,
+								.devsite-vplus-slide-frame .monospace code {
+									color: black;
+									background-color: transparent;
+									font-family: monospace;
+								}
+								/* Special handling for embeddings diagrams */
+								
+								.embeddings-diagram {
+									position: relative;
+								}
+								
+								.devsite-vplus-slide-frame .svg-container {
+									height: 60%;
+									display: flex;
+								}
+								
+								.devsite-vplus-slide-frame .reporting-bias #reporting-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .selection-bias #selection-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .overgeneralization-bias #overgeneralization-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .outgroup-homogeneity-bias #outgroup-homogeneity-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .unconscious-bias-world #unconscious-bias-world tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .automation-bias #automation-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .confirmation-bias #confirmation-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .unconscious-bias-procedures #unconscious-bias-procedures tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .three-authors-per-set #ThreeAuthorsPerSetGroup {
+									visibility: visible;
+								}
+								
+								.devsite-vplus-slide-frame .one-author-per-set #ThreeAuthorsPerSetGroup {
+									visibility: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .three-authors-per-set #OneAuthorPerSetGroup {
+									visibility: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .one-author-per-set #OneAuthorPerSetGroup {
+									visibility: visible;
+								}
+								/** To differentiate between vplus full screen mode and
+ *    browser full screen mode, we don't use e.g.
+ *    @media screen and display-mode: fullscreen
+ *    but instead add class devsite-vplus-fullscreen-mode to
+ *    the slide frame.  The following style rules apply in that case.
+ */
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame {
+									font-size: 3.2vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .title {
+									font-size: 7.5vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame h2 {
+									font-size: 5.2vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame ul {
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame li {
+									margin: 1.3vw 0;
+									font-size: 3vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented-list li {
+									margin: 1.3vw 5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame table {
+									width: 87%;
+									margin-left: 10%;
+									font-size: 3vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented p {
+									margin: 1vw 0;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented p:not(:first-of-type) {
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame p {
+									font-size: 3vw;
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame pre {
+									font-size: 2.5vw;
+									line-height: inherit;
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame code {
+									font-size: 2.5vw;
+									line-height: initial;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .center-text-vertical {
+									padding-top: 5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .compare-no::before {
+									font-size: 2.5vw;
+									display: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .stagger {
+									margin-left: 4vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .small-text ul>li {
+									font-size: 2.5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .restrict-width-for-video {
+									width: 100%;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .inline-img-large {
+									width: 100vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-choice-question {
+									font-size: 2vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-answer {
+									font-size: 1.6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-choice-explanation {
+									font-size: 1.5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame [data-video-mode="large"] {
+									display: none;
+								}
+								/**
+ * By default, hide the fullscreen mode icon.
+ */
+								
+								.devsite-vplus-control-button.devsite-vplus-fullscreen-icon {
+									display: none;
+								}
+							</style>
+							<h1 class="devsite-page-title">机器学习简介 (Introduction to Machine Learning)</h1>
+							<devsite-toc class="devsite-nav" devsite-toc-embedded>
+							</devsite-toc>
+							<div class="devsite-article-body clearfix
+    ">
+								<devsite-mathjax config="TeX-AMS-MML_SVG"></devsite-mathjax>
+								<p></p>
+								<p>本单元将为您介绍机器学习 (ML)。</p>
+								<aside class="note time"><strong>预计用时</strong>：3 分钟</aside>
+								<aside class="objective"><b>学习目标</b>
+									<li>了解掌握机器学习技术的实际优势</li>
+									<li>理解机器学习技术背后的理念</li>
+								</aside>
+								<h2 class="hide-from-toc" id="labels" data-text="" role="presentation">
+									<span class="devsite-heading" role="heading" aria-level="2">1.神经元与神经网络工作原理</span>
+									</h2>
+								<p>以下是一个Canvas交互动画，你可以进行点击操作学习神经网络的工作机制。</p>
+								<p>人类的大脑拥有801000亿个神经细胞（称为神经元），能够完成一些惊人的壮举。每个神经元都与1000多个其他神经元相连，因此大脑中的连接总数约为60万亿！神经元被组织成大脑中的模式和网络，并以惊人的速度相互交流。
+								</p>
+								<p>
+									每个神经元由三个主要部分组成：细胞体（也称为体细胞），轴突和树突。神经元使用电化学信号相互交流。换句话说，体内某些被称为离子的化学物质带有电荷。离子通过细胞膜移入和移出神经元，并影响神经元的电荷。
+								</p>
+								当神经元处于静止状态时，神经元的细胞体或体相对于神经元的外部带负电。静止的神经元具有大约-70毫伏（mV）的负电荷。但是，当出现刺激时（例如，踩导你的脚趾或听到您的名字被叫），它会使神经元吸收更多的正离子，并且神经元带正电。一旦神经元达到大约-55mV的某个阈值，就会发生称为动作电位的事件，并导致神经元“激活”<strong>（后面提到激活函数，就和这里相关)</strong>。动作电位沿着轴突行进，到达轴突末端。
+								<p>
+									在轴突末端，电信号被转换为化学信号，该信号在神经元之间传播，穿过一个称为突触的小间隙。这些化学物质称为神经递质。神经递质穿过突触并附着在附近神经元树突上的受体上。树突是分支状的投射物，携带从邻近神经元接收的脉冲到体细胞。如图：
+									<figure>
+										<img alt="神经元的工作原理。" src="image/how-brain-works-basics-2019.png">
+									</figure>
+									静态的看不出交互过程。以下通过动画交互设计，模拟我们对于焦虑记忆产生过程与记忆减弱过程（插入的交互画板被固定宽度，有点超边线！(^_^)）。
+								</p>
+								<p>该模拟交互动画如何操作可以参看：
+									<a href="https://blog.ncase.me/neurotic-neurons-design-patterns/" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Link">
+										Neurotic Neurons: Design Patterns
+									</a>
+								</p>
+								<div>
+									<iframe class="devsite-vplus" src="https://ncase.me/neurons/interactive.html" width="960" height="540" scrolling="no"></iframe>
+								</div>
+								<h2 class="hide-from-toc" id="labels" data-text="理解一下机器学习：" role="presentation">
+											<span class="devsite-heading" role="heading" aria-level="2">我们再来理解一下机器学习</span>
+											</h2>
+								<p>本视频来自谷歌机器快速学习微课程，除了视频操作控制外。支持可以支持切换语言，包括脚本所用文本和讲解所有的语言。</p>
+								<div id="ml-intro" class="devsite-vplus" data-captions-url="captions/ml_intro.json" data-videos-url="videos/ml_intro.json">
+									<div class="devsite-vplus-content-container">
+										<div class="devsite-vplus-slide-frame">
+											<div class="title-background" data-start-time="0" data-video-mode="large">
+												<h1 class="title" id="机器学习简介" data-text="机器学习简介">机器学习简介</h1>
+											</div>
+											<div data-start-time="25" data-video-mode="large">
+											</div>
+											<div data-start-time="31" data-video-mode="large">
+											</div>
+											<div data-start-time="36" data-video-mode="large">
+											</div>
+											<div data-start-time="62" data-video-mode="large">
+											</div>
+											<div data-start-time="96" data-video-mode="large">
+											</div>
+											<div data-start-time="127" data-video-mode="large">
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<p></p>
+					
+							</div>
+							<div class="devsite-steps">
+								<div class="steps-next steps-direction">
+									<a href="https://developers.google.cn/machine-learning/crash-course/framing/video-lecture?hl=zh-cn" class="steps-link gc-analytics-event" data-category="Site-Wide Custom Events" data-action="Next step" data-label="/machine-learning/crash-course/framing/video-lecture">
+										<div class="steps-link-direction">下一页</div>										
+									</a>
+								</div>
+							</div>
+							<devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
+							</devsite-page-rating>
+						</article>
+						<devsite-content-footer class="nocontent">
+							<p>本页面版权归属KidsAIEdu。</p>
+							
+							<blockquote>
+        Portions of this page are modifications based on work created and <a href="https://developers.google.cn/readme/policies?hl=zh-cn">shared by Google</a> and used according to terms described in the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution License</a>.
+      </blockquote>      
+      见原网页<a href="https://developers.google.cn/machine-learning/crash-course/ml-intro">谷歌机器学习速成课程。</a>
+						</devsite-content-footer>
+					</devsite-content>
+				</main>
+				<devsite-footer-promos class="devsite-footer">
+				</devsite-footer-promos>
+				<devsite-footer-linkboxes class="devsite-footer">
+					
+				</devsite-footer-linkboxes>
+				<devsite-footer-utility class="devsite-footer">				
+				</devsite-footer-utility>
+			</section>
+		</section>
+		<devsite-sitemask></devsite-sitemask>
+		<devsite-snackbar></devsite-snackbar>
+		<devsite-tooltip blocked-link></devsite-tooltip>
+		<devsite-heading-link></devsite-heading-link>
+		<!--<devsite-analytics enable-analytics-iframe>
+			<script type="application/json" analytics>
+				[{
+					"gaid": "UA-24532603-11",
+					"dimensions": {
+						"dimension5": "zh-cn",
+						"dimension9": false,
+						"dimension3": false,
+						"dimension6": "zh-cn",
+						"dimension1": "Signed out",
+						"dimension4": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"dimension8": null
+					},
+					"metrics": {}
+				}, {
+					"gaid": "UA-76465953-5",
+					"dimensions": {
+						"dimension5": "zh-cn",
+						"dimension9": false,
+						"dimension3": false,
+						"dimension6": "zh-cn",
+						"dimension1": "Signed out",
+						"dimension4": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"dimension8": null
+					},
+					"metrics": {}
+				}]
+			</script>
+			<script type="application/json" gtm>
+				{
+					"parameters": {
+						"freeTrialEligibleUser": "False",
+						"internalUser": "False",
+						"language": {
+							"machineTranslated": "False",
+							"requested": "zh-cn",
+							"served": "zh-cn"
+						},
+						"pageType": "article",
+						"projectName": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"scriptsafe": null,
+						"signedIn": "False",
+						"tenant": "developers_china"
+					}
+				}
+			</script>
+		</devsite-analytics>-->
+		<script nonce="ltpGOmnJ0DShJAHn/PY/QEJkg1saYy">
+			(function(d, e, v, s, i, t, E) {
+				d['GoogleDevelopersObject'] = i;
+				t = e.createElement(v);
+				t.async = 1;
+				t.src = s;
+				E = e.getElementsByTagName(v)[0];
+				E.parentNode.insertBefore(t, E);
+			})(window, document, 'script',
+				'https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/js/app_loader.js', '[1,"zh_cn",null,"/js/devsite_app_module.js","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers","https://google-developers.gonglchuangl.net",null,null,["/_pwa/developers/manifest.json","/_static/images/video-placeholder.svg","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1,null,[1,6,8,12,14,17,21,25,40,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,113,115,120,122]]')
+		</script>
+		<devsite-a11y-announce></devsite-a11y-announce>
+	</body>
+</html>
