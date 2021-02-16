@@ -1,15 +1,257 @@
-.glearn-action-button, .glearn-action-button:visited{
+/* Hide breadcrumb/description in top nav */
+.devsite-header-background .devsite-product-id-row {
+  display: none;
+}
+
+.ml-landing-hero .devsite-landing-row-header {
+  margin: 32px 0;
+  text-align: center;
+}
+
+/** Don't set a new max-width on landing row descriptions, as we center them and
+  * want them to align properly
+  */
+.devsite-landing-row-description {
+   max-width: inherit;
+}
+
+.devsite-multiple-choice-question {
+  /** These questions typically inherit from the site color theme set in
+   *    the project. Hard coding the color to contrast the background and text.
+   **/
+  background: #4285f4;
+  color: #fff;
+}
+
+/**
+ * These colors should be inherited from the parent element, not from the base
+ * theme.
+ */
+.devsite-multiple-choice-question a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.devsite-multiple-choice-question code {
+  background: none;
+  color: inherit;
+}
+
+/**
+ * Left navigation icons indicating the type of lesson.
+ */
+
+/**
+ * Default icon.
+ */
+nav a.devsite-nav-title::before {
+  content: 'subject';
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-size: 16px;
+  text-transform: none;
+  width: 21px;
+  min-width: 21px;
+  vertical-align: middle;
+}
+
+nav a.devsite-nav-title > span {
+  vertical-align: middle;
+}
+
+/**
+ * Match programming-exercise or programming exercises.
+ */
+nav a.devsite-nav-title[href*='programming-exercise']::before {
+  content: 'code';
+}
+
+/**
+ * Match playground-exercise or playground-exercises.
+ */
+nav a.devsite-nav-title[href*='playground-exercise']::before {
+  content: 'touch_app';
+}
+
+/**
+ * Match check-your-intuition and check-your-understanding.
+ */
+nav a.devsite-nav-title[href*='check-your-intuition']::before,
+nav a.devsite-nav-title[href*='check-your-understanding']::before {
+  content: 'check_circle';
+}
+
+/**
+ * Match video-lecture.
+ * Uses background image because the video icon is proprietary and can't be
+ *   included as font icon / content attribute.
+ */
+nav a.devsite-nav-title[href*='video-lecture']::before {
+  background-image: url(images/video_icon.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  height: 16px;
+  content: '';
+}
+
+/* Estimated time callouts */
+aside.note.time::before {
+  content: 'schedule';
+}
+
+/* Example callouts */
+aside.note.example::before {
+  content: 'event_note';
+}
+
+/* For left-aligning equations where appropriate */
+div.left-align div.MathJax_SVG_Display {
+  text-align: left !important;
+}
+
+/* SVG handling */
+.doc-svg-container svg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* li elements containing exercise tables should be display: inline,
+   so whitespace is rendered properly */
+li.exercise-table {
+  display: inline;
+}
+
+/* Highlighting for table rows/cells */
+
+tr.highlight td,
+tr td.highlight,
+tr th.highlight {
+  background-color: #f7f7b0;
+}
+
+tr.highlight-bad td,
+tr td.highlight-bad,
+tr th.highlight-bad {
+  background-color: #f76868;
+}
+
+table.glossary {
+  border-width: 0;
+}
+
+td.glossary {
+  background-color: #fff;
+  color: #000;
+  visited: #9c9;
+}
+
+.learn-action-button,
+.learn-action-button:visited {
   background-color: #06C;
-  text-transform: uppercase;
   background-image: none;
+  border: blue solid 1px;
+  color: white;
+  display: inline;
   font-size: 15px;
   padding: 5px;
-  border: blue solid 1px;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 2px;color: white;display: inline;
   text-decoration: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
 }
-.glearn-action-button:hover{
+
+.learn-action-button:hover {
   background-color: rgb(38, 119, 202);
   box-shadow: 0px 1px 5px #333;
+}
+
+/* Styling for instructor-led schedules */
+
+/* Module column text in bold */
+table.ml-il-agenda td:first-child {
+  font-weight: bold;
+}
+
+/* Styling for break rows */
+table.ml-il-agenda tr.break td {
+  background-color: #fbe5ce;
+}
+
+/* Styling for "total" (end of day) rows */
+table.ml-il-agenda tr.total td {
+  background-color: #b6b6b6;
+}
+
+/* Text styling for break and total rows */
+table.ml-il-agenda tr.break td.break,
+table.ml-il-agenda tr.total td.total,
+table.ml-il-agenda tr.total p.total {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Partner Chat Styling */
+table.ml-il-agenda li.partner-chat {
+  color: brown;
+}
+
+table.ml-il-agenda li.playground {
+  color: green;
+}
+
+table.ml-il-agenda li.programming {
+  color: blue;
+}
+
+/**
+ * Styling for content blocks which consist of a colored header and a lightly-
+ * colored body.
+ */
+.content-block-header {
+  color: #fff;
+  font: 500 16px/24px Roboto,sans-serif;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 8px;
+}
+
+.content-block-body {
+  background: rgba(255, 255, 255, 0.95);
+  color: #212121;
+  font: 14px/20px Roboto,sans-serif;
+  padding: 8px;
+}
+
+.content-block.cyan {
+  background: #00acc1;
+}
+
+.content-block.blue {
+  background: #3949ab;
+}
+
+.content-block.green {
+  background: #7cb342;
+}
+
+.expand-background {
+  background-color: rgb(232, 232, 232);
+  border-radius: 0 4px 4px 4px;
+  border-width: 0 1px 1px 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+  margin-left: 40px;
+  padding: 5px 5px 5px 9px;
+}
+
+.expand-background .devsite-table-wrapper {
+  border: 1px solid #9E9E9E;
+}
+
+.expand-background pre {
+  background-color: inherit;
+  color: inherit;
+}
+
+.expand-background .devsite-code-button-wrapper {
+  display: none;
 }

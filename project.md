@@ -98,3 +98,6 @@ https://scikit-learn.org/stable/modules/tree.html
 http://www.telesens.co/loss-landscape-viz/viewer.html
 https://rdipietro.github.io/
 
+#神经网络简史
+http://imgtec.eetrend.com/d6-imgtec/blog/2018-09/17676.html
+https://com-cog-book.github.io/com-cog-book/features/recurrent-net.html
