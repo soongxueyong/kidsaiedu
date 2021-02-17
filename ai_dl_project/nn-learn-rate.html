@@ -132,7 +132,7 @@
 								<li class="devsite-nav-item     devsite-nav-expandable">
 									<devsite-expandable-nav>
 										<a class="devsite-nav-toggle" aria-hidden="true"></a>
-										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>任务一、认识生物神经网络</span></div>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>1.神经元模型</span></div>
 										<ul class="devsite-nav-section">
 											<li class="devsite-nav-item">
 												<a href="ml-intro.html#labels1" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.了解神经网络知识</span></a>
@@ -1127,107 +1127,75 @@
 									display: none;
 								}
 								/**
- * By default, hide the fullscreen mode icon.
- */
+							 * By default, hide the fullscreen mode icon.
+							 */
 								
 								.devsite-vplus-control-button.devsite-vplus-fullscreen-icon {
 									display: none;
 								}
 							</style>
-							<h1 class="devsite-page-title">认识生物神经网络</h1>
-							<devsite-toc class="devsite-nav" devsite-toc-embedded>
-							</devsite-toc>
+							<!--========内容开始============-->
+							<h1 class="devsite-page-title">降低损失 (Reducing Loss)：学习速率</h1>
+							<devsite-toc class="devsite-nav devsite-toc-embedded" devsite-toc-embedded="" visible=""></devsite-toc>
 							<div class="devsite-article-body clearfix
     ">
+
 								<devsite-mathjax config="TeX-AMS-MML_SVG"></devsite-mathjax>
-								<p></p>
-								<p>本单元将为您介绍生物神经网络。</p>
-								<aside class="note time"><strong>预计用时</strong></aside>
-								<aside class="objective"><b>学习目标</b>
-									<li>了解生物神经网络</li>
-									<li>了解生物神经元</li>
-								</aside>
-								<h2 class="hide-from-toc" id="labels1" data-text="" role="presentation">
-									<span class="devsite-heading" role="heading" aria-level="2">1.神经元与神经网络工作原理</span>
-									</h2>
 
-								<p>人类的大脑拥有801000亿个神经细胞（称为神经元），能够完成一些惊人的壮举。每个神经元都与1000多个其他神经元相连，因此大脑中的连接总数约为60万亿！神经元被组织成大脑中的模式和网络，并以惊人的速度相互交流。
-								</p>
-								<p>
-									每个神经元由三个主要部分组成：细胞体（也称为体细胞），轴突和树突。神经元使用电化学信号相互交流。换句话说，体内某些被称为离子的化学物质带有电荷。离子通过细胞膜移入和移出神经元，并影响神经元的电荷。
-								</p>
-								当神经元处于静止状态时，神经元的细胞体或体相对于神经元的外部带负电。静止的神经元具有大约-70毫伏（mV）的负电荷。但是，当出现刺激时（例如，踩导你的脚趾或听到您的名字被叫），它会使神经元吸收更多的正离子，并且神经元带正电。一旦神经元达到大约-55mV的某个阈值，就会发生称为动作电位的事件，并导致神经元“激活”<strong>（后面提到激活函数，就和这里相关)</strong>。动作电位沿着轴突行进，到达轴突末端。
-								<p>
-									在轴突末端，电信号被转换为化学信号，该信号在神经元之间传播，穿过一个称为突触的小间隙。这些化学物质称为神经递质。神经递质穿过突触并附着在附近神经元树突上的受体上。树突是分支状的投射物，携带从邻近神经元接收的脉冲到体细胞。如图：
-									<figure>
-										<img alt="神经元的工作原理。" src="image/how-brain-works-basics-2019.png">
-									</figure>
-									静态的看不出交互过程。以下通过动画交互设计，模拟我们对于焦虑记忆产生过程与记忆减弱过程（插入的交互画板被固定宽度，有点超边线！(^_^)）。
-								</p>
-								<h2 class="hide-from-toc" id="labels2">2.神经元电信号传输交互可视化</span>
-									</h2>
-								<p>以下是一个Canvas交互动画，你可以进行点击操作学习神经网络的工作机制。</p>
-								<p>该模拟交互动画如何操作可以参看：
-									<a href="https://blog.ncase.me/neurotic-neurons-design-patterns/" class="devsite-footer-sites-link
-                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Link">
-										Neurotic Neurons: Design Patterns
-									</a>
-								</p>
-								<div>
-									<iframe class="devsite-vplus" src="https://ncase.me/neurons/interactive.html" width="960" height="540" scrolling="no"></iframe>
-								</div>
-								<h2 class="hide-from-toc" id="labels3" role="presentation">
-											<span class="devsite-heading" role="heading" aria-level="2">3.认识机器学习</span>
-											</h2>
-											<p>再没有正式进入人工神经网络学习之前，先理解人工智能的几个概念的范围，根据下图，讲一下个人理解？</p>
-											<li>人工智能(AI)：</li>
-											<li>机器学习(ML)：</li>
-											<li>深度学习(DL)：</li>
-											<li>神经网络(NN):</li>
-											<li>数据科学(DS):</li>
-											<figure>
-												<img alt="概念关系。" src="image/ai_ds.jpg">
-											</figure>
-											
-								<p>本视频来自谷歌机器快速学习微课程。视频交互支持可以支持切换语言，包括脚本所用文本和讲解所有的语言。</p>
-								<p>如视频中专家所言：</p>
-								机器学习可以改变您思考问题的方式。学习如何以计算思维、数学思维来思考问题；让我们关注点从计算机科学转移到自然科学上，科学家一样思考，探索未知世界。
-								</p>
-								<div id="ml-intro" class="devsite-vplus" data-captions-url="captions/ml_intro.json" data-videos-url="videos/ml_intro.json">
-									<div class="devsite-vplus-content-container">
-										<div class="devsite-vplus-slide-frame">
-											<div class="title-background" data-start-time="0" data-video-mode="large">
-												<h1 class="title" id="机器学习简介" data-text="机器学习简介">机器学习简介</h1>
-											</div>
-											<div data-start-time="25" data-video-mode="large">
-											</div>
-											<div data-start-time="31" data-video-mode="large">
-											</div>
-											<div data-start-time="36" data-video-mode="large">
-											</div>
-											<div data-start-time="62" data-video-mode="large">
-											</div>
-											<div data-start-time="96" data-video-mode="large">
-											</div>
-											<div data-start-time="127" data-video-mode="large">
-											</div>
-										</div>
+								<p></p>
+
+								<aside class="note time"><strong>预计用时</strong>：5 分钟</aside>
+
+								<p>正如之前所述，梯度矢量具有方向和大小。梯度下降法算法用梯度乘以一个称为<strong>学习速率</strong>（有时也称为<strong>步长</strong>）的标量，以确定下一个点的位置。例如，如果梯度大小为 2.5，学习速率为 0.01，则梯度下降法算法会选择距离前一个点 0.025 的位置作为下一个点。</p>
+								<p><strong>超参数</strong>是编程人员在机器学习算法中用于调整的旋钮。大多数机器学习编程人员会花费相当多的时间来调整学习速率。如果您选择的学习速率过小，就会花费太长的学习时间：</p>
+								<figure>
+									<img alt="相同的 U 形曲线。很多点都相互非常接近，它们的轨迹朝着 U 形底部缓慢前进。" src="machine-learning/crash-course/images/LearningRateTooSmall.svg">
+								</figure>
+
+								<p><strong>图 6. 学习速率过小。</strong></p>
+								<p>相反，如果您指定的学习速率过大，下一个点将永远在 U 形曲线的底部随意弹跳，就好像量子力学实验出现了严重错误一样：</p>
+								<figure>
+									<img alt="相同的 U 形曲线。这条曲线包含的点非常少。点的轨迹会跳过 U 形底部，然后再次跳回。" src="machine-learning/crash-course/images/LearningRateTooLarge.svg">
+								</figure>
+
+								<p><strong>图 7. 学习速率过大。</strong></p>
+								<p>每个回归问题都存在一个
+									<a href="https://wikipedia.org/wiki/Goldilocks_principle">金发姑娘</a>学习速率。“金发姑娘”值与损失函数的平坦程度相关。如果您知道损失函数的梯度较小，则可以放心地试着采用更大的学习速率，以补偿较小的梯度并获得更大的步长。</p>
+								<figure>
+									<img alt="相同的 U 形曲线。点的轨迹大约需要 8 步达到最低点。" src="machine-learning/crash-course/images/LearningRateJustRight.svg">
+								</figure>
+
+								<p><strong>图 8. 学习速率恰恰好。</strong></p>
+								<devsite-expandable is-upgraded="" id="expandable-1" >
+									<a class="exw-control" aria-controls="expandable-1" aria-expanded="true" tabindex="0" role="button">
+										<h4 class="showalways" id="详细了解理想的学习速率。" data-text=" 详细了解理想的学习速率。 " role="presentation"><span class="devsite-heading" role="heading" aria-level="4">
+详细了解理想的学习速率。
+</span><button type="button" class="devsite-heading-link button-flat material-icons" aria-label="Copy link to this section: 
+详细了解理想的学习速率。
+" data-title="Copy link to this section: 
+详细了解理想的学习速率。
+" data-id="详细了解理想的学习速率。"></button></h4></a>
+
+									<div class="expand-background">
+										<p>一维空间中的理想学习速率是 <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax_SVG" id="MathJax-Element-71-Frame" tabindex="0" style="font-size: 100%; display: inline-block; position: relative;" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mn>1</mn><mrow><mi>f</mi><mo stretchy=&quot;false&quot;>(</mo><mi>x</mi><msup><mo stretchy=&quot;false&quot;>)</mo><mo>&amp;#x2033;</mo></msup></mrow></mfrac></math>" role="presentation"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.764ex" height="4.033ex" viewBox="0 -970.1 2051.1 1736.4" role="img" focusable="false" aria-hidden="true" style="vertical-align: -1.78ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1811" height="60" x="0" y="220"></rect><use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="1030" y="574"></use><g transform="translate(60,-525)"><use transform="scale(0.707)" xlink:href="#MJMATHI-66" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#MJMAIN-28" x="550" y="0"></use><use transform="scale(0.707)" xlink:href="#MJMATHI-78" x="940" y="0"></use><g transform="translate(1069,0)"><use transform="scale(0.707)" xlink:href="#MJMAIN-29" x="0" y="0"></use><g transform="translate(275,337)"><use transform="scale(0.5)" xlink:href="#MJMAIN-2032"></use><use transform="scale(0.5)" xlink:href="#MJMAIN-2032" x="275" y="0"></use></g></g></g></g></g></svg><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><msup><mo stretchy="false">)</mo><mo>″</mo></msup></mrow></mfrac></math></span></span>
+											<script type="math/tex" id="MathJax-Element-71">\frac{ 1 }{ f(x)'' }</script>（f(x) 对 x 的二阶导数的倒数）。</p>
+
+										<p>二维或多维空间中的理想学习速率是
+											<a href="https://wikipedia.org/wiki/Hessian_matrix">海森矩阵</a>（由二阶偏导数组成的矩阵）的倒数。</p>
+
+										<p>广义凸函数的情况则更为复杂。</p>
 									</div>
-								</div>
+								</devsite-expandable>
 
-								<p></p>
 
 							</div>
-							<div class="devsite-steps">
-								<div class="steps-next steps-direction">
-									<a href="https://developers.google.cn/machine-learning/crash-course/framing/video-lecture?hl=zh-cn" class="steps-link gc-analytics-event" data-category="Site-Wide Custom Events" data-action="Next step" data-label="/machine-learning/crash-course/framing/video-lecture">
-										<div class="steps-link-direction">下一页</div>
-									</a>
-								</div>
-							</div>
+
+							<!--========内容结束============-->
+
 							<devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
 							</devsite-page-rating>
 						</article>
+						<!--文章结束-->
 						<devsite-content-footer class="nocontent">
 							<p>版权归属KidsAIEdu。此页面的某些部分是根据Google创建和共享的作品所做的修改 ，并根据知识共享4.0署名许可中所述的 条款使用。</p>
 							<blockquote>

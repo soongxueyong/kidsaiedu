@@ -132,7 +132,7 @@
 								<li class="devsite-nav-item     devsite-nav-expandable">
 									<devsite-expandable-nav>
 										<a class="devsite-nav-toggle" aria-hidden="true"></a>
-										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>任务一、认识生物神经网络</span></div>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>1.神经元模型</span></div>
 										<ul class="devsite-nav-section">
 											<li class="devsite-nav-item">
 												<a href="ml-intro.html#labels1" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.了解神经网络知识</span></a>
@@ -1127,107 +1127,37 @@
 									display: none;
 								}
 								/**
- * By default, hide the fullscreen mode icon.
- */
+							 * By default, hide the fullscreen mode icon.
+							 */
 								
 								.devsite-vplus-control-button.devsite-vplus-fullscreen-icon {
 									display: none;
 								}
 							</style>
-							<h1 class="devsite-page-title">认识生物神经网络</h1>
-							<devsite-toc class="devsite-nav" devsite-toc-embedded>
-							</devsite-toc>
-							<div class="devsite-article-body clearfix
-    ">
+							<!--========内容开始============-->
+							<h1 class="devsite-page-title">优化学习速率</h1>
+							<devsite-toc class="devsite-nav devsite-toc-embedded" devsite-toc-embedded="" visible=""></devsite-toc>
+							<div class="devsite-article-body clearfix ">
+
 								<devsite-mathjax config="TeX-AMS-MML_SVG"></devsite-mathjax>
-								<p></p>
-								<p>本单元将为您介绍生物神经网络。</p>
-								<aside class="note time"><strong>预计用时</strong></aside>
-								<aside class="objective"><b>学习目标</b>
-									<li>了解生物神经网络</li>
-									<li>了解生物神经元</li>
-								</aside>
-								<h2 class="hide-from-toc" id="labels1" data-text="" role="presentation">
-									<span class="devsite-heading" role="heading" aria-level="2">1.神经元与神经网络工作原理</span>
-									</h2>
-
-								<p>人类的大脑拥有801000亿个神经细胞（称为神经元），能够完成一些惊人的壮举。每个神经元都与1000多个其他神经元相连，因此大脑中的连接总数约为60万亿！神经元被组织成大脑中的模式和网络，并以惊人的速度相互交流。
-								</p>
-								<p>
-									每个神经元由三个主要部分组成：细胞体（也称为体细胞），轴突和树突。神经元使用电化学信号相互交流。换句话说，体内某些被称为离子的化学物质带有电荷。离子通过细胞膜移入和移出神经元，并影响神经元的电荷。
-								</p>
-								当神经元处于静止状态时，神经元的细胞体或体相对于神经元的外部带负电。静止的神经元具有大约-70毫伏（mV）的负电荷。但是，当出现刺激时（例如，踩导你的脚趾或听到您的名字被叫），它会使神经元吸收更多的正离子，并且神经元带正电。一旦神经元达到大约-55mV的某个阈值，就会发生称为动作电位的事件，并导致神经元“激活”<strong>（后面提到激活函数，就和这里相关)</strong>。动作电位沿着轴突行进，到达轴突末端。
-								<p>
-									在轴突末端，电信号被转换为化学信号，该信号在神经元之间传播，穿过一个称为突触的小间隙。这些化学物质称为神经递质。神经递质穿过突触并附着在附近神经元树突上的受体上。树突是分支状的投射物，携带从邻近神经元接收的脉冲到体细胞。如图：
-									<figure>
-										<img alt="神经元的工作原理。" src="image/how-brain-works-basics-2019.png">
-									</figure>
-									静态的看不出交互过程。以下通过动画交互设计，模拟我们对于焦虑记忆产生过程与记忆减弱过程（插入的交互画板被固定宽度，有点超边线！(^_^)）。
-								</p>
-								<h2 class="hide-from-toc" id="labels2">2.神经元电信号传输交互可视化</span>
-									</h2>
-								<p>以下是一个Canvas交互动画，你可以进行点击操作学习神经网络的工作机制。</p>
-								<p>该模拟交互动画如何操作可以参看：
-									<a href="https://blog.ncase.me/neurotic-neurons-design-patterns/" class="devsite-footer-sites-link
-                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Link">
-										Neurotic Neurons: Design Patterns
-									</a>
-								</p>
-								<div>
-									<iframe class="devsite-vplus" src="https://ncase.me/neurons/interactive.html" width="960" height="540" scrolling="no"></iframe>
-								</div>
-								<h2 class="hide-from-toc" id="labels3" role="presentation">
-											<span class="devsite-heading" role="heading" aria-level="2">3.认识机器学习</span>
-											</h2>
-											<p>再没有正式进入人工神经网络学习之前，先理解人工智能的几个概念的范围，根据下图，讲一下个人理解？</p>
-											<li>人工智能(AI)：</li>
-											<li>机器学习(ML)：</li>
-											<li>深度学习(DL)：</li>
-											<li>神经网络(NN):</li>
-											<li>数据科学(DS):</li>
-											<figure>
-												<img alt="概念关系。" src="image/ai_ds.jpg">
-											</figure>
-											
-								<p>本视频来自谷歌机器快速学习微课程。视频交互支持可以支持切换语言，包括脚本所用文本和讲解所有的语言。</p>
-								<p>如视频中专家所言：</p>
-								机器学习可以改变您思考问题的方式。学习如何以计算思维、数学思维来思考问题；让我们关注点从计算机科学转移到自然科学上，科学家一样思考，探索未知世界。
-								</p>
-								<div id="ml-intro" class="devsite-vplus" data-captions-url="captions/ml_intro.json" data-videos-url="videos/ml_intro.json">
-									<div class="devsite-vplus-content-container">
-										<div class="devsite-vplus-slide-frame">
-											<div class="title-background" data-start-time="0" data-video-mode="large">
-												<h1 class="title" id="机器学习简介" data-text="机器学习简介">机器学习简介</h1>
-											</div>
-											<div data-start-time="25" data-video-mode="large">
-											</div>
-											<div data-start-time="31" data-video-mode="large">
-											</div>
-											<div data-start-time="36" data-video-mode="large">
-											</div>
-											<div data-start-time="62" data-video-mode="large">
-											</div>
-											<div data-start-time="96" data-video-mode="large">
-											</div>
-											<div data-start-time="127" data-video-mode="large">
-											</div>
-										</div>
-									</div>
-								</div>
 
 								<p></p>
 
+								<aside class="note time"><strong>预计用时</strong>：15 分钟</aside>
+
+								<devsite-iframe class="" height="747px" style="height: 747px;">
+									<p>学习率代表步长，即探索最佳值的的变量增加值。（问题探索：是否可以动态变步长？)</p>
+									<iframe src="https://developers.google.cn/machine-learning/crash-course/fitter/graph_d71ec4b2deadcb48399fa0df34c9edd1ebac45d049a3541c3160a6a53791ad57.frame?hl=zh_cn" allowfullscreen="" name="goog_1292575578"></iframe>
+								</devsite-iframe>
+
 							</div>
-							<div class="devsite-steps">
-								<div class="steps-next steps-direction">
-									<a href="https://developers.google.cn/machine-learning/crash-course/framing/video-lecture?hl=zh-cn" class="steps-link gc-analytics-event" data-category="Site-Wide Custom Events" data-action="Next step" data-label="/machine-learning/crash-course/framing/video-lecture">
-										<div class="steps-link-direction">下一页</div>
-									</a>
-								</div>
-							</div>
+
+							<!--========内容结束============-->
+
 							<devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
 							</devsite-page-rating>
 						</article>
+						<!--文章结束-->
 						<devsite-content-footer class="nocontent">
 							<p>版权归属KidsAIEdu。此页面的某些部分是根据Google创建和共享的作品所做的修改 ，并根据知识共享4.0署名许可中所述的 条款使用。</p>
 							<blockquote>

@@ -1,5 +1,5 @@
 # 交互式资源(项目式探究学习)
-- 参考教材《人社部人工智能初步》
+- 参考教材《人社版 人工智能初步》
 ## 项目1 人工历史发展历史(History of Artificial Intelligence)
 1.1 项目：人工历史发展历史
 1.2.任务：历史时间线、地理事件、人物关系谱（知识图谱）
@@ -28,14 +28,16 @@ http://vision.stanford.edu/teaching/cs231n-demos/knn/
 ## 项目4 神经网络(Artificial Neural Networks,ANNs)
 https://developers.google.cn/machine-learning/crash-course
 1.神经网络
+https://www.bilibili.com/video/BV1jx411U7Wu?from=search&seid=12785067854064473292
+https://www.bilibili.com/video/BV1yr4y1P7UR?from=search&seid=12785067854064473292
+https://www.bilibili.com/video/BV1n4411S7Tj?from=search&seid=12785067854064473292
 2.激活函数(sigmod\tanh\relu)：作用
 3.Loss函数(MSE均方差\平均绝对误差MAE\交叉熵\)
 4.BP算法
 5.优化器和梯度下降
 6.交叉熵
 
-先内嵌
-再自己构建
+先内嵌再自己构建
 https://google-developers.gonglchuangl.net/machine-learning/crash-course/playground/?utm_source=engedu%26utm_medium=ss%26utm_campaign=mlcc#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.88721&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
 file:///D:/tools/%E8%AF%BE%E7%A8%8B/Google%20Machine%20Learning%20Crash%20Course/googleml/developers.google.cn/machine-learning/crash-course/reducing-loss/playground-exercise.html
 
@@ -43,7 +45,6 @@ file:///D:/tools/%E8%AF%BE%E7%A8%8B/Google%20Machine%20Learning%20Crash%20Course
 ## 项目6 CNN卷积神经网络(Convolutional Neural Networks,CNN)
 手写识别
 https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
-https://cs.stanford.edu/people/karpathy/convnetjs/
 https://github.com/poloclub
 https://github.com/gsurma/cnn_explainer
 https://poloclub.github.io/
@@ -98,6 +99,21 @@ https://scikit-learn.org/stable/modules/tree.html
 http://www.telesens.co/loss-landscape-viz/viewer.html
 https://rdipietro.github.io/
 
-#神经网络简史
+#人工智能历史
+https://learn.g2.com/history-of-artificial-intelligence?hsCtaTracking=f927eee5-0f72-4823-936e-8cc7045daf55%7C4ffb133d-016f-4891-a06e-b8ff01828634
+
+#神经网络
+https://mlfromscratch.com/neural-networks-explained/#/
+https://mlfromscratch.com/activation-functions-explained/#/
 http://imgtec.eetrend.com/d6-imgtec/blog/2018-09/17676.html
+http://imgtec.eetrend.com/d6-imgtec/blog/2018-11/19157.html
 https://com-cog-book.github.io/com-cog-book/features/recurrent-net.html
+#Visually probe the behavior of trained machine learning models, with minimal coding.
+https://pair-code.github.io/what-if-tool/
+#iris案例
+http://archive.ics.uci.edu/ml/datasets/iris
+
+## Notebook的运行环境
+/camera_test.ipynb
+https://mybinder.org/
+https://www.gesis.org/en/home
