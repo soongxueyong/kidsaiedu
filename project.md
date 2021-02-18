@@ -25,6 +25,8 @@ http://immersivemath.com/ila/learnmore.html
 (2)作品：图、文、视频丰富
 ## 项目3 机器学习(Machine Learning,ML)
 http://vision.stanford.edu/teaching/cs231n-demos/knn/
+https://github.com/lars76/kmeans-anchor-boxes
+
 ## 项目4 神经网络(Artificial Neural Networks,ANNs)
 https://developers.google.cn/machine-learning/crash-course
 1.神经网络
@@ -50,6 +52,12 @@ https://github.com/gsurma/cnn_explainer
 https://poloclub.github.io/
 https://setosa.io/#/
 https://setosa.io/ev/
+
+人脸识别的在线体验
+https://github.com/justadudewhohacks/face-api.js/
+https://www.cs.cmu.edu/~dst/FaceDemo/
+https://www.cs.cmu.edu/~dst/
+
 ## 项目7 RNN循环神经网络(Recurrent Neural Network,RNN)
 https://setosa.io/blog/2014/07/26/markov-chains/index.html
 https://peterroelants.github.io/posts/rnn-implementation-part01/
@@ -58,6 +66,35 @@ https://peterroelants.github.io/posts/neural-network-implementation-part01/
 ## 项目9 人工智能强化学习(Reinforcement Learning,RL)
 ## 项目10 智能机器人(Chatbot)
 ## 项目11 自动驾驶小车(DonkeyCar)
+
+## Jupyer notebook编程
+可视化 https://github.com/simo23/tinyYOLOv2
+组件化
+https://github.com/justadudewhohacks/face-api.js
+https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection
+https://github.com/taehoonlee/tensornets
+https://github.com/kaka-lin/object-detection
+https://github.com/justadudewhohacks/tfjs-tiny-yolov2
+https://github.com/shaqian/tfjs-yolo
+https://github.com/srohit0/trafficVision
+https://github.com/touretzkyds/ai4k12/wiki/Demos%3A-Spectrograms-and-Waveforms
+
+https://github.com/experiencor/keras-yolo2
+https://github.com/allanzelener/YAD2K
+https://fairyonice.github.io/Part_4_Object_Detection_with_Yolo_using_VOC_2012_data_loss.html
+notebook
+https://github.com/pypancho/YOLOv2_Jupyter_Notebook
+https://github.com/Neerajj9/Text-Detection-using-Yolo-Algorithm-in-keras-tensorflow
+https://github.com/jmpap/YOLOV2-Tensorflow-2.0
+https://github.com/the-house-of-black-and-white/hall-of-faces
+https://github.com/jmpap/YOLOV2-Tensorflow-2.0
+https://github.com/jianing-sun/Food-Detection-by-YOLOv2-with-Transfer-Learning
+https://github.com/penny4860/Yolo-digit-detector
+https://github.com/aarcosg/traffic-sign-detection
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+https://github.com/deep-diver/Soccer-Ball-Detection-YOLOv2
+https://github.com/tirthajyoti/Interactive_Machine_Learning
+
 
 1.本地运行以上代码
 (1)切换到当前目录，即index.html所在目录
@@ -117,3 +154,45 @@ http://archive.ics.uci.edu/ml/datasets/iris
 /camera_test.ipynb
 https://mybinder.org/
 https://www.gesis.org/en/home
+https://poloclub.github.io/cnn-explainer/
+
+
+#工具
+https://github.com/touretzkyds/ai4k12/wiki/Demos%3A-Convolutional-Neural-Nets
+https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+https://cs.stanford.edu/people/karpathy/convnetjs/
+
+#美国
+
+
+音乐
+https://borismus.github.io/spectrogram/
+https://github.com/borismus
+https://experiments.withgoogle.com/spectrogram-and-oscillator
+https://experiments.withgoogle.com/collection/chrome
+https://musiclab.chromeexperiments.com/Spectrogram/
+https://musiclab.chromeexperiments.com/Experiments
+https://github.com/touretzkyds/ai4k12/wiki/Demo%3A-Speech-Recognition-in-Chrome
+https://github.com/deep-diver/Soccer-Ball-Detection-YOLOv2
+
+How Computer Vision Is Finally Taking Off, After 50 Years
+https://youtu.be/eQLcDmfmGB0
+
+视频
+https://github.com/touretzkyds/ai4k12/wiki/Video-Series%3A-Crash-Course-Artificial-Intelligence
+How Computer Vision Works
+https://www.youtube.com/watch?v=OcycT1Jwsns
+李飞飞: 我们怎么教计算机理解图片？
+ted
+https://studio.code.org/s/oceans/stage/1/puzzle/1
+https://www.alanzucconi.com/2018/03/14/introduction-to-deepfakes/
+https://buildingai.elementsofai.com/
+https://news.microsoft.com/futurecomputed/
+https://youtu.be/b7Yn4wLr-d0
+
+积木编程
+https://machinelearningforkids.co.uk/
+https://aieducation.mit.edu/resources.html
+https://phillipi.github.io/pix2pix/
+
+https://github.com/affinelayer/pix2pix-tensorflow
