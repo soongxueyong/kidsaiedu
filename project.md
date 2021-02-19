@@ -20,9 +20,23 @@ http://immersivemath.com/ila/learnmore.html
 搜媒体：查百度百科、维基百科、blog、geogebra案例
 制作：个人注册账号，建立一个geogebra的活动，进行制作
 发布：修改网页，进行内容丰富（todo：同样提供一个json读入的方式进行加载，参考bootstrap的案例加载方式）
+知识图谱：
+使用工具
+https://markmap.js.org/repl
+下载html文件，发布即可。
 1.5.点评：
 (1)素材：发展、人物、事件反映AI相关理论、算法、技术
 (2)作品：图、文、视频丰富
+- 支撑图片：
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+## 工具说明
+
+- [markmap.js.org](https://markmap.js.org/repl)
+## 课时说明
+- 必修 ：(3学分54课时)
+- 选择性性必修 ：(每模块2学分36课时)
+- 选修 ：(每模块2学分36课时)
+## 课程结构
 ## 项目3 机器学习(Machine Learning,ML)
 http://vision.stanford.edu/teaching/cs231n-demos/knn/
 https://github.com/lars76/kmeans-anchor-boxes
@@ -42,6 +56,16 @@ https://www.bilibili.com/video/BV1n4411S7Tj?from=search&seid=1278506785406447329
 先内嵌再自己构建
 https://google-developers.gonglchuangl.net/machine-learning/crash-course/playground/?utm_source=engedu%26utm_medium=ss%26utm_campaign=mlcc#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.88721&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
 file:///D:/tools/%E8%AF%BE%E7%A8%8B/Google%20Machine%20Learning%20Crash%20Course/googleml/developers.google.cn/machine-learning/crash-course/reducing-loss/playground-exercise.html
+
+### 编程案例iris花卉识别
+https://janakiev.com/blog/keras-iris/
+https://github.com/leonjessen/keras_tensorflow_on_iris
+https://www.kaggle.com/pierrek20/multiclass-iris-prediction-with-tensorflow-keras
+https://storage.googleapis.com/tfjs-examples/iris/dist/index.html
+https://www.tensorflow.org/js/demos
+https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tf-examples/iris/index.html
+
+https://makeshiftinsights.com/blog/classification-keras-iris/
 
 ## 项目5 图像卷积计算(Image convolution calculation)
 ## 项目6 CNN卷积神经网络(Convolutional Neural Networks,CNN)
@@ -196,3 +220,5 @@ https://aieducation.mit.edu/resources.html
 https://phillipi.github.io/pix2pix/
 
 https://github.com/affinelayer/pix2pix-tensorflow
+https://experiments.withgoogle.com/collection/ai
+

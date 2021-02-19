@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.1"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.2"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(function anonymous(
+) {
+const toolbar = new markmap.Toolbar();
+toolbar.attach(mm);
+const el = toolbar.render();
+el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{},"v":"高中信息技术课程","c":[{"t":"heading","d":2,"p":{},"v":"必修课程","c":[{"t":"heading","d":3,"p":{},"v":"模块1 ：数据与计算","c":[{"t":"list_item","d":5,"p":{},"v":"数据与信息"},{"t":"list_item","d":5,"p":{},"v":"数据信息与处理"},{"t":"list_item","d":5,"p":{},"v":"算法与程序实现"}]},{"t":"heading","d":3,"p":{},"v":"模块2 ：信息系统与社会","c":[{"t":"list_item","d":5,"p":{},"v":"信息社会特征"},{"t":"list_item","d":5,"p":{},"v":"信息系统组成与应用"},{"t":"list_item","d":5,"p":{},"v":"信息安全与信息社会责任"}]}]},{"t":"heading","d":2,"p":{},"v":"选择性性必修课程","c":[{"t":"list_item","d":4,"p":{},"v":"模块1 ：数据与数据结构","c":[{"t":"list_item","d":6,"p":{},"v":"数据及其价值"},{"t":"list_item","d":6,"p":{},"v":"数据结构"},{"t":"list_item","d":6,"p":{},"v":"数据结构与应用"}]},{"t":"list_item","d":4,"p":{},"v":"模块2 ：网络基础","c":[{"t":"list_item","d":6,"p":{},"v":"网络基本概念"},{"t":"list_item","d":6,"p":{},"v":"网络协议与安全"},{"t":"list_item","d":6,"p":{},"v":"物联网"}]},{"t":"list_item","d":4,"p":{},"v":"模块3 ：数据管理与分析","c":[{"t":"list_item","d":6,"p":{},"v":"数据需求分析"},{"t":"list_item","d":6,"p":{},"v":"数据管理"},{"t":"list_item","d":6,"p":{},"v":"数据分析"}]},{"t":"list_item","d":4,"p":{},"v":"模块4 ：人工智能初步","c":[{"t":"list_item","d":6,"p":{},"v":"人工智能基础"},{"t":"list_item","d":6,"p":{},"v":"简单人工智能<br>\n应用模块开发"},{"t":"list_item","d":6,"p":{},"v":"人工智能技术<br>\n的发展与应用"}]},{"t":"list_item","d":4,"p":{},"v":"模块5 ：三维设计与创意","c":[{"t":"list_item","d":6,"p":{},"v":"三维设计对社会的影响"},{"t":"list_item","d":6,"p":{},"v":"三维作品设计与创意"},{"t":"list_item","d":6,"p":{},"v":"三维作品发布"}]},{"t":"list_item","d":4,"p":{},"v":"模块6 ：开源硬件项目设计","c":[{"t":"list_item","d":6,"p":{},"v":"开源硬件的特征"},{"t":"list_item","d":6,"p":{},"v":"开源硬件项目流程"},{"t":"list_item","d":6,"p":{},"v":"基于开源硬件的<br>\n作品设计与制作"}]}]},{"t":"heading","d":2,"p":{},"v":"选修课程","c":[{"t":"list_item","d":4,"p":{},"v":"模块1 ：算法初步","c":[{"t":"list_item","d":6,"p":{},"v":"算法基础"},{"t":"list_item","d":6,"p":{},"v":"常见算法及程序实现"},{"t":"list_item","d":6,"p":{},"v":"算法应用"}]},{"t":"list_item","d":4,"p":{},"v":"模块2 ：移动应用设计","c":[{"t":"list_item","d":6,"p":{},"v":"移动技术对社会的影响"},{"t":"list_item","d":6,"p":{},"v":"移动应用功能设计与开发"},{"t":"list_item","d":6,"p":{},"v":"移动应用中的信息安全"}]}]}]})</script>
+</body>
+</html>
