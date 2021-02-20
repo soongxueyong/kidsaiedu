@@ -1,104 +1,212 @@
 {
-    "scale": "human",
-    "title": {
-        "media": {
-          "caption": "",
-          "credit": "",
-          "url": "",
-          "thumbnail": ""
-        },
-        "background":{"url":	"data/ai/image/dartmouth_conference_ai_characters.jpg"
-        },
-        "text": {
-          "headline": "标题：人工智能发展历史（标题示意）",
-          "text": "标题文本：数量人工智能发展历史的人物、事件、理论、技术、国家、企业等，揭示人工历史发展的原动力！"
-        }
-      },
-    "events": [
-      {
-        "media": {
-          "caption": "达特茅斯会议（Dartmouth Conference）:本地图片、超链接示意、缩略图",
-          "credit": "引用声明：<a href=\"https://www.msra.cn/zh-cn/news/features/hon-the-brief-history-of-intelligence-1\">洪小文</a>/https://www.msra.cn/",
-          "url": "data/ai/image/dartmouth_conference_ai_characters.jpg",
-          "thumbnail": "data/ai/image/dartmouth_conference_ai_characters.jpg"
-        },
-        "text": {
-          "headline": "美国汉诺斯小镇达特茅斯学院",
-          "text": "美国汉诺斯小镇宁静的达特茅斯学院中，约翰·麦卡锡（John McCarthy）、马文·闵斯基（Marvin Minsky，人工智能与认知学专家）、克劳德·香农（Claude Shannon，信息论的创始人）、艾伦·纽厄尔（Allen Newell，计算机科学家）、赫伯特·西蒙（Herbert Simon，诺贝尔经济学奖得主）等科学家正聚在一起，讨论着一个完全不食人间烟火的主题：用机器来模仿人类学习以及其他方面的智能。会议足足开了两个月的时间，虽然大家没有达成普遍的共识，但是却为会议讨论的内容起了一个名字：<a href=\"https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180\">人工智能</a>。因此，1956年也就成为了人工智能元年。"
-        },
-        "start_date": {
-          "month": "8",
-          "day": " ",
-          "year": "1956"
-        }
-      },
-      {
-        "media": {
-          "caption": "AI的诞生:富文本示意",
-          "credit": "《时代》杂志就已经提出了AI的某种威胁/Time",
-          "url": "1950年，《时代》杂志就已经提出了AI的某种威胁：<blockquote>“现代人已经适应了拥有超人肌肉的机器，不过拥有超人大脑的机器还是挺吓人的。设计这些机器的人试图否认他们正创造像他们自己一样拥有智慧的竞争者。”（ Time, January 23rd, 1950）</blockquote>",
-          "thumbnail": ""
-        },
-        "text": {
-          "headline": "AI威胁",
-          "text": "今天埃隆·马斯克说AI要毁灭人类，但是1950年这种议论就有了。1950年的时候，二战结束才五年。当年做计算机是二战时为了造原子弹，每台计算机都要比一个房间大，全世界也不超过十台。这时就已经有人担忧，以后造的计算机比人类聪明怎么办？我们人类一直就对智能充满了期待，而且非常怕受到伤害."
-        },
-        "start_date": {
-          "month": "1",
-          "day": "10",
-          "year": "1956"
-        }
-      },
-      {
-        "media": {
-          "caption": "人工智能简单历史.:本地下载的视频示意",
-          "credit": "下载地址：https://www.youtube.com/watch?v=056v4OxKwlI",
-          "url": "data/ai/video/A Brief History of Artificial Intelligence.mp4",
-          "thumbnail": ""
-        },
-        "text": {
-          "headline": "让我们先回顾一下人工智能简史",
-          "text": "虽然现在每个人似乎都在谈论人工智能，但要记住，这并不是什么新东西!(While everyone seems to be talking about artificial intelligence these days, it’s good to remember that this is not something new!)"
-        },
-        "start_date": {
-          "month": "9",
-          "day": "14",
-          "year": "2017"
-        }
-      } ,
-      {
-        "media": {
-          "caption": "十分钟介绍人工智能 Artificial Intelligence In 10 Minutes.:哔哩哔哩网络的视频示意",
-          "credit": "下载地址：https://www.youtube.com/watch?v=cW9shEB8h5E",
-          "url": "<iframe src=\"//player.bilibili.com/player.html?aid=800254963&bvid=BV1gy4y1z7Zj&cid=254949952&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
-          "thumbnail": ""
-        },
-        "text": {
-          "headline": "让我们先回顾一下人工智能简史：国内网络视频iframe嵌入。",
-          "text": "人工智能是21世纪最受争议的技术。它被广泛用于解决复杂问题和简化人工任务。在这个视频中，你将在10分钟内学习人工智能。（Artificial Intelligence is the most debated technology of the 21st century. It is widely used to solve complex problems and ease human tasks. In this video, you will learn AI in 10 minutes）。使用<a href=\"https://www.css88.com/tool/html2js/\">css88</a>，把哔哩哔哩嵌入的视频iframe代码转化成双引号引入文本，然后替换url的值，既可以嵌入哔哩哔哩的视频!"
-        },
-        "start_date": {
-          "month": "11",
-          "day": "20",
-          "year": "2020"
-        }
-      },
-      {
-        "media": {
-          "caption": "",
-          "credit": "YouTube",
-          "url": "https://www.youtube.com/watch?v=056v4OxKwlI",
-          "thumbnail": ""
-        },
-        "text": {
-          "headline": "YouTube Examples",
-          "text": "While everyone seems to be talking about artificial intelligence these days, it’s good to remember that this is not something new!)"
-        },
-        "start_date": {
-          "month": "1",
-          "day": "23",
-          "year": "2012"
-        }
-      }
-    ]
+	"scale": "human",
+	"title": {
+		"media": {
+			"caption": "",
+			"credit": "",
+			"url": "",
+			"thumbnail": ""
+		},
+		"background": {
+			"url": "data/ai/image/dartmouth_conference_ai_characters.jpg"
+		},
+		"text": {
+			"headline": "人工智能发展历史",
+			"text": "认识人工智能发展历史的人物、事件、理论、技术、国家与企业等，揭示人工历史发展的原动力！"
+		}
+	},
+	"events": [
+
+		{
+			"media": {
+				"caption": "图灵",
+				"credit": "",
+				"url": "data/ai/image/alan_turing.jpg",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "图灵与图灵测试",
+				"text": "1950年，图灵发表了一篇划时代的论文《计算机器与智能》，文中预言了创造出具有真正智能的机器的可能性。由于注意到“智能”这一概念难以确切定义，他提出了著名的图灵测试：如果一台机器能够与人类展开对话（通过电传设备）而不能被辨别出其机器身份，那么称这台机器具有智能。"
+			},
+			"start_date": {
+				"month": "",
+				"day": " ",
+				"year": "1950"
+			}
+		}, {
+			"media": {
+				"caption": "AI的诞生:富文本示意",
+				"credit": "《时代》杂志就已经提出了AI的某种威胁/Time",
+				"url": "1950年，《时代》杂志就已经提出了AI的某种威胁：<blockquote>“现代人已经适应了拥有超人肌肉的机器，不过拥有超人大脑的机器还是挺吓人的。设计这些机器的人试图否认他们正创造像他们自己一样拥有智慧的竞争者。”（ Time, January 23rd, 1950）</blockquote>",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "AI威胁",
+				"text": "今天埃隆·马斯克说AI要毁灭人类，但是1950年这种议论就有了。1950年的时候，二战结束才五年。当年做计算机是二战时为了造原子弹，每台计算机都要比一个房间大，全世界也不超过十台。这时就已经有人担忧，以后造的计算机比人类聪明怎么办？我们人类一直就对智能充满了期待，而且非常怕受到伤害."
+			},
+			"start_date": {
+				"month": "1",
+				"day": "23",
+				"year": "1950"
+			}
+		}, {
+			"media": {
+				"caption": "达特茅斯会议（Dartmouth Conference）:提出人工智能(AI)一词",
+				"credit": "引用声明：<a href=\"https://www.msra.cn/zh-cn/news/features/hon-the-brief-history-of-intelligence-1\">洪小文</a>/https://www.msra.cn/",
+				"url": "data/ai/image/dartmouth_conference_ai_characters.jpg",
+				"thumbnail": "data/ai/image/dartmouth_conference_ai_characters.jpg"
+			},
+			"text": {
+				"headline": "美国汉诺斯小镇达特茅斯学院",
+				"text": "美国汉诺斯小镇宁静的达特茅斯学院中，约翰·麦卡锡（John McCarthy）、马文·闵斯基（Marvin Minsky，人工智能与认知学专家）、克劳德·香农（Claude Shannon，信息论的创始人）、艾伦·纽厄尔（Allen Newell，计算机科学家）、赫伯特·西蒙（Herbert Simon，诺贝尔经济学奖得主）等科学家正聚在一起，讨论着一个完全不食人间烟火的主题：用机器来模仿人类学习以及其他方面的智能。会议足足开了两个月的时间，虽然大家没有达成普遍的共识，但是却为会议讨论的内容起了一个名字：<a href=\"https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180\">人工智能</a>。因此，1956年也就成为了人工智能元年。"
+			},
+			"start_date": {
+				"month": "8",
+				"day": " ",
+				"year": "1956"
+			}
+		}, {
+			"media": {
+				"caption": "亚瑟·塞缪尔(Arthur Samuel)",
+				"credit": "知乎",
+				"url": "data/ai/image/arthur_samuel.jpg",
+				"thumbnail": "data/ai/image/arthur_samuel.jpg"
+			},
+			"text": {
+				"headline": "亚瑟·塞缪尔(Arthur Samuel)：提出机器学习(Machine Learning)",
+				"text": "1959年,塞缪尔在开发国际象棋游戏时创造了“机器学习”一词。塞缪尔在IBM的首台商用计算机IBM701上编写了西洋跳棋程序，这个程序顺利战胜了当时的西洋棋大师罗伯特尼赖。塞缪尔的跳棋程序会对所有可能跳法进行搜索，并找到最佳方法。"
+			},
+			"start_date": {
+				"month": "",
+				"day": " ",
+				"year": "1959"
+			}
+		}, 
+		{
+			"media": {
+				"caption": "Geoff Hinton:深度学习之父",
+				"credit": "https://zhuanlan.zhihu.com/p/38743944",
+				"url": "data/ai/image/geoff_hinton.mp4",
+				"thumbnail": "data/ai/image/geoff_hinton.jpg"
+			},
+			"text": {
+				"headline": "Geoff Hinton和同事发明了神经网络反向传播算法。",
+				"text": "<p>1986年, Hinton, 深度学习之父, 和他的合作者发表了论文 Learning Representations by Back-propagating errors , 首次系统地描述了如何利用BP算法有训练神经网络. 从这一年开始, BP在有监督的神经网络算法中占着核心地位. 它描述了如何利用错误信息, 从最后一层(输出层)开始到第一个隐层, 逐步调整权值参数, 达到学习的目的。</p>2019年3月27日，ACM公布了2018的图灵奖得主——三位深度学习之父：Geoffrey Hinton、Yann LeCun和Yoshua Bengio。三位巨头提出并推动了深度学习的重要部分，他们因在深度神经网络概念和工程上的突破，共享2018年图灵奖。这些领域包括计算机视觉、自然语言处理、语音识别、机器人等重大领域。今天咱们来看三巨头之一Hinton的传奇故事。"
+			},
+			"start_date": {
+				"month": "",
+				"day": " ",
+				"year": "1986"
+			}
+		}, 
+		
+		{
+			"media": {
+				"caption": "IBM深蓝计算机",
+				"credit": "引用声明：https://baike.baidu.com/item/%E6%B7%B1%E8%93%9D%E8%AE%A1%E7%AE%97%E6%9C%BA/22036530?fr=aladdin",
+				"url": "data/ai/image/deep_blue.jpg",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "IBM深蓝战胜国际象棋大师",
+				"text": "深蓝计算机是由IBM开发的象棋电脑，深蓝计算机1996年2月进行了对世界冠军的第一场比赛，然而，卡斯帕罗夫击败了深蓝，得分为4：2。深蓝当时开始升级，并于1997年5月再次对抗卡斯帕罗夫以3.5：2.5赢得了比赛，成为历史上第一个在标准国际象棋比赛中打败卫冕世界冠军的计算机系统。机器的胜利标志着国际象棋历史的新时代。随后，卡斯帕罗夫指责IBM 作弊，并要求重新进行比赛。IBM拒绝并宣布深蓝退役。"
+			},
+			"start_date": {
+				"month": "5",
+				"day": " ",
+				"year": "1997"
+			}
+		}, 
+		
+		{
+			"media": {				
+					"caption": "危险边缘：IBM人机大战 Jeopardy!(哔哩哔哩视频)",
+				"credit": "bilibili：https://www.bilibili.com/video/BV14K41157E5",
+				"url": "<iframe src=\"//player.bilibili.com/player.html?aid=497968001&bvid=BV14K41157E5&cid=183092040&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "IBM Waston在《危险边缘》中战胜了最高奖金得主和连胜纪录保持者",
+				"text": "Watson的命名来源于IBM公司创始人托马斯·J·Watson的名字。 <br>2011年，Watson参加综艺节目危险边缘（Jeopardy）来测试它的能力，这是该节目有史以来第一次人与机器对决。<br>2月14日至16日广播的3集节目中，Watson在前两轮中与对手打平，而在最后一集里，Watson打败了最高奖金得主布拉德·鲁特尔和连胜纪录保持者肯·詹宁斯。<br>Watson赢得了第一笔奖金100万美元，而肯·詹宁斯和布拉德·鲁特尔分别只有30万和20万。赛后，詹宁斯和鲁特表示将一半奖金用于慈善事业，IBM公司也将Watson的奖金分给了两家慈善机构。<br>Watson在比赛节目中按下信号灯的速度始终比人类选手要快，但在个别问题上反映困难，尤其是只包含很少提示的问题。对于每一个问题，Watson会在屏幕上显示3个最有可能的答案。Watson 4TB磁盘内，包含200万页结构化和非结构化的信息，包括维基百科的全文。在比赛中Watson没有链接到互联网。"
+			},
+			"start_date": {
+				"month": "",
+				"day": " ",
+				"year": "2011"
+			}
+		}, 
+		
+		{
+			"media": {
+				"caption": "微软小娜（Cortana ）是微软发布的全球第一款个人智能助理",
+				"credit": "",
+				"url": "data/ai/image/ms.jpg",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "微软公司发布个人智能助理微软小娜",
+				"text": "Cortana （中文名：微软小娜）是微软发布的全球第一款个人智能助理。它“能够了解用户的喜好和习惯”，“帮助用户进行日程安排、问题回答等”。 [1]  Cortana 可以说是微软在机器学习和人工智能领域方面的尝试。微软想实现的事情是，手机用户与小娜的智能交互，不是简单地基于存储式的问答，而是对话。它会记录用户的行为和使用习惯，利用云计算、搜索引擎和“非结构化数据”分析，读取和“学习”包括手机中的文本文件、电子邮件、图片、视频等数据，来理解用户 的语义和语境，从而实现人机交互。"
+			},
+			"start_date": {
+				"month": "7",
+				"day": "30",
+				"year": "2014"
+			}
+		}, 
+		
+		
+		
+		{
+			"media": {
+				"caption": "AlphaGo 携手中国顶尖棋手：共创棋妙未来",
+				"credit": "bilibili:AlphaGo 2017中国乌镇·围棋峰会",
+				"url": "<iframe src=\"//player.bilibili.com/player.html?aid=9747305&bvid=BV1rx411S7Vj&cid=16111828&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "Google Alphago战胜国际围棋冠军",
+				"text": "阿尔法围棋（AlphaGo）是第一个击败人类职业围棋选手、第一个战胜围棋世界冠军的人工智能机器人，由谷歌（Google）旗下DeepMind公司戴密斯·哈萨比斯领衔的团队开发。其主要工作原理是“深度学习”。<br>2016年3月，阿尔法围棋与围棋世界冠军、职业九段棋手李世石进行围棋人机大战，以4比1的总比分获胜；2017年5月，在中国乌镇围棋峰会上，它与排名世界第一的世界围棋冠军柯洁对战，以3比0的总比分获胜。<br>围棋界公认阿尔法围棋的棋力已经超过人类职业围棋顶尖水平，在GoRatings网站公布的世界职业围棋排名中，其等级分曾超过排名人类第一的棋手柯洁。"
+			},
+			"start_date": {
+				"month": "",
+				"day": " ",
+				"year": "2017"
+			}
+		}, 
+		
+		
+		{
+			"media": {
+				"caption": "回顾一下人工智能简史#",
+				"credit": "下载地址：https://www.youtube.com/watch?v=056v4OxKwlI",
+				"url": "data/ai/video/A Brief History of Artificial Intelligence.mp4",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "回顾一下人工智能简史",
+				"text": "虽然现在每个人似乎都在谈论人工智能，但要记住，这并不是什么新东西!(While everyone seems to be talking about artificial intelligence these days, it’s good to remember that this is not something new!)"
+			},
+			"start_date": {
+				"month": "9",
+				"day": "14",
+				"year": "2017"
+			}
+		} , {
+			"media": {
+				"caption": "十分钟介绍人工智能 Artificial Intelligence In 10 Minutes.:哔哩哔哩网络的视频示意",
+				"credit": "下载地址：https://www.youtube.com/watch?v=cW9shEB8h5E",
+				"url": "<iframe src=\"//player.bilibili.com/player.html?aid=800254963&bvid=BV1gy4y1z7Zj&cid=254949952&page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"> </iframe>",
+				"thumbnail": ""
+			},
+			"text": {
+				"headline": "十分钟介绍人工智能",
+				"text": "人工智能是21世纪最受争议的技术。它被广泛用于解决复杂问题和简化人工任务。在这个视频中，你将在10分钟内学习人工智能。（Artificial Intelligence is the most debated technology of the 21st century. It is widely used to solve complex problems and ease human tasks. In this video, you will learn AI in 10 minutes）。"
+			},
+			"start_date": {
+				"month": "11",
+				"day": "20",
+				"year": "2020"
+			}
+		}
+	]
 }
