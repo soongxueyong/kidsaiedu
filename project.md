@@ -21,12 +21,16 @@ http://immersivemath.com/ila/learnmore.html
 制作：个人注册账号，建立一个geogebra的活动，进行制作
 发布：修改网页，进行内容丰富（todo：同样提供一个json读入的方式进行加载，参考bootstrap的案例加载方式）
 知识图谱：
-使用工具
+使用工具markdown
 https://markmap.js.org/repl
+https://www.markdowntutorial.com/lesson/4/
+
 下载html文件，发布即可。
 1.5.点评：
 (1)素材：发展、人物、事件反映AI相关理论、算法、技术
 (2)作品：图、文、视频丰富
+https://data-flair.training/blogs/history-of-artificial-intelligence/
+https://learn.g2.com/history-of-artificial-intelligence
 - 支撑图片：
 ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
 ## 工具说明
@@ -222,3 +226,25 @@ https://phillipi.github.io/pix2pix/
 https://github.com/affinelayer/pix2pix-tensorflow
 https://experiments.withgoogle.com/collection/ai
 
+工具
+https://tool.lu/
+https://github.com/benweet/stackedit
+VS Code 安装 Live Server
+http://www.markdown.cn/
+
+GAN
+http://gandissect.csail.mit.edu/
+http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4
+
+WebtoMarkdown
+http://heckyesmarkdown.com/
+人工智能未来
+Markdown Viewer
+https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk
+
+https://www.visualcapitalist.com/ai-revolution-infographic/
+https://techjury.net/blog/ai-statistics/
+http://www.cac.gov.cn/2019-02/16/c_1124122584.htm
+
+https://research.aimultiple.com/future-of-ai/
+https://www.statista.com/topics/3104/artificial-intelligence-ai-worldwide/
