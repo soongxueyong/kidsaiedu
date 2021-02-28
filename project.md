@@ -248,3 +248,10 @@ http://www.cac.gov.cn/2019-02/16/c_1124122584.htm
 
 https://research.aimultiple.com/future-of-ai/
 https://www.statista.com/topics/3104/artificial-intelligence-ai-worldwide/
+
+
+## 工具说明
+ - Markdow 编辑器；在线 https://stackedit.io/app# ，有道云笔记
+ - MarkDown 语法帮助 [markdownguide](https://www.markdownguide.org/basic-syntax
+ - 网页编辑工具：VS Code、HBuilder
+ - Python编码工具：PyCharm、Jupyter Lab
