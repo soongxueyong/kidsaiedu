@@ -255,3 +255,28 @@ https://www.statista.com/topics/3104/artificial-intelligence-ai-worldwide/
  - MarkDown 语法帮助 [markdownguide](https://www.markdownguide.org/basic-syntax
  - 网页编辑工具：VS Code、HBuilder
  - Python编码工具：PyCharm、Jupyter Lab
+
+## A* search
+https://editor.p5js.org/
+https://bengavrilov.github.io/Path-Finding-Visualizer/
+https://www.gatevidyalay.com/a-algorithm-a-algorithm-example-in-ai/
+http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+https://briangrinstead.com/blog/astar-search-algorithm-in-javascript/
+https://bgrins.github.io/javascript-astar/demo/
+https://www.redblobgames.com/
+https://www.edureka.co/blog/a-search-algorithm/
+http://ashblue.github.io/javascript-pathfinding/
+
+https://pathvis.bendatsko.com/
+https://qiao.github.io/PathFinding.js/visual/
+https://rosettacode.org/wiki/Rosetta_Code
+https://shadykhalifa.me/a-star-algorithm-js/public/
+https://www.analytics-link.com/post/2018/09/14/applying-the-a-path-finding-algorithm-in-python-part-1-2d-square-grid
+
+
+RUN Jupyter Notebook
+https://mybinder.org/
+
+Git Repo: https://github.com/trekhleb/homemade-machine-learning/
+NotebookPath:
+notebooks/linear_regression/non_linear_regression_demo.ipynb
