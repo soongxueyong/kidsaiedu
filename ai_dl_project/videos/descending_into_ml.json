@@ -1,0 +1,34 @@
+{
+  "videoData": [
+    {
+      "lang": "en",
+      "url": "https://download.mlcc.google.com/mledu-videos/en/descending_into_ml.mp4",
+      "videoId": "qAjFQLydY8E"
+    },
+    {
+      "lang": "es-419",
+      "url": "https://download.mlcc.google.com/mledu-videos/es-419/descending_into_ml.mp4",
+      "videoId": "7vAnfYVJhHI"
+    },
+    {
+      "lang": "fr",
+      "url": "https://download.mlcc.google.com/mledu-videos/fr/descending_into_ml.mp4",
+      "videoId": "QyDaoOhS4Tw"
+    },
+    {
+      "lang": "ko",
+      "url": "https://download.mlcc.google.com/mledu-videos/ko/descending_into_ml.mp4",
+      "videoId": "3VdCcpNcaDM"
+    },
+    {
+      "lang": "zh-cn",
+      "url": "https://download.mlcc.google.cn/mledu-videos/zh-cn/descending_into_ml.mp4",
+      "videoId": "DqE8U8yWAbo"
+    },
+    {
+      "lang": "id",
+      "url": "https://download.mlcc.google.com/mledu-videos/id/descending_into_ml.mp4",
+      "videoId": "qf6t5tY69Vw"
+    }
+  ]
+}

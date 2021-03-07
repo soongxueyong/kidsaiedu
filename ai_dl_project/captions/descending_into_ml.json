@@ -1,0 +1,1584 @@
+{
+  "captionData": [
+    {
+      "captions": [
+        {
+          "dur": 3.41, 
+          "text": "\u6b63\u5982\u6211\u4eec\u4e4b\u524d\u4ecb\u7ecd\u7684\uff0c\n\u6211\u4eec\u901a\u8fc7\u7814\u7a76\u6570\u636e\u5f97\u5230\u4e86\u6a21\u578b\u3002", 
+          "start": 0.54
+        }, 
+        {
+          "dur": 1.77, 
+          "text": "\u590d\u6742\u7684\u6a21\u578b\u7c7b\u578b\u6709\u5f88\u591a\uff0c", 
+          "start": 4.42
+        }, 
+        {
+          "dur": 2.32, 
+          "text": "\u6211\u4eec\u7528\u6765\u7814\u7a76\u6570\u636e\u7684\u6709\u8da3\u65b9\u6cd5\u4e5f\u6709\u5f88\u591a\u3002", 
+          "start": 6.37
+        }, 
+        {
+          "dur": 2.28, 
+          "text": "\u4f46\u6211\u4eec\u5148\u4ece\u6700\u7b80\u5355\u3001\u6700\u719f\u6089\u7684\u65b9\u6cd5\u5165\u624b\uff0c", 
+          "start": 8.9
+        }, 
+        {
+          "dur": 2.73, 
+          "text": "\u8fd9\u80fd\u5e2e\u52a9\u6211\u4eec\u4e86\u89e3\u66f4\u590d\u6742\u7684\u65b9\u6cd5\u3002", 
+          "start": 11.18
+        }, 
+        {
+          "dur": 2.52, 
+          "text": "\u8ba9\u6211\u4eec\u4ee5\u6570\u636e\u4e3a\u57fa\u7840\uff0c\n\u7528\u7b2c\u4e00\u4e2a\u5c0f\u6a21\u578b\u7ec3\u4e60\u4e00\u4e0b\u3002", 
+          "start": 15.06
+        }, 
+        {
+          "dur": 1.77, 
+          "text": "\u8fd9\u91cc\u6709\u4e00\u4e2a\u5c0f\u578b\u6570\u636e\u96c6\uff0c", 
+          "start": 18.21
+        }, 
+        {
+          "dur": 2.652, 
+          "text": "X\u8f74\u662f\u8f93\u5165\u7279\u5f81\uff0c", 
+          "start": 20.39
+        }, 
+        {
+          "dur": 2.498, 
+          "text": "\u663e\u793a\u7684\u662f\u623f\u5b50\u9762\u79ef\uff1b", 
+          "start": 23.252
+        }, 
+        {
+          "dur": 1.972, 
+          "text": "Y\u8f74\u662f\u6211\u4eec\u5c1d\u8bd5\u9884\u6d4b\u7684", 
+          "start": 26.4
+        }, 
+        {
+          "dur": 2.248, 
+          "text": "\u623f\u4ef7\u7684\u76ee\u6807\u4ef7\u503c\u3002", 
+          "start": 28.372
+        }, 
+        {
+          "dur": 1.728, 
+          "text": "\u6211\u4eec\u6765\u8bd5\u7740\u5236\u4f5c\u4e00\u4e2a\u6a21\u578b\uff0c", 
+          "start": 30.93
+        }, 
+        {
+          "dur": 2.932, 
+          "text": "\u5c06\u623f\u5b50\u9762\u79ef\u4f5c\u4e3a\u8f93\u5165\u7279\u5f81\uff0c", 
+          "start": 32.658
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "\u9884\u6d4b\u623f\u4ef7\u4f5c\u4e3a\u8f93\u51fa\u7279\u5f81\u3002", 
+          "start": 35.59
+        }, 
+        {
+          "dur": 2.93, 
+          "text": "\u5728\u6211\u4eec\u7684\u6570\u636e\u96c6\u4e2d\uff0c\n\u6709\u5f88\u591a\u7528\u6807\u7b7e\u6807\u51fa\u7684\u5c0f\u6837\u672c\u3002", 
+          "start": 38.99
+        }, 
+        {
+          "dur": 4.66, 
+          "text": "\u6211\u51c6\u5907\u5f15\u5bfc\u5177\u6709\u521d\u4e09\u5b66\u751f\n\u667a\u529b\u6c34\u5e73\u7684\u673a\u5668\u753b\u4e00\u6761\u7ebf\u3002", 
+          "start": 42.17
+        }, 
+        {
+          "dur": 3.13, 
+          "text": "\u5b83\u67e5\u770b\u6211\u4eec\u7684\u6570\u636e\u96c6\u540e\uff0c", 
+          "start": 47.45
+        }, 
+        {
+          "dur": 3.54, 
+          "text": "\u5927\u6982\u4f1a\u5728\u8fd9\u4e2a\u4f4d\u7f6e\u753b\u4e00\u6761\u7ebf\uff0c\n\u5dee\u4e0d\u591a\u662f\u8fd9\u4e2a\u6837\u5b50\u3002", 
+          "start": 50.58
+        }, 
+        {
+          "dur": 6.4, 
+          "text": "\u8fd9\u6761\u7ebf\u73b0\u5728\u5c31\u662f\u4e00\u4e2a\u6a21\u578b\uff0c\n\u6839\u636e\u7ed9\u5b9a\u7684\u8f93\u5165\u503c\u9884\u6d4b\u623f\u4ef7\u3002", 
+          "start": 56.81
+        }, 
+        {
+          "dur": 5.19, 
+          "text": "\u6211\u4eec\u56de\u60f3\u4e00\u4e0b\u521d\u4e2d\u7684\u4ee3\u6570\uff0c\n\u53ef\u4ee5\u5c06\u5176\u5b9a\u4e49\u4e3a\uff1a", 
+          "start": 64.78
+        }, 
+        {
+          "dur": 4.82, 
+          "text": "Y=WX+B", 
+          "start": 70.16
+        }, 
+        {
+          "dur": 2.404, 
+          "text": "\u800c\u5728\u9ad8\u4e2d\u4ee3\u6570\u4e2d\uff0c\n\u6211\u4eec\u5e94\u8be5\u8bf4MX\u3002", 
+          "start": 75.97
+        }, 
+        {
+          "dur": 2.006, 
+          "text": "\u4f46\u5728\u8fd9\u91cc\u6211\u4eec\u8bf4W\uff0c\n\u56e0\u4e3a\u8ba8\u8bba\u7684\u662f\u673a\u5668\u5b66\u4e60\u3002", 
+          "start": 78.374
+        }, 
+        {
+          "dur": 2.18, 
+          "text": "\u8fd9\u6307\u7684\u662f\u6211\u4eec\u7684\u6743\u77e2\u91cf\u3002", 
+          "start": 80.68
+        }, 
+        {
+          "dur": 3.12, 
+          "text": "\u60a8\u4f1a\u53d1\u73b0\u8fd9\u91cc\u6709\u5c0f\u4e0b\u6807\uff0c", 
+          "start": 83.61
+        }, 
+        {
+          "dur": 2.65, 
+          "text": "\u56e0\u4e3a\u6211\u4eec\u53ef\u80fd\u6709\u591a\u4e2a\u7ef4\u5ea6\u3002", 
+          "start": 86.73
+        }, 
+        {
+          "dur": 1.66, 
+          "text": "B\u8868\u793a\u504f\u5dee\u3002", 
+          "start": 90.19
+        }, 
+        {
+          "dur": 1.73, 
+          "text": "W\u8868\u793a\u659c\u7387\u3002", 
+          "start": 92.67
+        }, 
+        {
+          "dur": 1.6, 
+          "text": "\u6211\u4eec\u5982\u4f55\u77e5\u9053\u8fd9\u6761\u7ebf\u662f\u6b63\u786e\u7684\u5462\uff1f", 
+          "start": 95.61
+        }, 
+        {
+          "dur": 3.56, 
+          "text": "\u8fd9\u65f6\u6211\u4eec\u53ef\u80fd\u9700\u8981\u8003\u8651\u8bef\u5dee\u8fd9\u4e00\u6982\u5ff5\u3002", 
+          "start": 97.72
+        }, 
+        {
+          "dur": 3.464, 
+          "text": "\u8bef\u5dee\u4ece\u672c\u8d28\u4e0a\u53cd\u6620\u4e86", 
+          "start": 102.46
+        }, 
+        {
+          "dur": 3.186, 
+          "text": "\u8fd9\u6761\u7ebf\u5728\u9884\u6d4b\u4efb\u4f55\u7ed9\u5b9a\u6837\u672c\u65f6\u7684\u6548\u679c\u5982\u4f55\u3002", 
+          "start": 105.924
+        }, 
+        {
+          "dur": 1.46, 
+          "text": "\u56e0\u6b64\uff0c\u6211\u4eec\u53ef\u4ee5\u901a\u8fc7\u89c2\u5bdf", 
+          "start": 109.81
+        }, 
+        {
+          "dur": 2.94, 
+          "text": "\u7ed9\u5b9aX\u503c\u7684\u9884\u6d4b\u7ed3\u679c\n\u4e0e\u76f8\u5e94\u6837\u672c\u771f\u5b9e\u503c\u4e4b\u95f4\u7684\u5dee\u5f02\uff0c", 
+          "start": 111.27
+        }, 
+        {
+          "dur": 1.81, 
+          "text": "\u6765\u786e\u5b9a\u5177\u4f53\u8bef\u5dee\u3002", 
+          "start": 114.21
+        }, 
+        {
+          "dur": 2.18, 
+          "text": "\u8fd9\u4e2a\u8bef\u5dee\u9002\u4e2d\u3002", 
+          "start": 116.28
+        }, 
+        {
+          "dur": 1.58, 
+          "text": "\u8fd9\u4e2a\u8bef\u5dee\u51e0\u4e4e\u4e3a\u96f6\u3002", 
+          "start": 118.71
+        }, 
+        {
+          "dur": 1.65, 
+          "text": "\u8fd9\u91cc\u7684\u8bef\u5dee\u521a\u597d\u4e3a\u96f6\u3002", 
+          "start": 120.74
+        }, 
+        {
+          "dur": 2.75, 
+          "text": "\u8fd9\u91cc\u7684\u8bef\u5dee\u53ef\u80fd\u4e3a\u6b63\u3002", 
+          "start": 122.8
+        }, 
+        {
+          "dur": 2.91, 
+          "text": "\u8bef\u5dee\u59cb\u7ec8\u5904\u4e8e\u96f6\u5230\u6b63\u6570\u7684\u8303\u56f4\u4e4b\u5185\u3002", 
+          "start": 126.43
+        }, 
+        {
+          "dur": 1.57, 
+          "text": "\u6211\u4eec\u5982\u4f55\u5b9a\u4e49\u8bef\u5dee\u5462\uff1f", 
+          "start": 130.46
+        }, 
+        {
+          "dur": 3.32, 
+          "text": "\u5728\u8fd9\u65b9\u9762\uff0c\u6211\u4eec\u8981\u8003\u8651\u91c7\u53d6\n\u7a0d\u5fae\u6b63\u5f0f\u4e00\u4e9b\u7684\u65b9\u5f0f\u3002", 
+          "start": 132.41
+        }, 
+        {
+          "dur": 3.97, 
+          "text": "\u8ba9\u6211\u4eec\u6765\u60f3\u4e00\u4e2a\u65b9\u4fbf\u7684\u65b9\u5f0f\n\u6765\u5b9a\u4e49\u56de\u5f52\u95ee\u9898\u4e2d\u7684\u8bef\u5dee\u3002", 
+          "start": 136.93
+        }, 
+        {
+          "dur": 3.0, 
+          "text": "\u4e0d\u662f\u53ea\u5b9a\u4e49\u8bef\u5dee\u51fd\u6570\uff0c\n\u800c\u662f\u627e\u51fa\u4e00\u4e2a\u4fbf\u4e8e\u7740\u624b\u7684\u5b9e\u7528\u65b9\u5f0f\u3002", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 3.03, 
+          "text": "\u6211\u4eec\u5c06\u5176\u79f0\u4e3aL2\u8bef\u5dee\uff0c\n\u4e5f\u79f0\u4e3a\u65b9\u5dee\u3002", 
+          "start": 145.4
+        }, 
+        {
+          "dur": 3.01, 
+          "text": "\u8fd9\u662f\u9488\u5bf9\u5355\u4e2a\u6837\u672c\u786e\u5b9a\u7684\u8bef\u5dee\uff0c", 
+          "start": 149.07
+        }, 
+        {
+          "dur": 4.09, 
+          "text": "\u91c7\u7528\u6211\u4eec\u6a21\u578b\u7684\u9884\u6d4b\u7ed3\u679c\n\u4e0e\u771f\u5b9e\u503c\u4e4b\u95f4\u7684\u65b9\u5dee\u3002", 
+          "start": 152.31
+        }, 
+        {
+          "dur": 3.94, 
+          "text": "\u5f88\u660e\u663e\uff0c\u79bb\u771f\u5b9e\u503c\u8d8a\u8fdc\uff0c", 
+          "start": 157.29
+        }, 
+        {
+          "dur": 3.13, 
+          "text": "\u8bef\u5dee\u5c31\u4f1a\u4ee5\u5e73\u65b9\u6570\u589e\u52a0\u3002", 
+          "start": 161.23
+        }, 
+        {
+          "dur": 3.95, 
+          "text": "\u5982\u4eca\uff0c\u6211\u4eec\u5728\u8bad\u7ec3\u6a21\u578b\u65f6\uff0c\n\u5e76\u975e\u4e13\u6ce8\u4e8e\u5c3d\u91cf\u51cf\u5c11\u67d0\u4e00\u4e2a\u6837\u672c\u7684\u8bef\u5dee\uff0c", 
+          "start": 165.05
+        }, 
+        {
+          "dur": 2.848, 
+          "text": "\u800c\u662f\u7740\u773c\u4e8e\u6700\u5927\u9650\u5ea6\u5730\n\u51cf\u5c11\u6574\u4e2a\u6570\u636e\u96c6\u7684\u8bef\u5dee\u3002", 
+          "start": 169.32
+        }
+      ], 
+      "lang": "zh-Hans"
+    }, 
+    {
+      "captions": [
+        {
+          "dur": 3.92, 
+          "text": "So as we said before, our model\nis something that we learned from data.", 
+          "start": 0.6
+        }, 
+        {
+          "dur": 1.96, 
+          "text": "And there are lots \nof complicated model types", 
+          "start": 4.52
+        }, 
+        {
+          "dur": 2.44, 
+          "text": "and lots of interesting ways \nwe can learn from data.", 
+          "start": 6.48
+        }, 
+        {
+          "dur": 2.52, 
+          "text": "But we&#39;re gonna start with \nsomething very simple and familiar.", 
+          "start": 8.92
+        }, 
+        {
+          "dur": 3.66, 
+          "text": "This will open the gateway \nto more sophisticated methods.", 
+          "start": 11.44
+        }, 
+        {
+          "dur": 3.18, 
+          "text": "Let&#39;s train a first \nlittle model from data.", 
+          "start": 15.1
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "So here we&#39;ve got a small data set.", 
+          "start": 18.28
+        }, 
+        {
+          "dur": 2.972, 
+          "text": "On the X axis, \nwe&#39;ve got our input feature,", 
+          "start": 20.42
+        }, 
+        {
+          "dur": 3.068, 
+          "text": "which is showing housing square footage.", 
+          "start": 23.392
+        }, 
+        {
+          "dur": 2.052, 
+          "text": "On our Y axis, we&#39;ve got the target value", 
+          "start": 26.46
+        }, 
+        {
+          "dur": 2.528, 
+          "text": "that we&#39;re trying to predict \nof housing price.", 
+          "start": 28.512
+        }, 
+        {
+          "dur": 2.688, 
+          "text": "So we&#39;re gonna try \nand create a model that takes in", 
+          "start": 31.04
+        }, 
+        {
+          "dur": 2.152, 
+          "text": "housing square footage \nas an input feature", 
+          "start": 33.728
+        }, 
+        {
+          "dur": 3.14, 
+          "text": "and predicts housing price \nas an output feature.", 
+          "start": 35.88
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "Here we&#39;ve got lots of little\nlabeled examples in our data set.", 
+          "start": 39.02
+        }, 
+        {
+          "dur": 5.22, 
+          "text": "And I&#39;m go ahead and channel\nour inner ninth grader to fit a line.", 
+          "start": 42.32
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "It can maybe take a look at our data set and", 
+          "start": 47.54
+        }, 
+        {
+          "dur": 6.06, 
+          "text": "fit a line that looks about right here.\nMaybe something like this.", 
+          "start": 50.8
+        }, 
+        {
+          "dur": 7.9, 
+          "text": "And this line is now a model that\npredicts housing price given an input.", 
+          "start": 56.86
+        }, 
+        {
+          "dur": 5.42, 
+          "text": "We can recall from algebra one\nthat we can define this thing", 
+          "start": 64.76
+        }, 
+        {
+          "dur": 5.82, 
+          "text": "as Y = WX + B.", 
+          "start": 70.18
+        }, 
+        {
+          "dur": 2.624, 
+          "text": "Now in high school algebra \nwe would have said MX,", 
+          "start": 76.0
+        }, 
+        {
+          "dur": 2.116, 
+          "text": "here we say W \nbecause it&#39;s machine learning.", 
+          "start": 78.624
+        }, 
+        {
+          "dur": 2.86, 
+          "text": "And this is referring \nto our weight vectors.", 
+          "start": 80.74
+        }, 
+        {
+          "dur": 3.34, 
+          "text": "Now you&#39;ll notice that\nwe&#39;ve got a little subscript here", 
+          "start": 83.6
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "because we might be \nin more than one dimension.", 
+          "start": 86.94
+        }, 
+        {
+          "dur": 2.48, 
+          "text": "This B is a bias.", 
+          "start": 90.24
+        }, 
+        {
+          "dur": 2.96, 
+          "text": "and the W gives us our slope.", 
+          "start": 92.72
+        }, 
+        {
+          "dur": 2.16, 
+          "text": "How do we know if we have a good line?", 
+          "start": 95.68
+        }, 
+        {
+          "dur": 4.6, 
+          "text": "Well, we might wanna think\nof some notion of loss here.", 
+          "start": 97.84
+        }, 
+        {
+          "dur": 3.704, 
+          "text": "Loss is showing basically \nhow well our line", 
+          "start": 102.44
+        }, 
+        {
+          "dur": 3.736, 
+          "text": "is doing at predicting \nany given example.", 
+          "start": 106.144
+        }, 
+        {
+          "dur": 1.56, 
+          "text": "So we can define this loss", 
+          "start": 109.88
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "by looking at the difference between\nthe prediction for a given X value", 
+          "start": 111.44
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "and the true value for that example.", 
+          "start": 114.46
+        }, 
+        {
+          "dur": 2.34, 
+          "text": "So this guy has some moderate size loss.", 
+          "start": 116.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "This guy has near-zero loss.", 
+          "start": 118.8
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Here we&#39;ve got exactly zero loss.", 
+          "start": 120.8
+        }, 
+        {
+          "dur": 3.52, 
+          "text": "Here we probably have some positive loss.", 
+          "start": 122.94
+        }, 
+        {
+          "dur": 4.1, 
+          "text": "Loss is always on a zero \nthrough positive scale.", 
+          "start": 126.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "How might we define loss?", 
+          "start": 130.56
+        }, 
+        {
+          "dur": 4.46, 
+          "text": "Well, that&#39;s something that we&#39;ll need\nto think about in a slightly more formal way.", 
+          "start": 132.56
+        }, 
+        {
+          "dur": 4.84, 
+          "text": "So let&#39;s think about one convenient way\nto define loss for regression problems.", 
+          "start": 137.02
+        }, 
+        {
+          "dur": 3.58, 
+          "text": "Not the only loss function, but\none useful one to start out with.", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 3.74, 
+          "text": "We call this L2 loss, which\nis also known as squared error.", 
+          "start": 145.44
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "And it&#39;s a loss that&#39;s\ndefined for an individual example", 
+          "start": 149.18
+        }, 
+        {
+          "dur": 4.88, 
+          "text": "by taking the square of the difference between\nour model&#39;s prediction and the true value.", 
+          "start": 152.44
+        }, 
+        {
+          "dur": 4.22, 
+          "text": "Now obviously as we get further\nand further away from the true value,", 
+          "start": 157.32
+        }, 
+        {
+          "dur": 3.5, 
+          "text": "the loss that we suffer \nincreases with a square.", 
+          "start": 161.54
+        }, 
+        {
+          "dur": 4.38, 
+          "text": "Now, when we&#39;re training a model we don&#39;t\ncare about minimizing loss on just one example,", 
+          "start": 165.04
+        }, 
+        {
+          "dur": 3.108, 
+          "text": "we care about minimizing\nloss across our entire data set.", 
+          "start": 169.42
+        }
+      ], 
+      "lang": "en"
+    }, 
+    {
+      "captions": [
+        {
+          "dur": 3.63, 
+          "text": "Comme nous l&#39;avons vu,\nnotre mod\u00e8le est bas\u00e9 sur les donn\u00e9es.", 
+          "start": 0.6
+        }, 
+        {
+          "dur": 2.25, 
+          "text": "Il existe de nombreux types\nde mod\u00e8les complexes", 
+          "start": 4.23
+        }, 
+        {
+          "dur": 2.35, 
+          "text": "il y a de nombreuses fa\u00e7ons \nd&#39;apprendre \u00e0 partir des donn\u00e9es.", 
+          "start": 6.48
+        }, 
+        {
+          "dur": 2.69, 
+          "text": "Nous allons commencer\npar un exemple simple et familier,", 
+          "start": 8.83
+        }, 
+        {
+          "dur": 2.84, 
+          "text": "qui nous am\u00e8nera ensuite\n\u00e0 d&#39;autres m\u00e9thodes plus complexes.", 
+          "start": 11.52
+        }, 
+        {
+          "dur": 3.18, 
+          "text": "Entra\u00eenons un premier petit mod\u00e8le\n\u00e0 partir de donn\u00e9es.", 
+          "start": 15.1
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Nous avons ici\nun petit ensemble de donn\u00e9es.", 
+          "start": 18.28
+        }, 
+        {
+          "dur": 2.972, 
+          "text": "Sur l&#39;axe X, se trouve\nla caract\u00e9ristique d&#39;entr\u00e9e,", 
+          "start": 20.42
+        }, 
+        {
+          "dur": 2.388, 
+          "text": "qui indique la surface du logement.", 
+          "start": 23.392
+        }, 
+        {
+          "dur": 2.052, 
+          "text": "Sur l&#39;axe Y, se trouve la valeur cible", 
+          "start": 26.46
+        }, 
+        {
+          "dur": 2.528, 
+          "text": "que nous essayons de pr\u00e9dire\u00a0:\nle prix du logement.", 
+          "start": 28.512
+        }, 
+        {
+          "dur": 2.268, 
+          "text": "Nous allons donc cr\u00e9er\nun mod\u00e8le qui se base", 
+          "start": 31.04
+        }, 
+        {
+          "dur": 2.692, 
+          "text": "sur la surface du logement\ncomme \u00e9l\u00e9ment d&#39;entr\u00e9e", 
+          "start": 33.308
+        }, 
+        {
+          "dur": 2.91, 
+          "text": "et pr\u00e9dit le prix du logement\ncomme \u00e9l\u00e9ment de sortie.", 
+          "start": 36.0
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "L&#39;ensemble de donn\u00e9es\ncomprend des exemples \u00e9tiquet\u00e9s.", 
+          "start": 39.02
+        }, 
+        {
+          "dur": 5.22, 
+          "text": "Rappelons-nous ce qu&#39;on a vu\nau coll\u00e8ge pour tracer une ligne.", 
+          "start": 42.32
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "Nous pourrions observer\nl&#39;ensemble de donn\u00e9es", 
+          "start": 47.54
+        }, 
+        {
+          "dur": 3.62, 
+          "text": "et tracer une ligne ici.\n\u00c0 peu pr\u00e8s comme \u00e7a.", 
+          "start": 50.8
+        }, 
+        {
+          "dur": 4.33, 
+          "text": "Cette ligne constitue un mod\u00e8le\nde pr\u00e9diction du prix du logement", 
+          "start": 56.86
+        }, 
+        {
+          "dur": 2.02, 
+          "text": "en fonction d&#39;une entr\u00e9e.", 
+          "start": 61.19
+        }, 
+        {
+          "dur": 2.95, 
+          "text": "En cours de maths, au coll\u00e8ge,", 
+          "start": 64.76
+        }, 
+        {
+          "dur": 6.52, 
+          "text": "nous avions vu\nque cela correspondait \u00e0 Y = WX + B.", 
+          "start": 68.84
+        }, 
+        {
+          "dur": 2.514, 
+          "text": "Au lyc\u00e9e, nous aurions utilis\u00e9 MX.", 
+          "start": 76.0
+        }, 
+        {
+          "dur": 2.526, 
+          "text": "Ici, c&#39;est W,\ncar c&#39;est du machine learning.", 
+          "start": 78.514
+        }, 
+        {
+          "dur": 2.55, 
+          "text": "Et voici notre facteur de pond\u00e9ration.", 
+          "start": 81.05
+        }, 
+        {
+          "dur": 3.34, 
+          "text": "On remarque\nqu&#39;il y a un indice ici,", 
+          "start": 83.6
+        }, 
+        {
+          "dur": 2.6, 
+          "text": "car on peut travailler\ndans plus d&#39;une dimension.", 
+          "start": 86.94
+        }, 
+        {
+          "dur": 2.11, 
+          "text": "Le B est un biais.", 
+          "start": 90.24
+        }, 
+        {
+          "dur": 1.87, 
+          "text": "Le W donne la pente.", 
+          "start": 92.72
+        }, 
+        {
+          "dur": 2.16, 
+          "text": "Comment savoir\nsi cette ligne est bonne ?", 
+          "start": 95.68
+        }, 
+        {
+          "dur": 3.62, 
+          "text": "C&#39;est l\u00e0 qu&#39;intervient la notion de perte.", 
+          "start": 97.84
+        }, 
+        {
+          "dur": 3.704, 
+          "text": "La perte indique si notre ligne", 
+          "start": 102.44
+        }, 
+        {
+          "dur": 3.336, 
+          "text": "pr\u00e9dit de fa\u00e7on correcte un exemple donn\u00e9.", 
+          "start": 106.144
+        }, 
+        {
+          "dur": 1.56, 
+          "text": "Pour d\u00e9finir la perte,", 
+          "start": 109.88
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "examinons la diff\u00e9rence\nentre la pr\u00e9diction pour une valeur X,", 
+          "start": 111.44
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "et la valeur r\u00e9elle de cet exemple.", 
+          "start": 114.46
+        }, 
+        {
+          "dur": 2.34, 
+          "text": "Nous avons ici une perte mod\u00e9r\u00e9e.", 
+          "start": 116.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "Ici, elle est quasi-nulle.", 
+          "start": 118.8
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Ici, elle est r\u00e9ellement nulle.", 
+          "start": 120.8
+        }, 
+        {
+          "dur": 2.88, 
+          "text": "Ici, nous avons probablement\nune perte positive.", 
+          "start": 122.94
+        }, 
+        {
+          "dur": 3.41, 
+          "text": "L&#39;\u00e9chelle de la perte part toujours\nde z\u00e9ro vers des valeurs positives.", 
+          "start": 126.35
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "Comme d\u00e9finit-on la perte\u00a0?", 
+          "start": 130.56
+        }, 
+        {
+          "dur": 3.21, 
+          "text": "Nous devons y r\u00e9fl\u00e9chir\nde fa\u00e7on plus formelle.", 
+          "start": 132.56
+        }, 
+        {
+          "dur": 3.94, 
+          "text": "Voici une fa\u00e7on pratique de d\u00e9finir\nla perte pour les probl\u00e8mes de r\u00e9gression.", 
+          "start": 137.01
+        }, 
+        {
+          "dur": 3.57, 
+          "text": "Ce n&#39;est pas la seule fonction de perte,\nmais elle est utile pour commencer.", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 2.95, 
+          "text": "C&#39;est la perte L\u2082, ou erreur quadratique.", 
+          "start": 145.44
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "C&#39;est un type de perte\nd\u00e9fini pour un exemple individuel,", 
+          "start": 149.18
+        }, 
+        {
+          "dur": 1.88, 
+          "text": "en prenant le carr\u00e9 de la diff\u00e9rence", 
+          "start": 152.44
+        }, 
+        {
+          "dur": 2.48, 
+          "text": "entre la pr\u00e9diction du mod\u00e8le\net la valeur r\u00e9elle.", 
+          "start": 154.32
+        }, 
+        {
+          "dur": 4.22, 
+          "text": "\u00c9videmment,\nplus on s&#39;\u00e9loigne de la valeur r\u00e9elle,", 
+          "start": 157.32
+        }, 
+        {
+          "dur": 2.9, 
+          "text": "plus la perte augmente\nde mani\u00e8re quadratique.", 
+          "start": 161.54
+        }, 
+        {
+          "dur": 1.53, 
+          "text": "Lorsqu&#39;on entra\u00eene un mod\u00e8le,", 
+          "start": 165.04
+        }, 
+        {
+          "dur": 2.85, 
+          "text": "on ne cherche pas \u00e0 minimiser la perte\npour un seul exemple,", 
+          "start": 166.57
+        }, 
+        {
+          "dur": 2.918, 
+          "text": "mais pour tout l&#39;ensemble de donn\u00e9es.", 
+          "start": 169.42
+        }
+      ], 
+      "lang": "fr"
+    }, 
+    {
+      "captions": [
+        {
+          "dur": 3.92, 
+          "text": "Sesuai bahasan sebelumnya, model\nadalah hal yang kita pelajari dari data.", 
+          "start": 0.6
+        }, 
+        {
+          "dur": 1.96, 
+          "text": "Dan ada banyak jenis\nmodel yang rumit", 
+          "start": 4.52
+        }, 
+        {
+          "dur": 2.44, 
+          "text": "dan banyak cara menarik\nyang bisa dipelajari dari data.", 
+          "start": 6.48
+        }, 
+        {
+          "dur": 2.52, 
+          "text": "Tapi kita akan mulai dari\nyang simpel dan umum.", 
+          "start": 8.92
+        }, 
+        {
+          "dur": 3.66, 
+          "text": "Ini akan membuka jalan menuju\nmetode yang lebih canggih.", 
+          "start": 11.44
+        }, 
+        {
+          "dur": 3.18, 
+          "text": "Mari kita latih model kecil\npertama dari data.", 
+          "start": 15.1
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Jadi di sini kita punya set data kecil.", 
+          "start": 18.28
+        }, 
+        {
+          "dur": 2.972, 
+          "text": "Pada sumbu X,\nkita punya fitur masukan,", 
+          "start": 20.42
+        }, 
+        {
+          "dur": 3.068, 
+          "text": "yang menunjukkan ukuran\nrumah dalam kaki persegi.", 
+          "start": 23.392
+        }, 
+        {
+          "dur": 2.052, 
+          "text": "Pada sumbu Y,\nkita punya nilai target", 
+          "start": 26.46
+        }, 
+        {
+          "dur": 2.528, 
+          "text": "untuk memprediksi harga rumah.", 
+          "start": 28.512
+        }, 
+        {
+          "dur": 2.688, 
+          "text": "Jadi kita akan coba\ndan buat model yang menyertakan", 
+          "start": 31.04
+        }, 
+        {
+          "dur": 2.152, 
+          "text": "ukuran rumah dalam kaki persegi\nsebagai fitur masukan", 
+          "start": 33.728
+        }, 
+        {
+          "dur": 3.14, 
+          "text": "dan memprediksi harga rumah\nsebagai fitur keluaran.", 
+          "start": 35.88
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "Di sini kita punya banyak contoh\nberlabel kecil di set data.", 
+          "start": 39.02
+        }, 
+        {
+          "dur": 5.22, 
+          "text": "Dan saya akan lanjutkan\ndan coba buat garis lurus.", 
+          "start": 42.32
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "Mungkin kita bisa lihat set data dan", 
+          "start": 47.54
+        }, 
+        {
+          "dur": 6.06, 
+          "text": "buat garis yang sesuai di sini.\nMungkin seperti ini.", 
+          "start": 50.8
+        }, 
+        {
+          "dur": 7.9, 
+          "text": "Dan garis ini sekarang adalah model yang\nmemprediksi harga rumah sesuai masukan.", 
+          "start": 56.86
+        }, 
+        {
+          "dur": 5.42, 
+          "text": "Sesuai rumus aljabar,\nhal ini bisa ditentukan sebagai", 
+          "start": 64.76
+        }, 
+        {
+          "dur": 5.82, 
+          "text": "Y = WX + B.", 
+          "start": 70.18
+        }, 
+        {
+          "dur": 2.624, 
+          "text": "Dalam rumus aljabar di SMP,\nkita biasa menyebutnya MX,", 
+          "start": 76.0
+        }, 
+        {
+          "dur": 2.116, 
+          "text": "di sini kita sebut W\nkarena merujuk ke pemelajaran mesin.", 
+          "start": 78.624
+        }, 
+        {
+          "dur": 2.86, 
+          "text": "Dan ini merujuk\npada vektor bobot.", 
+          "start": 80.74
+        }, 
+        {
+          "dur": 3.34, 
+          "text": "Sekarang Anda akan lihat bahwa\nkita punya subskrip kecil di sini", 
+          "start": 83.6
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "karena kita mungkin ada\ndi lebih dari satu dimensi.", 
+          "start": 86.94
+        }, 
+        {
+          "dur": 2.48, 
+          "text": "B ini menunjukkan bias.", 
+          "start": 90.24
+        }, 
+        {
+          "dur": 2.96, 
+          "text": "dan W menunjukkan kemiringan.", 
+          "start": 92.72
+        }, 
+        {
+          "dur": 2.16, 
+          "text": "Bagaimana kita tahu garis yang tepat?", 
+          "start": 95.68
+        }, 
+        {
+          "dur": 4.6, 
+          "text": "Kita mungkin berpikir ada beberapa\ntanda kerugian di sini.", 
+          "start": 97.84
+        }, 
+        {
+          "dur": 3.704, 
+          "text": "Pada dasarnya, kerugian\nmenunjukkan performa garis kita", 
+          "start": 102.44
+        }, 
+        {
+          "dur": 3.736, 
+          "text": "dalam memprediksi\nsetiap contoh yang diberikan.", 
+          "start": 106.144
+        }, 
+        {
+          "dur": 1.56, 
+          "text": "Jadi kita bisa\ntentukan kerugian ini", 
+          "start": 109.88
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "dengan melihat perbedaan antara\nprediksi untuk nilai X yang ditentukan", 
+          "start": 111.44
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "dan nilai yang benar untuk contoh itu.", 
+          "start": 114.46
+        }, 
+        {
+          "dur": 2.34, 
+          "text": "Jadi ada sejumlah\nkerugian menengah di sini.", 
+          "start": 116.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "Ada nilai kerugian\nyang mendekati nol.", 
+          "start": 118.8
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Di sini ada kerugian\nbernilai nol.", 
+          "start": 120.8
+        }, 
+        {
+          "dur": 3.52, 
+          "text": "Di sini kita mungkin punya sejumlah\nkerugian bernilai positif.", 
+          "start": 122.94
+        }, 
+        {
+          "dur": 4.1, 
+          "text": "Kerugian selalu bernilai nol\nmelalui skala positif.", 
+          "start": 126.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "Bagaimana kita bisa menentukan kerugian?", 
+          "start": 130.56
+        }, 
+        {
+          "dur": 4.46, 
+          "text": "Ada hal yang perlu kita pikirkan dengan\ncara yang sedikit lebih formal.", 
+          "start": 132.56
+        }, 
+        {
+          "dur": 4.84, 
+          "text": "Jadi mari kita pikirkan cara mudah untuk\nmenentukan kerugian atas masalah regresi.", 
+          "start": 137.02
+        }, 
+        {
+          "dur": 3.58, 
+          "text": "Bukan hanya fungsi kerugian, tapi\ncara berguna yang bisa kita mulai.", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 3.74, 
+          "text": "Kita sebut ini kerugian L2, yang juga\ndikenal sebagai error kuadrat.", 
+          "start": 145.44
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "Dan ini adalah kerugian yang ditetapkan\nuntuk setiap contoh", 
+          "start": 149.18
+        }, 
+        {
+          "dur": 4.88, 
+          "text": "dengan mengambil kuadrat dari perbedaan\nantara prediksi model dan nilai yang benar.", 
+          "start": 152.44
+        }, 
+        {
+          "dur": 4.22, 
+          "text": "Sekarang semakin kita menjauh\ndari nilai yang benar,", 
+          "start": 157.32
+        }, 
+        {
+          "dur": 3.5, 
+          "text": "kerugian yang kita dapatkan akan\nmeningkat sebanyak 1 kuadrat.", 
+          "start": 161.54
+        }, 
+        {
+          "dur": 4.38, 
+          "text": "Saat melatih model, kerugian tidak\ndiminimalkan hanya pada satu contoh,", 
+          "start": 165.04
+        }, 
+        {
+          "dur": 3.108, 
+          "text": "kerugian perlu diminimalkan\ndi seluruh set data.", 
+          "start": 169.42
+        }
+      ], 
+      "lang": "id"
+    }, 
+    {
+      "captions": [
+        {
+          "dur": 3.92, 
+          "text": "\ub9d0\uc500\ub4dc\ub838\ub4ef\uc774, Google \ubaa8\ub378\uc740\n\ub370\uc774\ud130\ub97c \ud1b5\ud574 \ud559\uc2b5\uc2dc\ud0b5\ub2c8\ub2e4.", 
+          "start": 0.6
+        }, 
+        {
+          "dur": 1.96, 
+          "text": "\uc5ec\uae30\uc5d0\ub294 \ubcf5\uc7a1\ud55c \ubaa8\ub378 \uc720\ud615\ub3c4 \ub9ce\uace0", 
+          "start": 4.52
+        }, 
+        {
+          "dur": 2.44, 
+          "text": "\ub370\uc774\ud130\ub97c \ud559\uc2b5\ud560 \uc218 \uc788\ub294\n\ud765\ubbf8\ub85c\uc6b4 \ubc29\uc2dd\ub3c4 \ub9ce\uc8e0.", 
+          "start": 6.48
+        }, 
+        {
+          "dur": 2.52, 
+          "text": "\ud558\uc9c0\ub9cc \uc77c\ub2e8 \uc544\uc8fc \uc27d\uace0\n\uce5c\uc219\ud55c \ubc29\uc2dd\uc73c\ub85c \uc2dc\uc791\ud574\uc11c", 
+          "start": 8.92
+        }, 
+        {
+          "dur": 3.66, 
+          "text": "\uc880 \ub354 \ubcf5\uc7a1\ud55c \ubc29\uc2dd\uc73c\ub85c\n\ub118\uc5b4\uac00\ub3c4\ub85d \ud558\uaca0\uc2b5\ub2c8\ub2e4.", 
+          "start": 11.44
+        }, 
+        {
+          "dur": 3.18, 
+          "text": "\uccab \ubc88\uc9f8 \ub370\uc774\ud130 \ubaa8\ub378\uc744 \ud559\uc2b5\uc2dc\ucf1c \ubcfc\uae4c\uc694?", 
+          "start": 15.1
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "\uac04\ub2e8\ud55c \ub370\uc774\ud130 \uc138\ud2b8\uc608\uc694.", 
+          "start": 18.28
+        }, 
+        {
+          "dur": 2.972, 
+          "text": "X\ucd95\uc740 \uc785\ub825\uac12\uc778", 
+          "start": 20.42
+        }, 
+        {
+          "dur": 3.068, 
+          "text": "\uc8fc\ud0dd \uba74\uc801\uc774\uace0", 
+          "start": 23.392
+        }, 
+        {
+          "dur": 2.052, 
+          "text": "Y\ucd95\uc740 \ubaa9\ud46f\uac12\uc778", 
+          "start": 26.46
+        }, 
+        {
+          "dur": 2.528, 
+          "text": "\uc8fc\ud0dd \uac00\uaca9 \uc608\uc0c1\uac00\uc8e0.", 
+          "start": 28.512
+        }, 
+        {
+          "dur": 2.688, 
+          "text": "\uc774\uc81c \uc8fc\ud0dd \uba74\uc801\uc744 \uc785\ub825\ud558\uba74", 
+          "start": 31.04
+        }, 
+        {
+          "dur": 2.152, 
+          "text": "\uc8fc\ud0dd \uac00\uaca9\uc744 \uc608\uce21\ud558\uc5ec \ucd9c\ub825\ud558\ub294", 
+          "start": 33.728
+        }, 
+        {
+          "dur": 3.14, 
+          "text": "\ubaa8\ub378\uc744 \ub9cc\ub4e4\uc5b4\ubcfc\uac8c\uc694.", 
+          "start": 35.88
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "\ub370\uc774\ud130 \uc138\ud2b8\uc5d0 \ub77c\ubca8\uc774 \uc788\ub294\n\uc608\uc2dc\uac00 \uc5ec\ub7ec \uac1c \uc788\ub124\uc694.", 
+          "start": 39.02
+        }, 
+        {
+          "dur": 5.22, 
+          "text": "\ud559\uc0dd\uc758 \ub9c8\uc74c\uc73c\ub85c \ub3cc\uc544\uac00\uc11c\n\uc5ec\uae30\uc5d0 \ub9de\ub294 \uc120\uc744 \uadf8\uc5b4\ubcfc\uac8c\uc694.", 
+          "start": 42.32
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "\ub370\uc774\ud130 \uc138\ud2b8\ub97c \uc798 \ubcf4\uace0", 
+          "start": 47.54
+        }, 
+        {
+          "dur": 3.97, 
+          "text": "\uc774\ucbe4\uc5d0 \uc120\uc744 \uadf8\uc73c\uba74\n\uc774\ub7f0 \ubaa8\uc2b5\uc774 \ub429\ub2c8\ub2e4.", 
+          "start": 50.8
+        }, 
+        {
+          "dur": 7.9, 
+          "text": "\uc774\uc81c \uc774 \uc120\uc774 \uc785\ub825\uac12\uc5d0 \ub530\ub77c\n\uc8fc\ud0dd \uac00\uaca9\uc744 \uc608\uce21\ud55c \ubaa8\ub378\uc774 \ub418\uc8e0.", 
+          "start": 56.86
+        }, 
+        {
+          "dur": 5.42, 
+          "text": "\uc218\ud559 \uc2dc\uac04\uc5d0 \ubc30\uc6b4 \ub0b4\uc6a9\uc744 \ub5a0\uc62c\ub824\n\uc774 \uc120\uc744 \ubc29\uc815\uc2dd\uc73c\ub85c \uc815\uc758\ud558\uba74", 
+          "start": 64.76
+        }, 
+        {
+          "dur": 5.82, 
+          "text": "Y = WX + B\uac00 \ub3fc\uc694.", 
+          "start": 70.18
+        }, 
+        {
+          "dur": 2.624, 
+          "text": "\uace0\ub4f1\ud559\uad50\uc5d0\uc11c \ubc30\uc6b8 \ub550\nMX\ub77c\uace0 \uc37c\uc9c0\ub9cc", 
+          "start": 76.0
+        }, 
+        {
+          "dur": 2.116, 
+          "text": "\uba38\uc2e0 \ub7ec\ub2dd\uc5d0\uc11c\ub294 W\ub97c \uc4f0\uc8e0.", 
+          "start": 78.624
+        }, 
+        {
+          "dur": 2.86, 
+          "text": "\uac00\uc911\uce58(weight) \ubca1\ud130\uc758\nW\ub97c \ub098\ud0c0\ub0b4\uc694.", 
+          "start": 80.74
+        }, 
+        {
+          "dur": 3.34, 
+          "text": "\uc5ec\uae30 \uc791\uc740 \ucca8\uc790\uac00 \ub4e4\uc5b4\uac00\uc8e0.", 
+          "start": 83.6
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "\ucc28\uc6d0\uc774 \ub298\uc5b4\ub0a0 \uc218\ub3c4 \uc788\uc73c\ub2c8\uae4c\uc694.", 
+          "start": 86.94
+        }, 
+        {
+          "dur": 2.48, 
+          "text": "\uc774 B\ub294 \ud3b8\ud5a5\uc744 \ub098\ud0c0\ub0b4\uc694.", 
+          "start": 90.24
+        }, 
+        {
+          "dur": 2.96, 
+          "text": "\uadf8\ub9ac\uace0 W\uac00 \uae30\uc6b8\uae30\uc8e0.", 
+          "start": 92.72
+        }, 
+        {
+          "dur": 2.16, 
+          "text": "\uc120\uc744 \uc81c\ub300\ub85c \uadf8\uc5c8\ub294\uc9c0\n\uc5b4\ub5bb\uac8c \uc54c \uc218 \uc788\uc744\uae4c\uc694?", 
+          "start": 95.68
+        }, 
+        {
+          "dur": 4.6, 
+          "text": "\uc190\uc2e4\uc774\ub77c\ub294 \uac1c\ub150\uc744 \uc0dd\uac01\ud574\ubcf4\uc138\uc694.", 
+          "start": 97.84
+        }, 
+        {
+          "dur": 3.704, 
+          "text": "\uc190\uc2e4\uc744 \ubcf4\uba74 \n\uc544\uae4c \uadf8\ub9b0 \uc774 \uc120\uc774", 
+          "start": 102.44
+        }, 
+        {
+          "dur": 3.736, 
+          "text": "\uac01\uac01\uc758 \uc608\uc2dc\ub97c \uc5bc\ub9c8\ub098 \uc798 \n\uc608\uce21\ud558\ub294\uc9c0 \uc54c \uc218 \uc788\uc2b5\ub2c8\ub2e4.", 
+          "start": 106.144
+        }, 
+        {
+          "dur": 1.56, 
+          "text": "\uc608\uc2dc\uc5d0\uc11c \uc8fc\uc5b4\uc9c4 \uc608\uce21\uac12 X\uc5d0\uc11c", 
+          "start": 109.88
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "\uc2e4\uc81c\uac12\uc744 \ube7c\uba74", 
+          "start": 111.44
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "\uc190\uc2e4\uac12\uc744 \uc815\uc758\ud560 \uc218 \uc788\uc8e0.", 
+          "start": 114.46
+        }, 
+        {
+          "dur": 2.34, 
+          "text": "\uc774 \uc608\uc2dc\ub294 \uc190\uc2e4\uc774 \uc5b4\ub290 \uc815\ub3c4 \uc788\ub124\uc694.", 
+          "start": 116.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "\uc5ec\uae30\uc5d0\ub294 \uc190\uc2e4\uc774 \uac70\uc758 \uc5c6\uace0", 
+          "start": 118.8
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "\uc5ec\uae30\ub294 \uc190\uc2e4\uc774 \ub531 0\uc774\ub124\uc694.", 
+          "start": 120.8
+        }, 
+        {
+          "dur": 3.52, 
+          "text": "\uc774 \uacbd\uc6b0 \uc190\uc2e4\uc774 \uc591\uc218\uc8e0.", 
+          "start": 122.94
+        }, 
+        {
+          "dur": 4.1, 
+          "text": "\uc190\uc2e4\uc740 \ud56d\uc0c1 0 \uc774\uc0c1\uc758\n\uc591\uc218 \ubc94\uc704\uc5d0 \uc788\uc5b4\uc694.", 
+          "start": 126.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "\uc190\uc2e4\uc740 \uc5b4\ub5bb\uac8c \uc815\uc758\ub420\uae4c\uc694?", 
+          "start": 130.56
+        }, 
+        {
+          "dur": 4.46, 
+          "text": "\uc774 \ubd80\ubd84\uc740 \uc870\uae08 \ub354 \uba85\ud655\ud558\uac8c \n\uc0dd\uac01\ud574 \ubcfc \ud544\uc694\uac00 \uc788\uc2b5\ub2c8\ub2e4.", 
+          "start": 132.56
+        }, 
+        {
+          "dur": 4.84, 
+          "text": "\ud68c\uadc0 \ubb38\uc81c\uc5d0\uc11c \uc190\uc2e4\uc744\n\uac04\ub2e8\ud788 \uc815\uc758\ud558\ub294 \ubc29\ubc95\uc774 \uc788\uc5b4\uc694.", 
+          "start": 137.02
+        }, 
+        {
+          "dur": 1.0, 
+          "text": "\uc190\uc2e4\uc5d0 \uad00\ud55c \ud568\uc218\uac00\n\uc774\uac83\ubc16\uc5d0 \uc5c6\ub294 \uac74 \uc544\ub2c8\uc9c0\ub9cc", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 2.58, 
+          "text": "\uc774 \ubc29\ubc95\uc73c\ub85c \uc2dc\uc791\ud558\uba74 \uc88b\uc8e0.", 
+          "start": 142.86
+        }, 
+        {
+          "dur": 3.74, 
+          "text": "\uc774\uac78 L2 \uc190\uc2e4\uc774\ub77c\uace0 \ud569\ub2c8\ub2e4.\n\uc81c\uacf1 \uc624\ucc28\ub77c\uace0\ub3c4 \ud558\uc8e0.", 
+          "start": 145.44
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "\uc774 \uc190\uc2e4\uc740 \uac01 \uc608\uc2dc\ubcc4\ub85c \uc815\uc758\ub418\ub294\ub370", 
+          "start": 149.18
+        }, 
+        {
+          "dur": 4.88, 
+          "text": "\uc608\uce21\uac12\uacfc \uc2e4\uc81c\uac12\uc758\n\ucc28\ub97c \uc81c\uacf1\ud55c \uac12\uc774\uc5d0\uc694.", 
+          "start": 152.44
+        }, 
+        {
+          "dur": 4.22, 
+          "text": "\ubb3c\ub860 \uc2e4\uc81c\uac12\uc5d0\uc11c \uc810\uc810 \uba40\uc5b4\uc9c0\uba74\uc11c", 
+          "start": 157.32
+        }, 
+        {
+          "dur": 3.5, 
+          "text": "\uc190\uc2e4\ub3c4 \uc81c\uacf1\uc774 \ub418\uba74\uc11c \ucee4\uc9c0\uc8e0.", 
+          "start": 161.54
+        }, 
+        {
+          "dur": 4.38, 
+          "text": "\ubaa8\ub378\uc744 \ud6c8\ub828\uc2dc\ud0ac \ub54c\ub294\n\ud558\ub098\uc758 \uc608\uc2dc\uac00 \uc544\ub2c8\ub77c", 
+          "start": 165.04
+        }, 
+        {
+          "dur": 3.108, 
+          "text": "\uc804\uccb4 \ub370\uc774\ud130 \uc138\ud2b8\uc5d0\uc11c\n\uc190\uc2e4\uc744 \ucd5c\uc18c\ud654\ud574\uc57c \ud574\uc694.", 
+          "start": 169.42
+        }
+      ], 
+      "lang": "ko"
+    }, 
+    {
+      "captions": [
+        {
+          "dur": 3.92, 
+          "text": "Como dije antes, nuestro modelo\nes algo que aprendimos a partir de los datos.", 
+          "start": 0.6
+        }, 
+        {
+          "dur": 1.96, 
+          "text": "Existen muchos\ntipos de modelos complicados", 
+          "start": 4.52
+        }, 
+        {
+          "dur": 2.44, 
+          "text": "y diferentes formas interesantes\nde aprender de los datos.", 
+          "start": 6.48
+        }, 
+        {
+          "dur": 2.52, 
+          "text": "Sin embargo, empezaremos\ncon algo sencillo y familiar.", 
+          "start": 8.92
+        }, 
+        {
+          "dur": 3.66, 
+          "text": "Este ser\u00e1 el primer paso\npara conocer m\u00e9todos m\u00e1s sofisticados.", 
+          "start": 11.44
+        }, 
+        {
+          "dur": 3.18, 
+          "text": "Entrenemos un peque\u00f1o modelo\na partir de los datos.", 
+          "start": 15.1
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Aqu\u00ed tenemos un conjunto de datos peque\u00f1o.", 
+          "start": 18.28
+        }, 
+        {
+          "dur": 2.972, 
+          "text": "En el eje X,\ntenemos la entrada,", 
+          "start": 20.42
+        }, 
+        {
+          "dur": 3.068, 
+          "text": "que muestra\nla superficie cuadrada de una casa.", 
+          "start": 23.392
+        }, 
+        {
+          "dur": 2.052, 
+          "text": "En el eje Y, tenemos el valor de segmentaci\u00f3n", 
+          "start": 26.46
+        }, 
+        {
+          "dur": 2.528, 
+          "text": "que intentamos predecir\ndel precio de la casa.", 
+          "start": 28.512
+        }, 
+        {
+          "dur": 2.688, 
+          "text": "Intentaremos crear\nun modelo que tome", 
+          "start": 31.04
+        }, 
+        {
+          "dur": 2.152, 
+          "text": "la superficie cuadrada de la casa\ncomo valor de entrada", 
+          "start": 33.728
+        }, 
+        {
+          "dur": 3.14, 
+          "text": "y prediga el precio de la casa\ncomo valor de salida.", 
+          "start": 35.88
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "Aqu\u00ed hay varios ejemplos peque\u00f1os\netiquetados en nuestro conjunto de datos.", 
+          "start": 39.02
+        }, 
+        {
+          "dur": 5.22, 
+          "text": "Evocar\u00e9 a nuestro ni\u00f1o interior\npara que dibuje una l\u00ednea.", 
+          "start": 42.32
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "Observa nuestro conjunto de datos", 
+          "start": 47.54
+        }, 
+        {
+          "dur": 6.06, 
+          "text": "y dibuja una l\u00ednea por aqu\u00ed.\nTal vez algo as\u00ed.", 
+          "start": 50.8
+        }, 
+        {
+          "dur": 7.9, 
+          "text": "Esta l\u00ednea ahora es un modelo que predice\nel precio de una casa, seg\u00fan una entrada.", 
+          "start": 56.86
+        }, 
+        {
+          "dur": 5.42, 
+          "text": "Podemos aplicar conocimientos\nde \u00e1lgebra y definir esto", 
+          "start": 64.76
+        }, 
+        {
+          "dur": 5.82, 
+          "text": "como Y = WX + B.", 
+          "start": 70.18
+        }, 
+        {
+          "dur": 2.624, 
+          "text": "En la escuela, dir\u00edamos MX,", 
+          "start": 76.0
+        }, 
+        {
+          "dur": 2.116, 
+          "text": "Aqu\u00ed decimos W,\nporque es aprendizaje autom\u00e1tico.", 
+          "start": 78.624
+        }, 
+        {
+          "dur": 2.86, 
+          "text": "Se refiere a nuestros\nvectores ponderados.", 
+          "start": 80.74
+        }, 
+        {
+          "dur": 3.34, 
+          "text": "Ahora, notar\u00e1n\nque hay unos sub\u00edndices", 
+          "start": 83.6
+        }, 
+        {
+          "dur": 3.3, 
+          "text": "porque es posible que exista\nm\u00e1s de una dimensi\u00f3n.", 
+          "start": 86.94
+        }, 
+        {
+          "dur": 2.48, 
+          "text": "Esta B es un margen.", 
+          "start": 90.24
+        }, 
+        {
+          "dur": 2.96, 
+          "text": "La W indica la inclinaci\u00f3n.", 
+          "start": 92.72
+        }, 
+        {
+          "dur": 2.16, 
+          "text": "\u00bfC\u00f3mo sabemos si tenemos una l\u00ednea buena?", 
+          "start": 95.68
+        }, 
+        {
+          "dur": 4.6, 
+          "text": "Podemos evaluar\nla p\u00e9rdida aqu\u00ed.", 
+          "start": 97.84
+        }, 
+        {
+          "dur": 3.704, 
+          "text": "La p\u00e9rdida muestra\nel rendimiento de la l\u00ednea", 
+          "start": 102.44
+        }, 
+        {
+          "dur": 3.736, 
+          "text": "para predecir cualquier ejemplo.", 
+          "start": 106.144
+        }, 
+        {
+          "dur": 1.56, 
+          "text": "Podemos definir esta p\u00e9rdida", 
+          "start": 109.88
+        }, 
+        {
+          "dur": 3.02, 
+          "text": "al observar la diferencia entre la predicci\u00f3n\npara un valor X determinado", 
+          "start": 111.44
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "y el valor verdadero para ese ejemplo.", 
+          "start": 114.46
+        }, 
+        {
+          "dur": 2.34, 
+          "text": "Aqu\u00ed tenemos una p\u00e9rdida de tama\u00f1o moderado.", 
+          "start": 116.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "Aqu\u00ed tenemos una p\u00e9rdida de casi cero.", 
+          "start": 118.8
+        }, 
+        {
+          "dur": 2.14, 
+          "text": "Aqu\u00ed no tenemos p\u00e9rdida.", 
+          "start": 120.8
+        }, 
+        {
+          "dur": 3.52, 
+          "text": "Aqu\u00ed probablemente\nhaya un poco de p\u00e9rdida positiva.", 
+          "start": 122.94
+        }, 
+        {
+          "dur": 4.1, 
+          "text": "La p\u00e9rdida siempre va en una escala\nde cero a valores positivos.", 
+          "start": 126.46
+        }, 
+        {
+          "dur": 2.0, 
+          "text": "\u00bfC\u00f3mo definimos la p\u00e9rdida?", 
+          "start": 130.56
+        }, 
+        {
+          "dur": 4.46, 
+          "text": "Para ello, debemos pensar\nde una manera un poco m\u00e1s formal.", 
+          "start": 132.56
+        }, 
+        {
+          "dur": 4.84, 
+          "text": "Pensemos una forma pr\u00e1ctica\nde definir la p\u00e9rdida para los problemas de regresi\u00f3n.", 
+          "start": 137.02
+        }, 
+        {
+          "dur": 3.58, 
+          "text": "No la \u00fanica funci\u00f3n de p\u00e9rdida,\nsino una \u00fatil para comenzar.", 
+          "start": 141.86
+        }, 
+        {
+          "dur": 3.74, 
+          "text": "La llamamos p\u00e9rdida L2,\nque tambi\u00e9n se conoce como error al cuadrado.", 
+          "start": 145.44
+        }, 
+        {
+          "dur": 3.26, 
+          "text": "Es una p\u00e9rdida que se define\npor un ejemplo espec\u00edfico", 
+          "start": 149.18
+        }, 
+        {
+          "dur": 4.88, 
+          "text": "al tomar el cuadrado de la diferencia\nentre la predicci\u00f3n del modelo y el valor verdadero.", 
+          "start": 152.44
+        }, 
+        {
+          "dur": 4.22, 
+          "text": "A medida que nos alejamos\ndel valor verdadero,", 
+          "start": 157.32
+        }, 
+        {
+          "dur": 3.5, 
+          "text": "la p\u00e9rdida aumenta\nal cuadrado.", 
+          "start": 161.54
+        }, 
+        {
+          "dur": 4.38, 
+          "text": "Cuando capacitamos un modelo, no nos interesa\nreducir la p\u00e9rdida en un solo ejemplo,", 
+          "start": 165.04
+        }, 
+        {
+          "dur": 3.108, 
+          "text": "nos interesa reducir la p\u00e9rdida\nen todo nuestro conjunto de datos.", 
+          "start": 169.42
+        }
+      ], 
+      "lang": "es-419"
+    }
+  ]
+}

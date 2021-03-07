@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+
+	<head>
+		<meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+		<meta name="google-signin-scope" content="profile email">
+		<meta property="og:site_name" content="Google Developers">
+		<meta property="og:type" content="website">
+		<meta name="theme-color" content="#ffffff">
+		<meta charset="utf-8">
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="manifest" href="/_pwa/developers/manifest.json" crossorigin="use-credentials">
+		<link rel="preconnect" href="//www.gstatic.cn" crossorigin>
+		<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+		<link rel="preconnect" href="//apis.google.com" crossorigin>
+		<link rel="preconnect" href="//www.google-analytics.com" crossorigin>
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
+		<link rel="stylesheet" href="developers/css/app.css">
+		<noscript>
+      
+    </noscript>
+		<link rel="shortcut icon" href="https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/favicon.png">
+		<link rel="apple-touch-icon" href="https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/touchicon-180.png">
+
+		<title>神经网络课程资源</title>
+		<meta property="og:title" content="机器学习简介 (Introduction to Machine Learning) &nbsp;|&nbsp; 机器学习速成课程">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="675">
+		<meta property="og:locale" content="zh_cn">
+		<meta name="twitter:card" content="summary_large_image">
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BreadcrumbList",
+				"itemListElement": [{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "机器学习",
+					"item": "https://developers.google.cn/machine-learning"
+				}, {
+					"@type": "ListItem",
+					"position": 2,
+					"name": "速成课程",
+					"item": "https://developers.google.cn/machine-learning/crash-course"
+				}, {
+					"@type": "ListItem",
+					"position": 3,
+					"name": "机器学习简介 (Introduction to Machine Learning)",
+					"item": "https://developers.google.cn/machine-learning/crash-course/ml-intro"
+				}]
+			}
+		</script>
+	</head>
+
+	<body type="article" theme="white" class="" layout="docs" block-apix pending>
+		<devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+		<section class="devsite-wrapper">
+			<devsite-header>
+				<div class="devsite-header--inner nocontent">
+					<div class="devsite-top-logo-row-wrapper-wrapper">
+						<div class="devsite-top-logo-row-wrapper">
+							<div class="devsite-top-logo-row">
+								<button type="button" id="devsite-hamburger-menu" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Navigation menu button" visually-hidden aria-label="Open menu">
+        </button>
+								<div class="devsite-product-name-wrapper">
+									<span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+  <a href="ml-intro.html"      
+        class="devsite-breadcrumb-link gc-analytics-event"      
+        data-category="Site-Wide Custom Events"      
+        data-label="Upper Header"      
+        data-value="1"      
+        track-type="globalNav"      
+        track-name="breadcrumb"
+              track-metadata-position="1"      
+        track-metadata-eventdetail="神经网络课程资源<" >    
+          神经网络课程资源       
+  </a>
+  </li>
+  </ul>
+  </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</devsite-header>
+			<devsite-book-nav scrollbars>
+				<nav class="devsite-book-nav devsite-nav nocontent" aria-label="Side menu">
+					<div class="devsite-mobile-header">
+						<button type="button" id="devsite-close-nav" class="devsite-header-icon-button button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Close navigation" aria-label="Close navigation">
+    </button>
+						<div class="devsite-product-name-wrapper">
+							<span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"  >
+  
+  <li class="devsite-breadcrumb-item             ">
+        
+  <a href="https://developers.google.cn/machine-learning?hl=zh-cn"      
+        class="devsite-breadcrumb-link gc-analytics-event"      
+        data-category="Site-Wide Custom Events"      
+        data-label="Upper Header"      
+        data-value="1"      
+        track-type="globalNav"      
+        track-name="breadcrumb"      
+        track-metadata-position="1"
+              track-metadata-eventdetail="机器学习"       >    
+          神经网络课程资源        
+  </a>    
+    
+  </li>  
+</ul>
+      </span>
+						</div>
+					</div>
+					<div class="devsite-book-nav-wrapper">
+						<div class="devsite-mobile-nav-top">
+							<ul class="devsite-nav-list">
+							</ul>
+						</div>
+						<div class="devsite-mobile-nav-bottom" role="navigation">
+							<ul class="devsite-nav-list" menu="_book">
+								<!--task 1-->
+
+								<li class="devsite-nav-item     devsite-nav-expandable">
+									<devsite-expandable-nav>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>1.神经元模型</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels1" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.了解神经网络知识</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels2" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>2.神经网络信号传输可视化</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>3.认识机器学习</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<!--task 1-->
+								<!--task 2-->
+
+								<li class="devsite-nav-item     devsite-nav-expandable">
+									<devsite-expandable-nav>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>任务二、理解人工神经网络</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="nn-model.html" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.神经元MP模型</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels2" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>2.先前传播</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>3.激活函数</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>4.损失函数(Loss Function)</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>5.误差反向传播(BP函数)</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>6.优化器（梯度下降）</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>7.学习率</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>8.欠拟合与过拟合</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>9.仿真软件playground</span></a>
+											</li>
+										</ul>
+									</devsite-expandable-nav>
+								</li>
+								<!--task 2-->
+
+								<!--task 3-->
+
+								<li class="devsite-nav-item     devsite-nav-expandable">
+									<devsite-expandable-nav>
+										<a class="devsite-nav-toggle" aria-hidden="true"></a>
+										<div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button"><span class="devsite-nav-text" tooltip>任务三、编程实践：RIS花卉识别</span></div>
+										<ul class="devsite-nav-section">
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels1" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>1.数据可视化</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels2" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>2.建立模型</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>3.训练模型</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>4.评估模型(Loss Function)</span></a>
+											</li>
+											<li class="devsite-nav-item">
+												<a href="ml-intro.html#labels3" class="devsite-nav-title"><span class="devsite-nav-text" tooltip>5.使用模型</span></a>
+											</li>
+
+											<!--task 3-->
+										</ul>
+						</div>
+					</div>
+				</nav>
+			</devsite-book-nav>
+			<section id="gc-wrapper">
+				<main role="main" class="devsite-main-content" has-book-nav has-toc>
+					<devsite-toc class="devsite-nav"></devsite-toc>
+					<devsite-content>
+						<article class="devsite-article">
+							<style>
+								/* Styles inlined from /machine-learning/crash-course/cc.css */
+								
+								@import url("ml.css");
+								/* Override DevSite platform default background color of white. */
+								
+								.devsite-landing-row.mlcc-landing-hero {
+									background-color: transparent;
+								}
+								
+								#mlcc-title,
+								#mlcc-subtitle {
+									color: white;
+								}
+								
+								#mlcc-title {
+									margin-bottom: 0;
+								}
+								
+								#mlcc-subtitle {
+									margin-top: 0;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item,
+								.mlcc-landing-mce .devsite-tracking-question-text h3 {
+									text-align: center;
+								}
+								
+								.devsite-landing-row:not(.devsite-background):not([background]):not(.devsite-landing-row-cta):not(.devsite-landing-row-marquee).mlcc-landing-hero {
+									padding: 0;
+								}
+								
+								.mlcc-landing-hero {
+									height: 550px;
+									margin: 0 calc(50% - 50vw);
+									overflow: hidden;
+									position: relative;
+								}
+								
+								.mlcc-landing-hero h3 {
+									color: #fff;
+									font: 400 44px/52px Google Sans, sans-serif;
+									min-width: 400px;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-inner,
+								.mlcc-landing-hero>.devsite-landing-row-group {
+									max-width: initial;
+									padding: 0;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item-description {
+									-webkit-box-align: center;
+									-ms-flex-align: center;
+									align-items: center;
+									background: rgba(0, 0, 0, .5);
+									color: rgba(255, 255, 255, .8);
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									height: 100%;
+									-webkit-box-pack: center;
+									-ms-flex-pack: center;
+									justify-content: center;
+									padding: 0 30px;
+									position: absolute;
+									width: 100%;
+								}
+								
+								.devsite-landing-row-item-body {
+									justify-content: center;
+									align-items: center;
+								}
+								
+								.mlcc-landing-hero .devsite-landing-row-item-description-content .course-description {
+									color: #fff;
+									font-size: 18px;
+									line-height: 28px;
+									margin: 5px 0 15px 0;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-buttons,
+								.mlcc-landing-hero .devsite-landing-row-item-buttons {
+									margin-left: -20px;
+									margin-top: 8px;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-buttons .button,
+								.mlcc-landing-hero .devsite-landing-row-item-buttons .button {
+									margin-left: 20px;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-description-content {
+									margin: 20px auto;
+								}
+								
+								.mlcc-landing-hero-video {
+									height: auto;
+									left: 0;
+									min-height: 100%;
+									min-width: 100%;
+									object-fit: cover;
+									position: absolute;
+									top: 0;
+									width: auto;
+									z-index: -1;
+								}
+								
+								.mlcc-module-description-item {
+									flex-grow: 1;
+									font-size: 36px;
+								}
+								
+								.mlcc-module-description-item p {
+									font-size: 22px;
+								}
+								
+								.mlcc-landing-course-description {
+									margin-top: -75px;
+								}
+								
+								.mlcc-landing-course-description .devsite-landing-row-item-image {
+									margin: 0 auto;
+								}
+								
+								.mlcc-landing-card-noimage {
+									padding: 8px 12px;
+								}
+								
+								.mlcc-landing-large-header h3 {
+									font: 400 22px/30px Google Sans, sans-serif;
+								}
+								
+								.mlcc-landing-mce .devsite-tracking-question {
+									background-color: #fff;
+									margin: 0 auto;
+									width: 80%;
+								}
+								
+								.mlcc-landing-mce .devsite-tracking-question-choice-button {
+									background: #42a5f5;
+									text-align: left;
+								}
+								
+								.devsite-landing-row-cta {
+									padding-top: 80px;
+									padding-bottom: 80px;
+								}
+								
+								.mlcc-landing-mc-cta-button-container {
+									padding: 24px 0;
+									text-align: center;
+								}
+								
+								.mlcc-landing-features {
+									text-align: center;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-description-content,
+								.mlcc-landing-features .devsite-landing-row-item-description-content {
+									margin: 0 auto 32px;
+									min-width: 400px;
+									width: 50%;
+									text-align: center;
+								}
+								
+								.devsite-landing-row-100.mlcc-landing-questions .devsite-landing-row-item-description h3,
+								.devsite-landing-row-100.mlcc-landing-features .devsite-landing-row-item-description h3 {
+									color: #414141;
+									font: 400 44px/52px Google Sans, sans-serif;
+									margin: 40px auto 20px;
+									min-width: 400px;
+									text-align: center;
+									width: 50%;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item-description-content,
+								.mlcc-landing-questions .devsite-landing-row-item-description-content,
+								.mlcc-landing-features .devsite-landing-row-item-description-content {
+									color: #263238;
+									font: 300 18px/26px Roboto, sans-serif;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list,
+								.mlcc-landing-features .devsite-landing-row-item-list {
+									display: -webkit-box;
+									display: -ms-flexbox;
+									display: flex;
+									-webkit-flex-wrap: wrap;
+									-ms-flex-wrap: wrap;
+									flex-wrap: wrap;
+									-webkit-box-pack: space-between;
+									-ms-flex-pack: space-between;
+									justify-content: space-between;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item,
+								.mlcc-landing-features .devsite-landing-row-item-list-item {
+									margin: 20px 0;
+									width: 30%;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item p {
+									color: #414141;
+									font-size: 22px;
+									line-height: 30px;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item p {
+									color: #414141;
+									font-size: 18px;
+									line-height: 28px;
+									transition: color .3s;
+								}
+								
+								.mlcc-landing-questions[background] :link .devsite-landing-row-item-list-item-description>*:first-child,
+								.mlcc-landing-questions.devsite-background :link .devsite-landing-row-item-list-item-description>*:first-child {
+									text-decoration: none;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item {
+									border-top: 1px solid #b0bec5;
+									padding: 15px 0 0 30px;
+									position: relative;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover p {
+									color: #757575;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::before,
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::after {
+									background: url(/machine-learning/crash-course/images/landing-circle-arrow.svg) center/contain no-repeat;
+									content: '';
+									height: 15px;
+									left: 0;
+									position: absolute;
+									top: 20px;
+									width: 15px;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item::after {
+									background: url(/machine-learning/crash-course/images/landing-circle-arrow-hover.svg) center/contain no-repeat;
+									visibility: hidden;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover::before {
+									visibility: hidden;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list-item:hover::after {
+									visibility: visible;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-content {
+									align-items: center;
+									flex-direction: column;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-icon-container {
+									height: auto;
+									margin: 0 0 5px;
+									width: auto;
+								}
+								
+								.mlcc-landing-features .devsite-landing-row-item-list-item-icon {
+									height: 150px;
+									width: auto;
+								}
+								
+								.mlcc-landing-questions .devsite-landing-row-item-list {
+									-webkit-box-align: flex-start;
+									-ms-flex-align: flex-start;
+									align-items: flex-start;
+									text-align: left;
+								}
+								
+								.mlcc-landing-cta-description .devsite-landing-row-item {
+									color: #414141;
+									-webkit-flex: 0 0 50%;
+									-ms-flex: 0 0 50%;
+									flex: 0 0 50%;
+									margin: 0 auto;
+									min-width: 400px;
+								}
+								
+								.mlcc-landing-cta-description h3 {
+									font: 400 44px/52px Google Sans, sans-serif;
+								}
+								
+								.devsite-landing-row-item[foreground="theme"] .mlcc-landing-button-secondary.button-transparent.button:not(.button-disabled) {
+									color: #fff;
+									border: 1px solid #fff;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: color .3s, background-color .3s;
+								}
+								
+								.devsite-landing-row-item[foreground="theme"] .mlcc-landing-button-secondary.button:not(.button-disabled):hover {
+									background-color: #fff;
+									color: #414141;
+								}
+								
+								.mlcc-landing-cta-description .mlcc-landing-button-secondary {
+									color: #3367d6;
+									border: 1px solid #3367d6;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: color .3s, border .3s;
+								}
+								
+								.mlcc-landing-cta-description .mlcc-landing-button-secondary:hover {
+									border: 1px solid #4285f4;
+									color: #4285f4;
+								}
+								
+								.mlcc-landing .button-primary,
+								.mlcc-landing .devsite-landing-row-item[foreground="theme"] .button.button-primary:not(.button-disabled) {
+									color: #fff;
+									background-color: #3367d6;
+									height: 40px;
+									line-height: 20px;
+									padding: 10px 20px;
+									transition: background-color .3s;
+								}
+								
+								.mlcc-landing .button-primary:hover,
+								.mlcc-landing .devsite-landing-row-item[foreground="theme"] .button.button-primary:not(.button-disabled):hover {
+									background-color: #4285f4;
+								}
+								
+								pre.mlcc-good {
+									background-color: #cdebdd;
+									color: #000;
+								}
+								
+								pre.mlcc-bad {
+									background-color: #f7d2ce;
+									color: #000;
+								}
+								
+								td.mlcc-bad {
+									background-color: #ff9999;
+								}
+								
+								td.mlcc-good {
+									background-color: #99ff99;
+								}
+								/* Toggle on centering of table-cell text */
+								
+								table.center td {
+									text-align: center;
+								}
+								
+								pre.mlcc-good .devsite-code-button-wrapper,
+								pre.mlcc-bad .devsite-code-button-wrapper {
+									/** Hide the code theme toggle
+   *  1. The background color is set to be green or red
+   *  2. There is a check mark tick and an 'x' to reinforce the good/bad and
+   *     support users who are colorblind.
+   **/
+									display: none;
+								}
+								
+								.mlcc-good-check {
+									font-family: "Courier", monospace;
+									float: right;
+								}
+								
+								.mlcc-bad-x {
+									font-family: "Courier", monospace;
+									float: right;
+								}
+								/*
+  * Left navigation icons indicating the type of lesson.
+  * Rules for specific pages not captured in /machine-learning/ml.css.
+  */
+								/**
+  * Remove generic doc icons and add
+  * hardcoded video icons for single item sections.
+  * Uses background image because the video icon is proprietary and can't be
+  *   included as font icon / content attribute.
+  */
+								
+								nav a.devsite-nav-title[href*='ml-intro']::before,
+								nav a.devsite-nav-title[href*='production-ml-systems']::before,
+								nav a.devsite-nav-title[href*='cancer-prediction']::before,
+								nav a.devsite-nav-title[href*='18th-century-literature']::before,
+								nav a.devsite-nav-title[href*='real-world-guidelines']::before {
+									background-image: url("developers/images/video_icon.svg");
+									background-repeat: no-repeat;
+									background-size: 16px;
+									height: 16px;
+									content: '';
+								}
+								/**
+ * Hard coded text icons for single item sections.
+ */
+								
+								.devsite-nav-item:not(.devsite-nav-item-section-expandable) a.devsite-nav-title[href*='faq']::before {
+									content: 'subject';
+									display: inline-block;
+									font-family: 'Material Icons';
+									font-size: 16px;
+									position: relative;
+									text-transform: none;
+									top: 3px;
+									width: 21px;
+								}
+								/* Used for Dos and Don'ts bullets in MLCC Instructor Guide */
+								
+								span.do,
+								span.dont {
+									text-transform: uppercase;
+									font-weight: bold;
+								}
+								
+								span.do {
+									color: green
+								}
+								
+								span.dont {
+									color: red
+								}
+								/**
+ * Content only for users with screen readers (will not be visible).
+ */
+								
+								pre.mlcc-bad .hidden,
+								pre.mlcc-good .hidden {
+									height: 1px;
+									left: -10000px;
+									top: auto;
+									overflow: hidden;
+									position: absolute;
+									width: 1px;
+								}
+								
+								@media (max-width: 800px) {
+									.mlcc-landing-hero h3 {
+										font-size: 32px;
+										line-height: 40px;
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-cta-description .button,
+									.mlcc-landing-hero .button {
+										margin-bottom: 20px;
+									}
+									.mlcc-landing-cta-description .devsite-landing-row-item,
+									.mlcc-landing-questions .devsite-landing-row-item-description-content,
+									.mlcc-landing-features .devsite-landing-row-item-description-content {
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-questions .devsite-landing-row-item-description h3,
+									.mlcc-landing-features .devsite-landing-row-item-description h3,
+									.mlcc-landing-cta-description h3 {
+										font-size: 32px;
+										line-height: 40px;
+										min-width: 0;
+										width: auto;
+									}
+									.mlcc-landing-features .devsite-landing-row-item-list-item p {
+										font-size: 16px;
+										line-height: 24px;
+									}
+									.mlcc-landing-features .devsite-landing-row-item-list-item {
+										padding: 0 10px;
+										width: 50%;
+									}
+									.mlcc-landing-questions .devsite-landing-row-item-list-item {
+										margin: 15px 0 5px;
+										width: 100%;
+									}
+								}
+								
+								@media (max-width: 1000px) {
+									.mlcc-landing-card-noimage {
+										padding: 0;
+									}
+								}
+								
+								.devsite-vplus-control-button {
+									display: inline-block;
+								}
+								
+								aside.warning h3 {
+									margin-top: 0;
+								}
+								
+								.mlcc-regularization-frame {
+									height: 600px;
+									width: 100%;
+									padding: 30px 0;
+								}
+							</style>
+							<style>
+								/* Styles inlined from /machine-learning/crash-course/vplus-slides.css */
+								
+								.devsite-vplus {
+									position: relative;
+								}
+								
+								.devsite-vplus-content-container {
+									border: 1px solid black;
+									height: 0;
+									padding-bottom: 56.25%;
+									position: relative;
+									visibility: hidden;
+								}
+								
+								body .devsite-vplus-slide-frame {
+									font-size: 20px;
+									line-height: normal;
+								}
+								
+								.devsite-vplus-slide-frame .title-background {
+									background-color: #4285f4;
+								}
+								
+								.devsite-vplus-slide-frame div[data-start-time] {
+									left: 0;
+									top: 0;
+									right: 0;
+									bottom: 0;
+									position: absolute;
+									align-items: center;
+								}
+								
+								.devsite-vplus-slide-frame .title-background h1 {
+									position: relative;
+									top: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .title {
+									font-size: 50px;
+									line-height: inherit;
+									font-weight: 300;
+									text-align: center;
+									position: relative;
+									left: 50%;
+									-webkit-transform: translate(-50%, -50%);
+									-o-transform: translate(-50%, -50%);
+									transform: translate(-50%, -50%);
+									color: #ffffff;
+									width: 80%;
+								}
+								
+								.devsite-vplus-slide-frame h2 {
+									line-height: inherit;
+									text-align: left;
+									margin-top: 20px;
+									padding-left: 20px;
+									padding-bottom: 10px;
+									border-bottom: 1px solid #ebebeb;
+									width: 99.9%;
+									/** Avoid overlap with right border of the slide frame. **/
+								}
+								
+								.devsite-vplus-slide-frame ul {
+									font-size: 18px;
+									padding-left: 60px;
+									width: 95%;
+								}
+								
+								.devsite-vplus-slide-frame .small-list-text li {
+									font-size: 75%;
+								}
+								
+								.devsite-vplus-slide-frame p,
+								.devsite-vplus-slide-frame pre {
+									padding-left: 30px;
+								}
+								
+								.devsite-vplus-slide-frame table {
+									width: 60%;
+									margin-left: 20%;
+								}
+								
+								.devsite-vplus-slide-frame td {
+									width: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .large-text {
+									font-size: 40px;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-slide-frame .small-text ul>li {
+									font-size: 18px;
+								}
+								
+								.devsite-vplus-slide-frame .restrict-width-for-video {
+									width: 75%;
+								}
+								
+								.devsite-vplus-slide-frame .split img {
+									position: inherit;
+								}
+								
+								.devsite-vplus-slide-frame img {
+									margin: auto;
+									position: absolute;
+									top: 0;
+									bottom: 0;
+									left: 0;
+									right: 0;
+									width: 80%;
+								}
+								
+								.devsite-vplus-slide-frame svg {
+									height: 100%;
+									display: block;
+									margin: auto;
+								}
+								
+								.devsite-vplus-slide-frame .inline-img {
+									width: 38%;
+									position: relative;
+									display: block;
+								}
+								
+								.devsite-vplus-slide-frame devsite-multiple-choice {
+									padding: 0 5%;
+									font-size: initial;
+								}
+								
+								.devsite-vplus-slide-frame .indented p {
+									margin: 3px 0;
+								}
+								
+								.devsite-vplus-slide-frame .indented p:not(:first-of-type) {
+									padding-left: 60px;
+								}
+								
+								.devsite-vplus-slide-frame .indented-list li {
+									margin-left: 15px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger {
+									text-align: left;
+									margin-left: 40px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(2) {
+									padding-left: 80px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(3) {
+									padding-left: 120px;
+								}
+								
+								.devsite-vplus-slide-frame .stagger p:nth-of-type(4) {
+									padding-left: 160px;
+								}
+								
+								.devsite-vplus-slide-frame .split {
+									display: inline-block;
+									width: 100%
+								}
+								
+								.devsite-vplus-slide-frame .split-left {
+									position: relative;
+									float: left;
+								}
+								
+								.devsite-vplus-slide-frame .split-right {
+									position: relative;
+									float: right;
+								}
+								
+								.devsite-vplus-slide-frame .split-equal {
+									width: 50%;
+								}
+								
+								.devsite-vplus-slide-frame .split-large {
+									width: 70%;
+								}
+								
+								.devsite-vplus-slide-frame .split-small {
+									width: 30%;
+								}
+								
+								.devsite-vplus-slide-frame .height-padded-list li {
+									margin: 15px 0;
+								}
+								
+								.devsite-vplus-slide-frame .progressive-list li:not(:last-child) {
+									color: gray;
+								}
+								
+								.devsite-vplus-slide-frame .center-text-horizontal {
+									text-align: center;
+								}
+								
+								.devsite-vplus-slide-frame .text-for-screen-reader {
+									position: absolute;
+									left: -10000px;
+									top: auto;
+									width: 1px;
+									height: 1px;
+									overflow: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .gray-text {
+									color: gray;
+								}
+								
+								.devsite-vplus-slide-frame .green-text {
+									color: green;
+								}
+								
+								.devsite-vplus-slide-frame .red-text {
+									color: red;
+								}
+								
+								.devsite-vplus-slide-frame .link-exercise {
+									font-size: 2.5vw;
+									line-height: inherit;
+									padding: 22% 5% 5% 12%;
+								}
+								
+								.devsite-vplus-slide-frame .link-exercise a {
+									text-decoration: underline;
+								}
+								
+								.devsite-vplus-slide-frame .monospace,
+								.devsite-vplus-slide-frame .monospace code {
+									color: black;
+									background-color: transparent;
+									font-family: monospace;
+								}
+								/* Special handling for embeddings diagrams */
+								
+								.embeddings-diagram {
+									position: relative;
+								}
+								
+								.devsite-vplus-slide-frame .svg-container {
+									height: 60%;
+									display: flex;
+								}
+								
+								.devsite-vplus-slide-frame .reporting-bias #reporting-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .selection-bias #selection-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .overgeneralization-bias #overgeneralization-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .outgroup-homogeneity-bias #outgroup-homogeneity-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .unconscious-bias-world #unconscious-bias-world tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .automation-bias #automation-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .confirmation-bias #confirmation-bias tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .unconscious-bias-procedures #unconscious-bias-procedures tspan {
+									fill: black;
+									font-weight: bold;
+								}
+								
+								.devsite-vplus-slide-frame .three-authors-per-set #ThreeAuthorsPerSetGroup {
+									visibility: visible;
+								}
+								
+								.devsite-vplus-slide-frame .one-author-per-set #ThreeAuthorsPerSetGroup {
+									visibility: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .three-authors-per-set #OneAuthorPerSetGroup {
+									visibility: hidden;
+								}
+								
+								.devsite-vplus-slide-frame .one-author-per-set #OneAuthorPerSetGroup {
+									visibility: visible;
+								}
+								/** To differentiate between vplus full screen mode and
+ *    browser full screen mode, we don't use e.g.
+ *    @media screen and display-mode: fullscreen
+ *    but instead add class devsite-vplus-fullscreen-mode to
+ *    the slide frame.  The following style rules apply in that case.
+ */
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame {
+									font-size: 3.2vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .title {
+									font-size: 7.5vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame h2 {
+									font-size: 5.2vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame ul {
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame li {
+									margin: 1.3vw 0;
+									font-size: 3vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented-list li {
+									margin: 1.3vw 5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame table {
+									width: 87%;
+									margin-left: 10%;
+									font-size: 3vw;
+									line-height: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented p {
+									margin: 1vw 0;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .indented p:not(:first-of-type) {
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame p {
+									font-size: 3vw;
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame pre {
+									font-size: 2.5vw;
+									line-height: inherit;
+									padding-left: 6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame code {
+									font-size: 2.5vw;
+									line-height: initial;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .center-text-vertical {
+									padding-top: 5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .compare-no::before {
+									font-size: 2.5vw;
+									display: inherit;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .stagger {
+									margin-left: 4vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .small-text ul>li {
+									font-size: 2.5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .restrict-width-for-video {
+									width: 100%;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .inline-img-large {
+									width: 100vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-choice-question {
+									font-size: 2vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-answer {
+									font-size: 1.6vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame .devsite-multiple-choice-explanation {
+									font-size: 1.5vw;
+								}
+								
+								.devsite-vplus-fullscreen-mode.devsite-vplus-slide-frame [data-video-mode="large"] {
+									display: none;
+								}
+								/**
+							 * By default, hide the fullscreen mode icon.
+							 */
+								
+								.devsite-vplus-control-button.devsite-vplus-fullscreen-icon {
+									display: none;
+								}
+							</style>
+							<!--========内容开始============-->
+
+							<h1 class="devsite-page-title">优化器(Optimizer):降低损失 (Reducing Loss)</h1>
+
+							<devsite-toc class="devsite-nav" devsite-toc-embedded>
+							</devsite-toc>
+
+							<div class="devsite-article-body clearfix">
+
+								<devsite-mathjax config="TeX-AMS-MML_SVG"></devsite-mathjax>
+
+								<p></p>
+
+								<aside class="note time"><strong>预计用时</strong>：20 分钟</aside>
+								<h2>1. 梯度下降</h2>
+								<p>神经网络误差反向传播的过程（BP算法）控制每一层如何寻找最优化参数组合。最常见的算法是梯度下降法（Gradient Descent):</p>
+
+
+								<p>假设有足够的时间和计算资源来计算 \(w_1\) 的所有可能值的损失。回归问题所产生的损失值（均方差）与 \(w_1\) 的图形始终是凸形。换言之，图形始终是碗状图(可以根据前面Geogebra的体验直接体验），如下：</p>
+								<figure>
+									<img src="machine-learning/crash-course/images/convex.svg">
+								</figure>
+
+								<p><strong>图 2. 回归问题产生的损失与权重图为凸形。</strong></p>
+								<p> </p>
+
+								<p>凸形问题只有一个最低点；即只存在一个斜率正好为 0 的位置。这个最小值就是损失函数收敛之处。</p>
+								<p>通过计算整个数据集中 \(w_1\) 每个可能值的损失函数来找到收敛点效率太低。有一种在机器学习领域非常热门机制，称为<strong>梯度下降法</strong>。</p>
+								<p>梯度下降法的第一个阶段是为 \(w_1\) 选择一个起始值（起点）。起点并不重要；因此很多算法就直接将 \(w_1\) 设为 0 或随机选择一个值。下图显示选择了一个稍大于 0 的起点：</p>
+								<figure>
+									<img src="machine-learning/crash-course/images/GradientDescentStartingPoint.svg">
+								</figure>
+
+								<p><strong>图 3. 梯度下降法的起点。</strong></p>
+								<p>然后，梯度下降法算法会计算损失曲线在起点处的梯度。<strong>梯度</strong>是偏导数的矢量；它可以了解哪个方向距离目标“更近”或“更远”。请注意，损失相对于单个权重的梯度（如图 3 所示）就等于导数。</p>
+								<section class="expandable">
+									<h4 class="showalways" id="拓展：详细了解偏导数和梯度。" data-text=" 详细了解偏导数和梯度。 ">
+详细了解偏导数和梯度。
+</h4>
+									<div class="expand-background">
+										<p>涉及机器学习领域的数学非常有趣，我们很高兴您点击了该链接来了解详情。不过请注意，TensorFlow 会为您处理所有的梯度计算过程，因此您其实不必理解此处提供的微积分知识。</p>
+
+										<h3 class="hide-from-toc" id="偏导数" data-text="偏导数">偏导数</h3>
+
+										<p><b>多变量函数</b>指的是具有多个参数的函数，例如：</p>
+
+										<div>
+											$$f(x,y) = e^{2y}sin(x)$$
+										</div>
+
+										<p><b>f 相对于 x 的偏导数</b>表示如下：</p>
+
+										<div>
+											$$ \partial f \over \partial x $$
+										</div>
+
+										<p>是 <i></i>f (<b>x</b>) 的导数。要计算以下值：</p>
+
+										<div>
+											$$\partial f \over \partial x $$
+										</div>
+
+										<p>您必须使 y 保持固定不变（因此 f 现在是只有一个变量 x 的函数），然后取 f 相对于 x 的常规导数。<i></i><i></i><i></i><i></i><i></i>例如，当 y 固定为 1 时，前面的函数变为：<i></i></p>
+
+										<div>
+											$$ f(x) = e^2sin(x) $$
+										</div>
+
+										<p><i></i>这只是一个变量 x 的函数，其导数为：</p>
+
+										<div>
+											$$ e^2cos(x) $$
+										</div>
+
+										<p><i></i>一般来说，假设 y 保持不变，f 对 x 的偏导数的计算公式如下：</p>
+
+										<div>
+											$$\frac{\partial f}{\partial x}(x,y) = e^{2y}cos(x)$$
+										</div>
+
+										<p><i></i>同样，如果我们使 x 保持不变，f 对 y 的偏导数为：</p>
+
+										<div>
+											$$ \frac{\partial f}{\partial y}(x,y) = 2e^{2y}sin(x) $$
+										</div>
+
+										<p>直观而言，偏导数可以让您了解到，当您略微改动一个变量时，函数会发生多大的变化。在前面的示例中：</p>
+
+										<div>
+											$$ \frac{\partial f}{\partial x} (0,1) = e^2 \approx 7.4 $$
+										</div>
+
+										<p>因此，如果您将起点设为 (0,1)，使 y 保持固定不变并将 x 移动一点，f 的变化量将是 x 变化量的 7.4 倍左右。<i></i><i></i><i></i><i></i></p>
+
+										<p>在机器学习中，偏导数主要与函数的梯度一起使用。</p>
+
+										<h3 class="hide-from-toc" id="梯度" data-text="梯度">梯度</h3>
+
+										<p>函数的<b>梯度</b>是偏导数相对于所有自变量的矢量，表示如下：</p>
+
+										<div>
+											$$ \nabla f $$
+										</div>
+
+										<p>例如，如果：</p>
+
+										<div>
+											$$ f(x,y) = e^{2y}sin(x) $$
+										</div>
+
+										<p>则：</p>
+
+										<div>
+											$$\nabla f(x,y) = (\frac{\partial f}{\partial x}(x,y), \frac{\partial f}{\partial y}(x,y)) = (e^{2y}cos(x), 2e^{2y}sin(x))$$
+										</div>
+
+										<p>请注意以下几点：</p>
+
+										<table>
+											<tbody>
+												<tr>
+													<td>
+														$$\nabla f$$
+													</td>
+													<td style="vertical-align:middle">指向函数增长速度最快的方向。</td>
+												</tr>
+												<tr>
+													<td> $$ {-\nabla f} $$
+													</td>
+													<td style="vertical-align:middle">指向函数下降速度最快的方向。</td>
+												</tr>
+											</tbody>
+										</table>
+
+										<p>该矢量中的维度个数等于 f 公式中的变量个数；换言之，该矢量位于该函数的域空间内。<i></i>例如，在三维空间中查看下面的函数 f(x,y) 时：</p>
+
+										<div>
+											$$ f(x,y) = 4 + (x - 2)^2 + 2y^2 $$
+										</div>
+
+										<p>z = f(x,y) 就像一个山谷，最低点为 (2,0,4)：
+
+										</p>
+										<p style="text-align: center">
+											<img src="machine-learning/crash-course/images/ThreeDimensionalPlot.svg">
+										</p>
+
+										f(x,y) 的梯度是一个二维矢量，可让您了解向哪个 (x,y) 方向移动时高度下降得最快。也就是说，梯度矢量指向山谷。
+										<p></p>
+
+										<p>在机器学习中，梯度用于梯度下降法。我们的损失函数通常具有很多变量，而我们尝试通过跟随函数梯度的负方向来尽量降低损失函数。</p>
+									</div>
+								</section>
+
+								<p>请注意梯度是一个矢量，具有以下两个特征：</p>
+								<ul>
+									<li>方向</li>
+									<li>大小</li>
+								</ul>
+								<p>梯度始终指向损失函数中增长最为迅猛的方向。梯度下降法算法会沿着负梯度的方向走一步，以便尽快降低损失。</p>
+								<figure>
+									<img src="machine-learning/crash-course/images/GradientDescentNegativeGradient.svg">
+								</figure>
+
+								<p><strong>图 4. 梯度下降法依赖于负梯度。</strong></p>
+								<p>为了确定损失函数曲线上的下一个点，梯度下降法算法会将梯度大小的一部分与起点相加，如下图所示：</p>
+								<figure>
+									<img src="machine-learning/crash-course/images/GradientDescentGradientStep.svg">
+								</figure>
+
+								<p><strong>图 5. 一个梯度步长将我们移动到损失曲线上的下一个点。</strong></p>
+								<p>然后，梯度下降法会重复此过程，逐渐接近最低点。</p>
+
+								<h2 class="devsite-page-title">2.学习率(Learn Rate)</h1>
+									<p>梯度矢量具有方向和大小。梯度下降法算法用梯度乘以一个称为<strong>学习速率</strong>（有时也称为<strong>步长</strong>）的标量，以确定下一个点的位置。例如，如果梯度大小为 2.5，学习速率为 0.01，则梯度下降法算法会选择距离前一个点 0.025 的位置作为下一个点。</p>
+									<p><strong>超参数</strong>是编程人员在机器学习算法中用于调整的旋钮。大多数机器学习编程人员会花费相当多的时间来调整学习速率。如果您选择的学习速率过小，就会花费太长的学习时间：</p>
+									<figure>
+										<img alt="相同的 U 形曲线。很多点都相互非常接近，它们的轨迹朝着 U 形底部缓慢前进。" src="machine-learning/crash-course/images/LearningRateTooSmall.svg">
+									</figure>
+
+									<p><strong>图 6. 学习速率过小。</strong></p>
+									<p>相反，如果您指定的学习速率过大，下一个点将永远在 U 形曲线的底部随意弹跳，就好像量子力学实验出现了严重错误一样：</p>
+									<figure>
+										<img alt="相同的 U 形曲线。这条曲线包含的点非常少。点的轨迹会跳过 U 形底部，然后再次跳回。" src="machine-learning/crash-course/images/LearningRateTooLarge.svg">
+									</figure>
+
+									<p><strong>图 7. 学习速率过大。</strong></p>
+									<p>每个回归问题都存在一个
+										<a href="https://wanweibaike.com/wiki-%E9%87%91%E9%AB%AE%E5%A7%91%E5%A8%98%E5%8E%9F%E5%89%87">金发姑娘</a>学习速率。“金发姑娘”值与损失函数的平坦程度相关。如果您知道损失函数的梯度较小，则可以放心地试着采用更大的学习速率，以补偿较小的梯度并获得更大的步长。</p>
+									<figure>
+										<img alt="相同的 U 形曲线。点的轨迹大约需要 8 步达到最低点。" src="machine-learning/crash-course/images/LearningRateJustRight.svg">
+									</figure>
+
+									<p><strong>图 8. 学习速率恰恰好。</strong></p>
+									<devsite-expandable is-upgraded="" id="expandable-1">
+										<a class="exw-control" aria-controls="expandable-1" aria-expanded="true" tabindex="0" role="button">
+											<h4 class="showalways" id="详细了解理想的学习速率。" data-text=" 详细了解理想的学习速率。 " role="presentation"><span class="devsite-heading" role="heading" aria-level="4">
+拓展：详细了解理想的学习速率。
+</span><button type="button" class="devsite-heading-link button-flat material-icons" aria-label="Copy link to this section: 
+详细了解理想的学习速率。
+" data-title="Copy link to this section: 
+详细了解理想的学习速率。
+" data-id="详细了解理想的学习速率。"></button></h4></a>
+
+										<div class="expand-background">
+											<p>一维空间中的理想学习速率是 <span class="MathJax_Preview" style="color: inherit;">
+												<script type="math/tex" id="MathJax-Element-71">\frac{ 1 }{ f(x)'' }</script>（f(x) 对 x 的二阶导数的倒数）。</p>
+
+											<p>二维或多维空间中的理想学习速率是
+												<a href="https://wikipedia.org/wiki/Hessian_matrix">海森矩阵</a>（由二阶偏导数组成的矩阵）的倒数。</p>
+
+											<p>广义凸函数的情况则更为复杂。</p>
+										</div>
+									</devsite-expandable>
+
+								</div>
+
+								<!--========内容结束============-->
+
+								<devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
+								</devsite-page-rating>
+						</article>
+						<!--文章结束-->
+						<devsite-content-footer class="nocontent">
+							<p>KidsAIEdu。此页面的某些部分是根据Google创建和共享的作品所做的修改 ，并根据知识共享4.0署名许可中所述的 条款使用。</p>
+							<blockquote>
+								Portions of this page are modifications based on work created and
+								<a href="https://developers.google.cn/readme/policies?hl=zh-cn">shared by Google</a> and used according to terms described in the
+								<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 Attribution License</a>.
+							</blockquote>
+							见原网页
+							<a href="https://developers.google.cn/machine-learning/crash-course/ml-intro">谷歌机器学习速成课程。</a>
+						</devsite-content-footer>
+					</devsite-content>
+				</main>
+				<devsite-footer-promos class="devsite-footer">
+				</devsite-footer-promos>
+				<devsite-footer-linkboxes class="devsite-footer">
+
+				</devsite-footer-linkboxes>
+				<devsite-footer-utility class="devsite-footer">
+				</devsite-footer-utility>
+			</section>
+		</section>
+		<devsite-sitemask></devsite-sitemask>
+		<devsite-snackbar></devsite-snackbar>
+		<devsite-tooltip blocked-link></devsite-tooltip>
+		<devsite-heading-link></devsite-heading-link>
+		<!--<devsite-analytics enable-analytics-iframe>
+			<script type="application/json" analytics>
+				[{
+					"gaid": "UA-24532603-11",
+					"dimensions": {
+						"dimension5": "zh-cn",
+						"dimension9": false,
+						"dimension3": false,
+						"dimension6": "zh-cn",
+						"dimension1": "Signed out",
+						"dimension4": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"dimension8": null
+					},
+					"metrics": {}
+				}, {
+					"gaid": "UA-76465953-5",
+					"dimensions": {
+						"dimension5": "zh-cn",
+						"dimension9": false,
+						"dimension3": false,
+						"dimension6": "zh-cn",
+						"dimension1": "Signed out",
+						"dimension4": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"dimension8": null
+					},
+					"metrics": {}
+				}]
+			</script>
+			<script type="application/json" gtm>
+				{
+					"parameters": {
+						"freeTrialEligibleUser": "False",
+						"internalUser": "False",
+						"language": {
+							"machineTranslated": "False",
+							"requested": "zh-cn",
+							"served": "zh-cn"
+						},
+						"pageType": "article",
+						"projectName": "\u673a\u5668\u5b66\u4e60\u901f\u6210\u8bfe\u7a0b",
+						"scriptsafe": null,
+						"signedIn": "False",
+						"tenant": "developers_china"
+					}
+				}
+			</script>
+		</devsite-analytics>-->
+		<script nonce="ltpGOmnJ0DShJAHn/PY/QEJkg1saYy">
+			(function(d, e, v, s, i, t, E) {
+				d['GoogleDevelopersObject'] = i;
+				t = e.createElement(v);
+				t.async = 1;
+				t.src = s;
+				E = e.getElementsByTagName(v)[0];
+				E.parentNode.insertBefore(t, E);
+			})(window, document, 'script',
+				'https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/js/app_loader.js', '[1,"zh_cn",null,"/js/devsite_app_module.js","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers","https://google-developers.gonglchuangl.net",null,null,["/_pwa/developers/manifest.json","/_static/images/video-placeholder.svg","https://www.gstatic.cn/devrel-devsite/prod/vb1c70bbe2f68b543db3deb1075af42e62f8f21e5fc703b8398dc6b9860f1711f/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1,null,[1,6,8,12,14,17,21,25,40,50,63,70,75,76,80,87,88,91,92,93,97,98,100,101,102,103,105,107,108,111,113,115,120,122]]')
+		</script>
+		<devsite-a11y-announce></devsite-a11y-announce>
+	</body>
+
+</html>
