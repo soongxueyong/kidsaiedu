@@ -1,0 +1,260 @@
+<!--
+Copyright 2018 Google LLC. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================
+-->
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="tfjs-examples.c3b5157d.css">
+	</head>
+
+	<body>
+
+		<style>
+			input {
+				width: 75px;
+			}
+			
+			.input-div {
+				padding: 5px;
+				font-family: monospace;
+				font-size: 16px;
+			}
+			
+			.input-label {
+				display: inline-block;
+				width: 160px;
+			}
+			
+			td {
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-bottom: 5px;
+			}
+			
+			#predict-header {
+				font-weight: bold;
+			}
+			
+			.output-div {
+				padding: 5px;
+				padding-top: 20px;
+				font-family: monospace;
+				font-weight: bold;
+			}
+			
+			#evaluate-table {
+				display: inline-block;
+			}
+			
+			#evaluate-table td,
+			#evaluate-table th {
+				font-family: monospace;
+				border: 1px solid #ddd;
+				padding: 8px;
+			}
+			
+			#evaluate-table th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: left;
+				background-color: #4CAF50;
+				color: white;
+			}
+			
+			.region {
+				border-left: 1px dashed #ccc;
+				margin-bottom: 5px;
+				padding-left: 24px;
+				margin-left: -24px;
+			}
+			
+			.load-save-section {
+				padding-top: 3px;
+				padding-bottom: 3px;
+			}
+			
+			.logit-span {
+				padding-right: 1em;
+			}
+			
+			.correct-prediction {
+				background-color: greenyellow
+			}
+			
+			.wrong-prediction {
+				background-color: red;
+			}
+		</style>
+
+		<body>	
+
+			<div class="tfjs-example-container">
+				<section class="title-area">
+				
+					<p class="subtitle">使用tf.js神经网络进行数据分类。</p>
+				</section>
+
+				<section>
+					<p class="section-head">描述</p>
+					<p>
+						本示例使用神经网络对代表不同花朵的表格数据进行分类。每朵花数据有花瓣长度（Petal length）、花瓣宽度（Petal width）、萼片长度（Sepal length）、萼片宽度（Sepal width）。目的是根据每个数据点特征来预测它是哪种花。数据来自著名的
+						<a href="https://wanweibaike.com/wiki-%E5%AE%89%E5%BE%B7%E6%A3%AE%E9%B8%A2%E5%B0%BE%E8%8A%B1%E5%8D%89%E6%95%B0%E6%8D%AE%E9%9B%86">Iris flower</a> 安德森鸢尾花卉数据集(Anderson's Iris data set).
+					</p>
+				</section>
+
+				<section>
+					<p class="section-head">操作</p>
+					<p>
+						可以点击"从头开始训练新模型"，也可以"加载预训练模型"，并测试其性能。
+					</p>
+					<p>
+						如果"从头开始训练新模型"，训练完成后，可以将其保存到浏览器本地存储中。
+					</p>
+					<p>
+					如果加载预训练的模型，则可以编辑测试示例第一行中的属性，以生成这些数据点的预测。
+					</p>
+				</section>
+
+				<section>
+					<p class="section-head">控制项</p>
+
+					<div class="region">
+						<h3>Train Model</h3>
+						<div class="create-model">
+							<div class="input-div">
+								<label class="input-label">训练周期( Epochs):</label>
+								<input id="train-epochs" type="number" value="40">
+							</div>
+							<div class="input-div">
+								<span class="input-label">学习率(Learning Rate):</span>
+								<input id="learning-rate" type="number" value="0.01">
+							</div>
+							<button id="train-from-scratch">从头开始训练新模型</button>
+						</div>
+					</div>
+
+					<div class="region">
+						<h3>Save/Load Model</h3>
+						<div class="load-save-section">
+							<button id="load-pretrained-remote">加载托管的预训练模型</button>
+						</div>
+
+						<div class="load-save-section">
+							<button id="load-local" disabled="true">加载本地保存的模型</button>
+							<button id="save-local" disabled="true">保存本地模型</button>
+							<button id="remove-local" disabled="true">删除本地模型</button>
+							<span id="local-model-status">Status unavailable.</span>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<p class="section-head">状态</p>
+					<div>
+						<span id="demo-status">Standing by.</span>
+					</div>
+				</section>
+
+				<section>
+					<p class="section-head">训练过程</p>
+					<div class="with-cols">
+						<div>
+							<h4>损失率</h4>
+							<div class="canvases" id="lossCanvas"></div>
+						</div>
+						<div>
+							<h4>准确率</h4>
+							<div class="canvases" id="accuracyCanvas"></div>
+						</div>
+						<div>
+							<h4>混淆矩阵（验证集）</h4>
+							<div id="confusion-matrix"></div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<p class="section-head">测试案例</p>
+
+					<div id="evaluate">
+						<table id="evaluate-table">
+							<tr>
+								<th>花瓣长</th>
+								<th>花瓣宽</th>
+								<th>花萼长</th>
+								<th>花萼宽</th>
+								<th>真实值</th>
+								<th>预测值</th>
+								<th>分类概率</th>
+							</tr>
+							<tbody id="evaluate-tbody">
+								<tr>
+									<td>
+										<input id="petal-length" value="5.1">
+										<p>
+										<button id="petal-length-inc">+</button>
+										<button id="petal-length-dec">-</button>
+										</p>
+									</td>
+									<td>
+										<input id="petal-width" value="3.5">
+										<p>
+										<button id="petal-width-inc">+</button>
+										<button id="petal-width-dec">-</button>
+										</p>
+									</td>
+									<td>
+										<input id="sepal-length" value="1.4">
+										<p>
+										<button id="sepal-length-inc">+</button>
+										<button id="sepal-length-dec">-</button>
+										</p>
+									</td>
+									<td>
+										<input id="sepal-width" value="0.2">
+										<p>
+										<button id="sepal-width-inc">+</button>
+										<button id="sepal-width-dec">-</button>
+										</p>
+									</td>
+									<td></td>
+									<td id="winner"></td>
+									<td id="logits"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+
+				<div>
+					<div class="horizontal-section">
+
+						<div id="horizontal-section">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<script src="iris.40fb3d98.js"></script>
+		</body>
+
+	</body>
+
+</html>

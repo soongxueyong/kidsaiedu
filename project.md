@@ -61,15 +61,7 @@ https://www.bilibili.com/video/BV1n4411S7Tj?from=search&seid=1278506785406447329
 https://google-developers.gonglchuangl.net/machine-learning/crash-course/playground/?utm_source=engedu%26utm_medium=ss%26utm_campaign=mlcc#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.88721&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
 file:///D:/tools/%E8%AF%BE%E7%A8%8B/Google%20Machine%20Learning%20Crash%20Course/googleml/developers.google.cn/machine-learning/crash-course/reducing-loss/playground-exercise.html
 
-### 编程案例iris花卉识别
-https://janakiev.com/blog/keras-iris/
-https://github.com/leonjessen/keras_tensorflow_on_iris
-https://www.kaggle.com/pierrek20/multiclass-iris-prediction-with-tensorflow-keras
-https://storage.googleapis.com/tfjs-examples/iris/dist/index.html
-https://www.tensorflow.org/js/demos
-https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/tf-examples/iris/index.html
 
-https://makeshiftinsights.com/blog/classification-keras-iris/
 
 ## 项目5 图像卷积计算(Image convolution calculation)
 ## 项目6 CNN卷积神经网络(Convolutional Neural Networks,CNN)
@@ -280,3 +272,10 @@ https://mybinder.org/
 Git Repo: https://github.com/trekhleb/homemade-machine-learning/
 NotebookPath:
 notebooks/linear_regression/non_linear_regression_demo.ipynb
+
+
+### 编程案例iris花卉识别
+https://www.kaggle.com/soongxueyong/iris-dl-classfication/edit
+https://www.kaggle.com/sakshibhoir/neural-network-for-iris-data-set
+https://www.kaggle.com/nataliyazhovannik/iris-classification-with-deep-learning/comments#386743
+https://www.kaggle.com/ash316/ml-from-scratch-with-iris/comments#231147
