@@ -727,6 +727,11 @@ section {
 /*--------------------------------------------------------------
 # Courses
 --------------------------------------------------------------*/
+/*add top and bottom pad*/
+.coursegrid{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
 .courses .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
