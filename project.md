@@ -279,3 +279,13 @@ https://www.kaggle.com/soongxueyong/iris-dl-classfication/edit
 https://www.kaggle.com/sakshibhoir/neural-network-for-iris-data-set
 https://www.kaggle.com/nataliyazhovannik/iris-classification-with-deep-learning/comments#386743
 https://www.kaggle.com/ash316/ml-from-scratch-with-iris/comments#231147
+
+
+TODO：
+https://0x0023.me/rnnExplainer/
+https://github.com/damien0x0023/rnnExplainer
+https://github.com/poloclub/cnn-explainer
+https://github.com/damien0x0023
+
+npm编译 html dist
+integrated playground/rnn/ccn/teachable machine into a software
