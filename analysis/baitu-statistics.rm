@@ -1,0 +1,79 @@
+https://echarts.apache.org/examples/zh/editor.html?c=mix-line-bar
+
+option = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'cross',
+            crossStyle: {
+                color: '#999'
+            }
+        }
+    },
+    toolbox: {
+        feature: {
+            dataView: {show: true, readOnly: false},
+            magicType: {show: true, type: ['line', 'bar']},
+            restore: {show: true},
+            saveAsImage: {show: true}
+        }
+    },
+    legend: {
+        data: ['预期时长', '平均时长', '预期点击次数','平均点击次数']
+    },
+    xAxis: [
+        {
+            type: 'category',
+            data: ['ai_history.html', 'Image_kernel.html', 'playground/index-zh.html'],
+            axisPointer: {
+                type: 'shadow'
+            }
+        }
+    ],
+    yAxis: [
+        {
+            type: 'value',
+            name: '时长（分钟）',
+            min: 0,
+            max: 50,
+            interval: 10,
+            axisLabel: {
+                formatter: '{value} '
+            }
+        },
+        {
+            type: 'value',
+            name: '次数（个）',
+            min: 0,
+            max: 50,
+            interval: 10,
+            axisLabel: {
+                formatter: '{value} °C'
+            }
+        }
+    ],
+    series: [
+        {
+            name: '预期时长',
+            type: 'bar',
+            data: [ 20, 10, 15]
+        },
+        {
+            name: '平均时长',
+            type: 'bar',
+            data: [ 18, 15, 13]
+        },
+        {
+            name: '预期点击次数',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [ 40, 15, 40]
+        },
+        {
+            name: '平均点击次数',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [ 45, 25, 45]
+        }
+    ]
+};'
