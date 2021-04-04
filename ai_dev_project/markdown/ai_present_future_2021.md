@@ -5,14 +5,19 @@
 
 世界主要发达国家均把发展人工智能作为提升国家竞争力、维护国家安全的重大战略，力图在国际科技竞争中掌握主导权。习近平总书记在十九届中央政治局第九次集体学习时深刻指出，加快发展新一代人工智能是事关我国能否抓住新一轮科技革命和产业变革机遇的战略问题。错失一个机遇，就有可能错过整整一个时代。新一轮科技革命与产业变革已曙光可见，在这场关乎前途命运的大赛场上，我们必须抢抓机遇、奋起直追、力争超越。
 
+
+### How does artificial intelligence learn (TEDedu)
+
+<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/briana_brownell_how_does_artificial_intelligence_learn" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+
+人工智能可帮助医生诊断患者，飞行员驾驶商用飞机以及城市规划人员预测交通流量。这些AI通常是自学成才的，它们根据一组简单的指令来创建一组独特的规则和策略。那么一台机器究竟能学到什么呢？
+
+### [央视纪录片]《育见未来》
 <iframe src="//player.bilibili.com/player.html?aid=71865067287636236&bvid=BV1rf4y1i7Uk&cid=251245259900043&page=1" 
 scrolling="no" border="0" frameborder="no" 
 framespacing="0" allowfullscreen="true" 
 style="width:720px;height:480px"> 
 </iframe>
-
-
-## -[央视纪录片]《育见未来》人工智能1-4全集
 
 
 ## 1. 概念与历程
