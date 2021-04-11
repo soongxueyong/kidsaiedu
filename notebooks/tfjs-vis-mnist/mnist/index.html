@@ -19,6 +19,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="tufte.ef879543.css">
+   <title>KidsAIEdu TensorFLow.js编程案例</title>
   <script src="mnist.6b9b7545.js"></script>
 
   <style>.lang-javascript {
@@ -31,8 +32,8 @@
       display: block;
       max-width: 720px;
       background-color: floralwhite;
-      font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
-      font-size: 12px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 14px;
       margin-left: -40px;
       white-space: pre;
       margin-top: 2em;
@@ -49,104 +50,93 @@
 
 <body>
   <article>
-    <h1>Visualizing training with tfjs-vis</h1>
+    <h1>通过tfjs-vis编程工具训练模型</h1>
+	<p>完成mnist模型训练后，用下面的小黑板手写0~9的某一个数字进行识别！</p>
+	<canvas id="canvas" width="280" height="280" style="border:8px solid;"></canvas>
+	<img id="canvasimg" style="width=280;height=280;display:none;">
+	<input type="button" value="测试" id="sb" size="48" >
+	<input type="button" value="擦除" id="cb" size="23" >
 
     <section>
+		<h2>1.MNIST数据介绍</h2>
+		<P>
+			MNIST 数据集来自美国国家标准与技术研究所（National Institute of Standards and Technology ,MNIST)。
+			数据训练集 (training set) 由来自 250 个不同人手写的数字构成， 其中 50% 是高中学生， 50% 来自人口
+			普查局的工作人员。测试集(test set) 也是同样比例的手写数字数据。训练集为60,000个示例，而测试集为
+			10,000个示例。
+			每个数据是28x28像素图片，表示一个手写数字。
+		</P>
+		<h2>2.tfjs-vis工具介绍</h2>
       <p>
-        tfjs-vis is a small set of visualization utilities to make it easier to understand what is going on with your
-        tfjs models.
-        It is designed in a way to work along side regular web apps. This page will use some of the features of tfjs to
-        illustrate
-        what is going on with a convolutional model that will be trained (in the browser) to recognize handwritten
-        digits.
+		tfjs-vis是一小组可视化交互工具程序接口，基于TensorFlow.js实现，只要会JavaScript就可以轻松创建机器学习的模型训练案例。
+		本案例基于卷积神经网络，训练手写识别模型。
       </p>
 
       <p>
-        tfjs-vis provides 2 main things:
+        tfjs-vis是一小组可视化交互工具程序接口:
         <ol>
-          <li>A place to put visualizations that tries not to interfere with your web page. We call this place a
-            <em>visor.</em>
+          <li>创建展示数据可视化区域：遮阳板(<em>visor).</em>
           </li>
-          <li>Some built in visualizations that we have found to be useful when working with TensorFlow.js
+          <li>tfjs-vis基TensorFlow.js创建可视化区域，展示数据源、训练过程与模型结果。
           </li>
         </ol>
       </p>
     </section>
 
     <section>
-      <h2>The Visor</h2>
+      <h2>3.遮阳板(Visor) APIs</h2>
       <p>
-        Let's take a look at the first. Calling <code>tfvis.visor()</code> will create a visor if it doesn't exist or
-        return
-        the existing one. Click the button below to show the
-        <em>visor.</em>
+        通过JS编程调用<code>tfvis.visor()</code>创建遮阳板(<em>visor).</em>
       </p>
       <button id="show-visor">Show Visor</button>
       <p>
-        Notice the panel that is now displayed on the right. It hovers over your pages content and shouldn't disturb
-        the flow of
-        your page's DOM Elements. You can see a few controls for showing or hiding the visor, but by default it also
-        supports
-        the following keyboard shortcuts:
+        使用快捷键展示、隐藏、放大遮阳板:
         <ul>
           <li>
-            <strong>`</strong> (backtick): Shows or hides the visor</li>
+            <strong>`</strong> (反引号): 展示或隐藏</li>
           <li>
-            <strong>~</strong> (tilde, shift+backtick): Toggles betweeen the two sizes the visor supports</li>
+            <strong>~</strong> (波浪号, shift+反引号): 放大或缩小</li>
         </ul>
-        The API allows you to disable (unbind) these keyboard shortcuts.
       </p>
 
-      <h3>Surfaces</h3>
+      <h2>4.内容面板(Surfaces)</h2>
       <p>
-        To add content to the visor we need a
-        <em>surface</em>. We make a surface with the following function call:
+        遮阳板上放内容，需要创建内容面板(Surfaces)，API如下:
         <script type="text" class="show-script">
           tfVis.visor().surface({name: 'My First Surface', tab: 'Input Data'});
         </script>
       </p>
       <button id="make-first-surface">Make a surface</button>
       <p>
-        To create a surface we must give is a name, we can also optionally specify a tab name that the surface should
-        be put on.
-        <code>visor().surface()</code> allows us to create a surface if it doesn't exist or fetch it if it does. This
-        API
-        returns an object that has a pointer to 3 DOM elements:
+        参数如下：
         <ul>
           <li>
-            <strong>container:</strong> The containing DOM element for the surface</li>
+            <strong>tfVis.visor():</strong> 遮阳板</li>
           <li>
-            <strong>label:</strong> The label element </li>
+            <strong>name:</strong> 内容面板名称 </li>
           <li>
-            <strong>drawArea:</strong> A DOM Element where we can render visualizations or other content.
-          </li>
+            <strong>tab:</strong> 标签名称     </li>
         </ul>
       </p>
     </section>
 
     <section>
-      <h2>Our Data</h2>
+      <h2>5.案例数据装载</h2>
       <p>
-        We will use the MNIST database as our training set, it is comprised of a set of about 60k images of handwritten
-        digits, all
-        cropped to 28x28 px. Lets take a look at a few examples, we'll use the surface we created earlier.
-      </p>
+        本案例使用MNIST数据集，点击装载(Load Data)和显示按钮(Show Example Digits)。</p>
       <button id="load-data">Load Data</button>
       &nbsp;&nbsp;&nbsp;
       <button id="show-examples" disabled="">Show Example Digits</button>
+	  
 
       <p>
-        The code to render these examples isn't built into tfjs. But because you have full access to the DOM element
-        for each surface,
-        you can draw whatever you would like into them. This allows easy integration of custom visualizations into the
-        visor.
-
+        
         </p><p>
-          Here is the code for the "Show Example Digits" button above:
+          显示数据代码如下：
         </p>
 
         <script class="show-script">async function showExamples() {
-  // Get a surface
+  // 获得内容面板
   const surface = tfvis.visor().surface({
     name: 'My First Surface',
     tab: 'Input Data'
@@ -155,11 +145,11 @@
 
   const examples = data.nextTestBatch(20);
   const numExamples = examples.xs.shape[0];
-
+	// 创建canvas显示图片
   for (let i = 0; i < numExamples; i++) {
     const imageTensor = tf.tidy(() => {
       return examples.xs.slice([i, 0], [1, examples.xs.shape[1]]).reshape([28, 28, 1]);
-    }); // Create a canvas element to render each example
+    }); 
 
     const canvas = document.createElement('canvas');
     canvas.width = 28;
@@ -176,14 +166,9 @@ document.querySelector('#show-examples').addEventListener('click', async e => sh
     </section>
 
     <section>
-      <h2>Training Our Model</h2>
+      <h2>6.模型训练</h2>
       <p>
-        Our goal is to train a model to recognize similar digits. We have already written a tutorial on how to do so.
-        So in this
-        article we are going to focus on monitoring that training and also look at how well our model performs.
-      </p>
-
-      <p>First let us define a helper function to do our training.</p>
+        目标是训练一个模型来识别0~9的数字。模型训练的代码如下:</p>
 
       <script class="show-script">async function train(model, data, fitCallbacks) {
   const BATCH_SIZE = 64;
@@ -197,19 +182,23 @@ document.querySelector('#show-examples').addEventListener('click', async e => sh
     const d = data.nextTestBatch(testDataSize);
     return [d.xs.reshape([testDataSize, 28, 28, 1]), d.labels];
   });
+  //前面的绘图黑板,隐藏操作按钮>
+  saveButton = document.getElementById('sb');
+  saveButton.hidden = false;
+  clearButton.hidden = false;
+  //前面的绘图黑板,隐藏操作按钮<
+  //通过TensorFlow.js的APIs完成训练
   return model.fit(trainXs, trainYs, {
     batchSize: BATCH_SIZE,
     validationData: [testXs, testYs],
-    epochs: 10,
+    epochs: 30,
     shuffle: true,
     callbacks: fitCallbacks
   });
 }</script>
 
       <p>
-        We can use the <code>show.fitCallbacks</code> method to get functions that will plot the loss after every batch
-        and
-        epoch.
+        使用<code>show.fitCallbacks</code>函数，可实时展示每次批处理和每个纪元之后损益(Loss)曲线。
       </p>
 
       <button id="start-training-1" disabled="">Start Training</button>
@@ -230,7 +219,7 @@ document.querySelector('#show-examples').addEventListener('click', async e => sh
 document.querySelector('#start-training-1').addEventListener('click', () => watchTraining());</script>
 
       <p>
-        Another option is to wait for the training to complete and render the loss curve when it is done.
+        也可以等待训练完成后绘制损益(Loss)曲线。
       </p>
 
       <button id="start-training-2" disabled="">Start Training</button>
@@ -245,12 +234,11 @@ document.querySelector('#start-training-1').addEventListener('click', () => watc
 
 document.querySelector('#start-training-2').addEventListener('click', () => showTrainingHistory());</script>
 
-      <h3>Customizing training charts.</h3>
+     
       <p>
-        The <code>show.fitCallbacks</code> function is designed to help you quickly plot training behaviour
-        with reasonable defaults. If you want to customize the rendering of these charts, you can use
-        <code>render.linechart</code> function. An example that plots accuracy values at the end
-        of every epoch using custom colors and a custom yaxis domain is shown below.
+
+		也可以使用<code>render.linechart</code>函数，自定义绘制曲线，如下绘制精确度曲线。
+		
       </p>
 
       <button id="start-training-3" disabled="">Custom Training Charts</button>
@@ -298,11 +286,11 @@ document.querySelector('#start-training-3').addEventListener('click', () => cust
     </section>
 
     <section>
-      <h2>Evaluating Our Model</h2>
+      <h2>7.评估模型</h2>
       <p>
-        Now that our model is trained we should evalute its performance. For a classification task like this one we can
-        use the `perClassAccuracy`
-        and `confusionMatrix` functions. These are demonstrated below.
+        至此模型训练完成。下一步应该评估其性能。
+		可以使用`perClassAccuracy`和`confusionMatrix`函数
+		来查看每一个分类的模型准确度与混淆矩阵。
       </p>
 
       <p><button id="show-accuracy">Show per-class accuracy</button></p>
@@ -347,13 +335,27 @@ document.querySelector('#start-training-3').addEventListener('click', () => cust
 
   document.querySelector('#show-accuracy').addEventListener('click', () => showAccuracy());
   document.querySelector('#show-confusion').addEventListener('click', () => showConfusion());
-}</script>
 
+  
+}</script>
+  <h2>8.手写测试</h2>
+  <p>
+  请再回到顶部的小黑板上，自己手写0~9的一个数字，测试一下识别准确度。
+  除了模型不能100%准确率识别外，中、西方数字书写的样式差别还是很大。
+  参考以上编程说明，可以使用TensorFlow.js、tfjs.vis开发自己的机器学习可视化案例了。
+  </p>
+  
 
     </section>
 
   </article>
-
+  <!-- 
+  <canvas id="canvas" width="100" height="100" style="position:absolute;top:10;left:200;border:8px solid;"></canvas>
+  <img id="canvasimg" style="position:absolute;top:10%;left:52%;width=280;height=280;display:none;">
+  <input type="button" value="手绘测试" id="sb" size="48" style="position:absolute;top:50;left:330;">
+  <input type="button" value="擦除手绘" id="cb" size="23" style="position:absolute;top:80;left:330;">
+ -->
+ <script src="exercise.js"></script>
 
 
 
