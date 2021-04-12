@@ -10,21 +10,21 @@ const wizard = new tm.Wizard({
   classes: [
     {
       name: "Rock",
-      title: "手势石头，点击 Hold to Record 按钮采集石头手势的图片.",
+      title: "手势 石头，点击按钮采集石头手势的图片.",
       description:
-        "按住按钮，至少采集20张石头手势照片。"
+        "按住Hold to Record按钮，至少采集20张石头手势照片。"
     },
     {
       name: "Paper",
-      title: "手势纸张，点击 Hold to Record 按钮采集纸张放手的图片.",
+      title: "手势 纸张，点击按钮采集纸张放手的图片.",
       description:
-        "按住按钮，至少采集20张纸张手势照片。"
+        "按住Hold to Record按钮，至少采集20张纸张手势照片。"
     },
 	{
 	  name: "Scissor",
-	  title: "手势剪刀，点击 Hold to Record 按钮采集剪刀手势的图片.",
+	  title: "手势 剪刀 ，点击按钮采集剪刀手势的图片.",
 	  description:
-	    "按住按钮，至少采集20张剪刀手势照片。"
+	    "按住 Hold to Record 按钮，至少采集20张剪刀手势照片。"
 	}
   ],
   onLoad: () => {
