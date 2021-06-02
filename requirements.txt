@@ -332,7 +332,7 @@ typing-extensions==3.7.4.2
 ujson==1.35
 umap-learn==0.5.1
 unicodecsv==0.14.1
-urllib3==1.25.9
+urllib3==1.26.5
 voila==0.2.6
 wasabi==0.8.0
 watchdog==0.10.3
