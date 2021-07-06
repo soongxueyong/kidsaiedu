@@ -1,1 +1,4 @@
-# Pending
+ipyvolume==0.5.2
+ipywebrtc==0.5.0
+ipywidgets==7.6.3
+scikit-image>=0.9.3
